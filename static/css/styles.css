@@ -62,7 +62,7 @@ header {
 
 /* Logo */
 .logo-link:hover {
-    color: white;
+    color: var(--yellow);
 }
 .logo-text {
     font-size: 2rem;
@@ -84,4 +84,24 @@ header {
 
 .search-button:hover {
     filter: brightness(1.1);
+}
+
+/* Nav bar */
+.nav-link {
+    font-family: var(--text-font);
+    color: white;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    color: var(--yellow);
+}
+
+.nav-link:focus {
+    color: var(--yellow);
+}
+
+.dropdown-item:hover {
+    background-color: var(--yellow);
 }

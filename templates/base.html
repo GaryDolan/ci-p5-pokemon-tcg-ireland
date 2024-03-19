@@ -47,8 +47,8 @@
 
 <body>
     <header class="container-fluid fixed-top">
-        <!-- Desktop header -->
-        <div class="row pt-lg-3">
+        <!-- Top Navigation -->
+        <div class="row pt-lg-3 d-none d-lg-flex">
             <!-- Logo section -->
             <div class="col-12 col-lg-4 my-auto">
                 <a href="{% url 'home' %}" class="logo-link">
@@ -76,8 +76,8 @@
 
             </div>
             <!-- Account section -->
-            <div class="col-12 col-lg-4 text-center my-auto">
-                <ul class="list-unstyled list-inline">
+            <div class="col-12 col-lg-4 my-auto">
+                <ul class="list-unstyled list-inline text-center text-lg-end me-4">
                     <li class="list-inline-item dropdown">
                         <a class="nav-link dropdown" href="#" id="my-acc-dropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -99,7 +99,7 @@
                             {% endif %}
                         </ul>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item ms-3">
                         <a class="nav-link" href="">
                             <div class="text-center ms-2">
                                 <div><i class="fas fa-cart-shopping fa-lg"></i></div>
@@ -115,13 +115,21 @@
             </div>
         </div>
 
-        <!--  -->
+        <!-- Bottom navigation -->
+        <div class="row bottom-nav">
+            <nav class="navbar navbar-expand-lg">
+                <!-- Toggler button for collapsed nav bar -->
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <!-- navbar links -->
+                {% include 'includes/nav_bar.html' %}
+            </nav>
+        </div>
 
     </header>
-
-    <!-- Navigation -->
-
 
     <!-- Notification messages -->
     {% if messages %}
