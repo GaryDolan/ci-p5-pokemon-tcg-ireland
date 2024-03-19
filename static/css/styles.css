@@ -1,0 +1,87 @@
+:root {
+    /* Fonts */
+    --heading-font: "Raleway", serif;
+    --text-font: "Roboto", serif;
+
+    /* Colours */
+    --blue: #075997;
+    --yellow: #fec901;
+}
+
+/********************* Utility Classes *******************/
+/* Text colours */
+
+/* Background colours */
+
+/* Text formatting */
+
+/************************** GLOBAL ************************/
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+/* Paragraphs */
+p {
+    font-family: var(--text-font);
+    font-size: 1rem;
+}
+
+/* Anchors */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.border-yellow {
+    border: 0.15rem solid var(--yellow);
+}
+
+.btn-yellow {
+    background: var(--yellow);
+    color: black;
+}
+
+/*************************** BASE *************************/
+
+/* Header */
+header {
+    background-color: var(--blue);
+    color: white;
+}
+
+/* Logo */
+.logo-link:hover {
+    color: white;
+}
+.logo-text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.logo-tag-line {
+    font-size: 1.5rem;
+}
+
+/* Search bar */
+.search-input {
+    border: 0.15rem solid white;
+}
+
+.search-input:focus {
+    border-color: var(--yellow);
+}
+
+.search-button:hover {
+    filter: brightness(1.1);
+}
