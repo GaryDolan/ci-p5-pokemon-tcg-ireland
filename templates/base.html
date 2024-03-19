@@ -77,7 +77,41 @@
             </div>
             <!-- Account section -->
             <div class="col-12 col-lg-4 text-center my-auto">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item dropdown">
+                        <a class="nav-link dropdown" href="#" id="my-acc-dropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-user fa-lg"></i></div>
+                                <p class="my-0">My Account</p>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu border-0" aria-labelledby="my-acc-dropdown">
+                            {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                            <li><a href="" class="dropdown-item">Manage Products</a></li>
+                            {% endif %}
+                            <li><a href="" class="dropdown-item">My Profile</a></li>
+                            <li><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
+                            {% else %}
+                            <li><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
+                            <li><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+                            {% endif %}
+                        </ul>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-link" href="">
+                            <div class="text-center ms-2">
+                                <div><i class="fas fa-cart-shopping fa-lg"></i></div>
+                                <p class="my-0">
+                                    €0.00
+                                </p>
 
+                            </div>
+                        </a>
+
+                    </li>
+                </ul>
             </div>
         </div>
 
