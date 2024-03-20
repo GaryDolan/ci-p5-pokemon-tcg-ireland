@@ -10,9 +10,13 @@
 
 /********************* Utility Classes *******************/
 /* Text colours */
-
+.text-white {
+    color: white;
+}
 /* Background colours */
-
+.bg-blue {
+    background-color: var(--blue);
+}
 /* Text formatting */
 
 /************************** GLOBAL ************************/
@@ -43,6 +47,7 @@ a {
     color: inherit;
 }
 
+/* borders */
 .border-yellow {
     border: 0.15rem solid var(--yellow);
 }
@@ -50,6 +55,10 @@ a {
 .btn-yellow {
     background: var(--yellow);
     color: black;
+}
+
+.border-black {
+    border: 0.15rem solid black;
 }
 
 /*************************** BASE *************************/
@@ -61,6 +70,10 @@ header {
 }
 
 /* Logo */
+.logo-link {
+    font-style: italic;
+}
+
 .logo-link:hover {
     color: var(--yellow);
 }
@@ -104,4 +117,30 @@ header {
 
 .dropdown-item:hover {
     background-color: var(--yellow);
+}
+
+/* Mobile top header */
+.logo-margin-mobile {
+    margin-right: 13rem !important;
+}
+
+.search-input-mobile {
+    border-right-width: 0;
+}
+
+.search-input-mobile:focus {
+    border-color: black;
+}
+
+.search-button-mobile {
+    border-left-width: 0;
+}
+
+/*********************** MEDIA QUERIES *********************/
+/* 575px sm */
+@media screen and (max-width: 35.938em) {
+    /* BASE */
+    .mobile-logo {
+        display: none;
+    }
 }

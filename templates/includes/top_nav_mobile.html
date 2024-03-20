@@ -1,0 +1,75 @@
+<!-- Logo  -->
+<div class="text-center d-lg-none my-auto ms-3 mobile-logo">
+    <a href="{% url 'home' %}" class="logo-link">
+        <div class="text-center">
+            <h1 class="logo-text mb-0 pb-0 fs-4"><strong>Pokemon TCG</strong></h1>
+            <h2 class="logo-tag-line mt-0 pt-0 fs-4">Ireland</h2>
+        </div>
+    </a>
+</div>
+<ul class="list-inline d-block d-lg-none my-auto">
+    <!-- Account icon -->
+    <li class="list-inline-item dropdown">
+        <a class="nav-link dropdown" href="#" id="my-acc-dropdown-mobile" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <div class="text-center">
+                <div><i class="fas fa-user fa-lg"></i></div>
+                <p class="my-0">My Acc</p>
+            </div>
+        </a>
+        <ul class="dropdown-menu border-0" aria-labelledby="my-acc-dropdown-mobile">
+            {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+            <li><a href="" class="dropdown-item">Manage Products</a></li>
+            {% endif %}
+            <li><a href="" class="dropdown-item">My Profile</a></li>
+            <li><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
+            {% else %}
+            <li><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
+            <li><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+            {% endif %}
+        </ul>
+    </li>
+    <!-- Cart icon -->
+    <li class="list-inline-item ms-3">
+        <a class="nav-link" href="">
+            <div class="text-center">
+                <div><i class="fas fa-cart-shopping fa-lg"></i></div>
+                <p class="my-0">
+                    €0.00
+                </p>
+
+            </div>
+        </a>
+    </li>
+    <!-- Search bar icon -->
+    <li class="list-inline-item mx-3">
+        <a class="nav-link dropdown" href="#" id="search-icon" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <div class="text-center">
+                <div><i class="fas fa-magnifying-glass fa-lg"></i></div>
+                <p class="my-0">Search</p>
+            </div>
+        </a>
+
+        <div class="dropdown-menu border-0 w-100 pe-3" aria-labelledby="search-icon">
+            <form method=" GET" action="">
+                <div class="input-group w-100">
+                    <input class="form-control rounded-0 border-black search-input-mobile" type="text" name="q"
+                        placeholder="Search our products">
+                    <div class="input-group-append">
+                        <button
+                            class="form-control btn-yellow border-black rounded-0 search-button search-button-mobile"
+                            type="submit">
+                            <span class="icon">
+                                <i class="fas fa-magnifying-glass"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </li>
+
+</ul>

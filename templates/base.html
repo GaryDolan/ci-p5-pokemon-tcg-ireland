@@ -50,8 +50,8 @@
         <!-- Top Navigation -->
         <div class="row pt-lg-3 d-none d-lg-flex">
             <!-- Logo section -->
-            <div class="col-12 col-lg-4 my-auto">
-                <a href="{% url 'home' %}" class="logo-link">
+            <div class="col-12 col-lg-4 my-auto d-flex justify-content-start">
+                <a href="{% url 'home' %}" class="logo-link ms-2">
                     <div class="text-center">
                         <h1 class="logo-text mb-0 pb-0"><strong>Pokemon TCG</strong></h1>
                         <h2 class="logo-tag-line mt-0 pt-0">Ireland</h2>
@@ -62,7 +62,7 @@
             <div class=" col-12 col-lg-4 text-center my-auto">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input class="form-control border-whit rounded-0 search-input" type="text" name="q"
+                        <input class="form-control rounded-0 search-input" type="text" name="q"
                             placeholder="Search our products">
                         <div class="input-group-append">
                             <button class="form-control btn-yellow border-yellow rounded-0 search-button" type="submit">
@@ -116,13 +116,16 @@
         </div>
 
         <!-- Bottom navigation -->
-        <div class="row bottom-nav">
-            <nav class="navbar navbar-expand-lg">
+        <div class="row bottom-nav ms-2">
+            <nav class="navbar navbar-dark navbar-expand-lg">
                 <!-- Toggler button for collapsed nav bar -->
-                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <!-- Top navbar mobile -->
+                {% include 'includes/top_nav_mobile.html' %}
 
                 <!-- navbar links -->
                 {% include 'includes/nav_bar.html' %}
