@@ -6,8 +6,52 @@
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col">
-            {{ products }}
+        <div class="col text-center mt-3">
+            <h2>Products</h2>
+            <hr class="w-75 mb-1 mx-auto">
+        </div>
+    </div>
+    <div class="row">
+        <div class="product-container col-12">
+            <div class="row mt-1 mb-2">
+
+            </div>
+            <div class="row">
+                {% for product in products %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-4">
+                    <div class="card h-100 shadow">
+                        {% if product.image %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
+                                alt=" {{ product.name }}">
+                        </a>
+                        {% endif %}
+                        <div class="card-body py-0">
+                            <p class="mb-2 font-weight-bold"><strong>{{ product.name }}</strong></p>
+                        </div>
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0 fs-3 text-center text-blue"><strong>€{{ product.price }}</strong></p>
+                                    <div class="product-rating">
+                                        {% if product.rating %}
+                                        <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
+                                                {{ product.rating }} / 5 </span></small>
+                                        {% else %}
+                                        <small>No Rating</small>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

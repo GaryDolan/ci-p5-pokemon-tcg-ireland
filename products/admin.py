@@ -8,7 +8,6 @@ class ProductAdmin(SummernoteModelAdmin):
     list_display = ['name', 'price','category', 'card_set', 'expansion', 'date_added', 'rating', 'on_sale', 'image']
     list_filter = ['category', 'card_set', 'expansion', 'on_sale']
     search_fields = ['name', 'description']
-    ordering = ['category',]
 
     summernote_fields = ('description',)
 
