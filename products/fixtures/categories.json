@@ -1,0 +1,98 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "booster_packs",
+            "display_name": "Booster Packs"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "booster_bundles",
+            "display_name": "Booster Bundles"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "booster_boxes",
+            "display_name": "Booster Boxes"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "boxed_sets",
+            "display_name": "Boxed Sets"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "elite_trainer_boxes",
+            "display_name": "Elite Trainer Boxes"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "tins",
+            "display_name": "Tins"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "binders",
+            "display_name": "Binders"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "sleeves",
+            "display_name": "Sleeves"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "toploaders",
+            "display_name": "Toploaders"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "figures",
+            "display_name": "Figures"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "pins",
+            "display_name": "Pins"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "plushes",
+            "display_name": "Plushes"
+        }
+    }
+]

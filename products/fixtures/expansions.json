@@ -1,0 +1,66 @@
+[
+    {
+        "pk": 1,
+        "model": "products.expansion",
+        "fields": {
+            "name": "crown_zenith",
+            "display_name": "Crown Zenith"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.expansion",
+        "fields": {
+            "name": "scarlet_violet",
+            "display_name": "Scarlet & Violet"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.expansion",
+        "fields": {
+            "name": "paldea_evolved",
+            "display_name": "Paldea Evolved"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.expansion",
+        "fields": {
+            "name": "obsidian_flames",
+            "display_name": "Obsidian Flames"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.expansion",
+        "fields": {
+            "name": "scarlet_violet_151",
+            "display_name": "Scarlet & Violet 151"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.expansion",
+        "fields": {
+            "name": "paradox_rift",
+            "display_name": "Paradox Rift"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.expansion",
+        "fields": {
+            "name": "paldean_fates",
+            "display_name": "Paldean Fates"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.expansion",
+        "fields": {
+            "name": "temproal_forces",
+            "display_name": "Temproal Forces"
+        }
+    }
+]

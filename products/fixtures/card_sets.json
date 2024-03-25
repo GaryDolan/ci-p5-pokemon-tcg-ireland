@@ -1,0 +1,18 @@
+[
+    {
+        "pk": 1,
+        "model": "products.cardset",
+        "fields": {
+            "name": "sword_shield",
+            "display_name": "Sword & Shield"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.cardset",
+        "fields": {
+            "name": "scarlet_violet",
+            "display_name": "Scarlet & Violet"
+        }
+    }
+]

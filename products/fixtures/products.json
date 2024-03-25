@@ -1,0 +1,1322 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85427",
+            "name": "Crown Zenith Pin Collection (Cinderace)",
+            "description": "Get the Fireball Rolling—with Cinderace!\n\nCapture a region’s worth of memories and show the world how far you’ve come with a glossy enamel pin featuring one of Galar’s fully evolved first partner Pokémon! You’ll also find a ready-to-play promo card and a set of booster packs from the special Crown Zenith expansion to expand your collection.\n\nThe Pokémon TCG: Crown Zenith Pin Collection—Cinderace includes:\n- 1 foil promo card featuring Cinderace\n- 1 collector’s pin featuring Cinderace\n- 3 Pokémon TCG: Crown Zenith booster packs\n  Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\n- A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8789_699-85427_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85426",
+            "name": "Crown Zenith Pin Collection (Rillaboom)",
+            "description": "Capture a region’s worth of memories and show the world how far you’ve come with a glossy enamel pin featuring one of Galar’s fully evolved first partner Pokémon! You’ll also find a ready-to-play promo card and a set of booster packs from the special Crown Zenith expansion to expand your collection.\n\nThe Pokémon TCG: Crown Zenith Pin Collection—Rillaboom includes:\n\n1 foil promo card featuring Rillaboom\n1 collector’s pin featuring Rillaboom\n3 Pokémon TCG: Crown Zenith booster packs\nEach booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8789_699-85426_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85428",
+            "name": "Crown Zenith Pin Collection (Inteleon)",
+            "description": "Keep a Close Eye on the Competition—with Inteleon!\n\nCapture a region’s worth of memories and show the world how far you’ve come with a glossy enamel pin featuring one of Galar’s fully evolved first partner Pokémon! You’ll also find a ready-to-play promo card and a set of booster packs from the special Crown Zenith expansion to expand your collection.\n\nThe Pokémon TCG: Crown Zenith Pin Collection—Inteleon includes:\n\n1 foil promo card featuring Inteleon\n1 collector’s pin featuring Inteleon\n3 Pokémon TCG: Crown Zenith booster packs\nEach booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8789_699-85428_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85424",
+            "name": "Crown Zenith Premium Figure Collection (Shiny Zacian)",
+            "description": "The Intrepid Sword of Shiny Zacian V!\n\nShiny Legendary Pokémon are among the most sought-after Pokémon of all, and now you can add Zacian to your collection as a Shiny Pokémon V! With an Ability that puts Energy into play, Zacian V can give you a head start, and its unusual colors radiate royal strength in cyan and gold. This majestic Pokémon also appears as a detailed figure and glossy enamel pin, and it joins Shiny Zamazenta on a full set of illustrated card sleeves. You’ll even find a stack of booster packs from the Crown Zenith expansion to grow your collection even more!\n\nThe Pokémon TCG: Crown Zenith Premium Figure Collection—Shiny Zacian includes:\n\n 1 etched foil promo card featuring Shiny Zacian V\n 1 sculpted figure featuring Shiny Zacian\n 1 collector’s pin featuring Shiny Zacian\n 65 card sleeves featuring Shiny Zacian and Shiny Zamazenta\n 11 Pokémon TCG: Crown Zenith booster packs\n Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\n A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8791_699-85424_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85425",
+            "name": "Pokémon TCG: Crown Zenith Premium Figure Collection (Shiny Zamazenta)",
+            "description": "The Dauntless Shield of Shiny Zamazenta V!\n\nShiny Legendary Pokémon are among the most sought-after Pokémon of all, and now you can add Zamazenta to your collection as a Shiny Pokémon V! With an Ability that blocks damage from Pokémon VMAX, Zamazenta V is ready to face tough opponents, and its unusual colors radiate royal strength in magenta and gold. This majestic Pokémon also appears as a detailed figure and glossy enamel pin, and it joins Shiny Zacian on a full set of illustrated card sleeves. You’ll even find a stack of booster packs from the Crown Zenith expansion to grow your collection even more!\n\nThe Pokémon TCG: Crown Zenith Premium Figure Collection—Shiny Zamazenta includes:\n\n1 etched foil promo card featuring Shiny Zamazenta V\n1 sculpted figure featuring Shiny Zamazenta\n1 collector’s pin featuring Shiny Zamazenta\n65 card sleeves featuring Shiny Zacian and Shiny Zamazenta\n11 Pokémon TCG: Crown Zenith booster packs\n    Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8791_699-85425_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "290-85187",
+            "name": "Crown Zenith Pokémon Center Elite Trainer Box Plus",
+            "description": "All-Stars from Galar, Hisui & Beyond!\n\nThe Legendary heroes Zacian and Zamazenta shine with new VSTAR Powers, and an all-star assembly of Pokémon and Trainers arrive to celebrate the era of Pokémon V! Discover dazzling special illustrations in the Galarian Gallery, and wield the strength of rare and powerful Pokémon, including Charizard as both a Pokémon VSTAR and Radiant Pokémon. Many more Pokémon have their own tales to tell in battle as the Sword & Shield Series reaches its towering peak in the Pokémon TCG: Crown Zenith expansion!\n\nThis Pokémon TCG: Crown Zenith Pokémon Center Elite Trainer Box Plus can be found only at Pokémon Center and comes with exclusive accessories—a deck box, metal dice, metal coin, and metal condition markers—plus 12 booster packs (two more than in the standard Crown Zenith Elite Trainer Box).\n\n12 Pokémon TCG: Crown Zenith booster packs\n    Each booster pack contains 10 cards and 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\n1 etched foil promo card featuring Lucario VSTAR\n65 card sleeves featuring Lucario\n1 deck box featuring Lucario, with a separate space for storing accessories\n45 Pokémon TCG Energy cards\nA player’s guide to the Crown Zenith expansion\n6 metal damage-counter dice\n1 metal coin featuring Lucario\n2 metal condition markers\n1 acrylic VSTAR marker\nA box to hold everything, with 4 dividers to keep it organized\nA code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 64.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P8835_290-85187_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85201",
+            "name": "Crown Zenith Tin (Galarian Articuno)",
+            "description": "Legendary Pokémon from Galar Charge into Battle\n\nThree fearsome Legendary Pokémon have arrived from the Galar region! With their own unique type and powers, they’re forces to be reckoned with. Add this power to your Pokémon TCG collection and see for yourself! Will you choose the atrocious attitude of Galarian Articuno, the zippy zeal of Galarian Zapdos, or the malevolent malice of Galarian Moltres? Regardless of your choice, you’ll also find 5 booster packs from the special Pokémon TCG: Crown Zenith expansion and a code card for Pokémon TCG Live!\n\nThis Pokémon TCG: Crown Zenith Tin includes:\n\n1 full-art foil promo card featuring Galarian Articuno\n5 Pokémon TCG: Crown Zenith booster packs\n    Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 24.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8790_699-85201_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85202",
+            "name": "Crown Zenith Tin (Galarian Zapdos)",
+            "description": "Legendary Pokémon from Galar Charge into Battle\n\nThree fearsome Legendary Pokémon have arrived from the Galar region! With their own unique type and powers, they’re forces to be reckoned with. Add this power to your Pokémon TCG collection and see for yourself! Will you choose the atrocious attitude of Galarian Articuno, the zippy zeal of Galarian Zapdos, or the malevolent malice of Galarian Moltres? Regardless of your choice, you’ll also find 5 booster packs from the special Pokémon TCG: Crown Zenith expansion and a code card for Pokémon TCG Live!\n\nThis Pokémon TCG: Crown Zenith Tin includes:\n\n1 full-art foil promo card featuring Galarian Zapdos\n5 Pokémon TCG: Crown Zenith booster packs\n    Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 24.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8790_699-85202_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 1,
+            "expansion": 1,
+            "sku": "699-85203",
+            "name": "Crown Zenith Tin (Galarian Moltres)",
+            "description": "Legendary Pokémon from Galar Charge into Battle\n\nThree fearsome Legendary Pokémon have arrived from the Galar region! With their own unique type and powers, they’re forces to be reckoned with. Add this power to your Pokémon TCG collection and see for yourself! Will you choose the atrocious attitude of Galarian Articuno, the zippy zeal of Galarian Zapdos, or the malevolent malice of Galarian Moltres? Regardless of your choice, you’ll also find 5 booster packs from the special Pokémon TCG: Crown Zenith expansion and a code card for Pokémon TCG Live!\n\nThis Pokémon TCG: Crown Zenith Tin includes:\n\n1 full-art foil promo card featuring Galarian Moltres\n5 Pokémon TCG: Crown Zenith booster packs\n    Each booster pack contains 10 cards and either 1 basic Energy or 1 VSTAR marker. Cards vary by pack.\nA code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 24.99,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P8790_699-85203_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 2,
+            "sku": "184-85325",
+            "name": "Scarlet & Violet Sleeved Booster Pack (10 Cards)",
+            "description": "Begin a New Adventure with Pokémon ex!\n\nSet out for a journey in the Paldea region! Meet first partners Sprigatito, Fuecoco, and Quaxly, and explore the power of the Legendary Pokémon Koraidon and Miraidon as Pokémon ex. Other Pokémon ex evolve their way into battle—including Arcanine and Gyarados with a dazzling new look. Even more Pokémon appear as illustration rare cards with amazing artwork—discover them all in the Pokémon TCG: Scarlet & Violet expansion!\n\n    Includes one booster pack from the Pokémon TCG: Scarlet & Violet expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 4.49,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "P8908_184-85325_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 2,
+            "sku": "184-85337",
+            "name": "Scarlet & Violet Booster Bundle (6 Packs)",
+            "description": "Begin a New Adventure with Pokémon ex!\n\nSet out for a journey in the Paldea region! Meet first partners Sprigatito, Fuecoco, and Quaxly, and explore the power of the Legendary Pokémon Koraidon and Miraidon as Pokémon ex. Other Pokémon ex evolve their way into battle—including Arcanine and Gyarados with a dazzling new look. Even more Pokémon appear as illustration rare cards with amazing artwork—discover them all in the Pokémon TCG: Scarlet & Violet expansion!\n\n    Includes six booster packs from the Pokémon TCG: Scarlet & Violet expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8908_184-85337_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "card_set": 2,
+            "expansion": 2,
+            "sku": "699-86324",
+            "name": "Scarlet & Violet Booster Display Box (36 Packs)",
+            "description": "Begin a New Adventure with Pokémon ex!\n\nSet out for a journey in the Paldea region! Meet first partners Sprigatito, Fuecoco, and Quaxly, and explore the power of the Legendary Pokémon Koraidon and Miraidon as Pokémon ex. Other Pokémon ex evolve their way into battle—including Arcanine and Gyarados with a dazzling new look. Even more Pokémon appear as illustration rare cards with amazing artwork—discover them all in the Pokémon TCG: Scarlet & Violet expansion!\n\n    Includes 36 booster packs from the Pokémon TCG: Scarlet & Violet expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 159.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P8908_699-86324_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 2,
+            "sku": "184-85457",
+            "name": "Scarlet & Violet Pokémon Center Elite Trainer Box (Miraidon)",
+            "description": "Begin a New Adventure with Pokémon ex!\n\nSet out for a journey in the Paldea region! Meet first partners Sprigatito, Fuecoco, and Quaxly, and explore the power of the Legendary Pokémon Koraidon and Miraidon as Pokémon ex. Other Pokémon ex evolve their way into battle—including Arcanine and Gyarados with a dazzling new look. Even more Pokémon appear as illustration rare cards with amazing artwork—discover them all in the Pokémon TCG: Scarlet & Violet expansion!\n\nFound only at Pokémon Center, this special Elite Trainer Box includes a bonus promo card and two more booster packs than a standard Elite Trainer Box.\n\nThe Pokémon TCG: Scarlet & Violet Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Miraidon with a Pokémon Center logo\n    1 full-art foil promo card featuring Miraidon\n    65 card sleeves featuring Miraidon\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8908_184-85457_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 2,
+            "sku": "184-85342",
+            "name": "Scarlet & Violet Pokémon Center Elite Trainer Box (Koraidon)",
+            "description": "Set out for a journey in the Paldea region! Meet first partners Sprigatito, Fuecoco, and Quaxly, and explore the power of the Legendary Pokémon Koraidon and Miraidon as Pokémon ex. Other Pokémon ex evolve their way into battle—including Arcanine and Gyarados with a dazzling new look. Even more Pokémon appear as illustration rare cards with amazing artwork—discover them all in the Pokémon TCG: Scarlet & Violet expansion!\n\nFound only at Pokémon Center, this special Elite Trainer Box includes a bonus promo card and two more booster packs than a standard Elite Trainer Box.\n\nThe Pokémon TCG: Scarlet & Violet Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Koraidon with a Pokémon Center logo\n    1 full-art foil promo card featuring Koraidon\n    65 card sleeves featuring Koraidon\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8908_184-85342_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 3,
+            "sku": "185-85350",
+            "name": "Scarlet & Violet-Paldea Evolved Sleeved Booster Pack (10 Cards)",
+            "description": "Command a Rousing Performance!\n\nEnergy surges as new powers awaken and perilous legends are revealed! First partners Meowscarada ex, Skeledirge ex, and Quaquaval ex have evolved to take the stage with mesmerizing magic, song, and dance. Meanwhile, Forretress, Slowking, and Dedenne shine as Tera Pokémon ex, and Chien-Pao ex, Ting-Lu ex, and others bring daunting strengths requiring courage to command. Even Pikachu joins the Pokémon ex party in the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion!\n\nIncludes 1 Pokémon TCG: Scarlet & Violet—Paldea Evolved booster pack\n        Booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 4.49,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "P8978_185-85350_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 3,
+            "sku": "185-85362",
+            "name": "Scarlet & Violet-Paldea Evolved Booster Bundle (6 Packs)",
+            "description": "Command a Rousing Performance!\n\nEnergy surges as new powers awaken and perilous legends are revealed! First partners Meowscarada ex, Skeledirge ex, and Quaquaval ex have evolved to take the stage with mesmerizing magic, song, and dance. Meanwhile, Forretress, Slowking, and Dedenne shine as Tera Pokémon ex, and Chien-Pao ex, Ting-Lu ex, and others bring daunting strengths requiring courage to command. Even Pikachu joins the Pokémon ex party in the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion!\n\nIncludes six booster packs from the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "P8978_185-85362_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "card_set": 2,
+            "expansion": 3,
+            "sku": "699-86349",
+            "name": "Scarlet & Violet-Paldea Evolved Booster Display Box (36 Packs)",
+            "description": "Command a Rousing Performance!\n\nEnergy surges as new powers awaken and perilous legends are revealed! First partners Meowscarada ex, Skeledirge ex, and Quaquaval ex have evolved to take the stage with mesmerizing magic, song, and dance. Meanwhile, Forretress, Slowking, and Dedenne shine as Tera Pokémon ex, and Chien-Pao ex, Ting-Lu ex, and others bring daunting strengths requiring courage to command. Even Pikachu joins the Pokémon ex party in the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion!\n\nIncludes 36 booster packs from the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 159.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8978_699-86349_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 3,
+            "sku": "185-85367",
+            "name": "Scarlet & Violet-Paldea Evolved Pokémon Center Elite Trainer Box",
+            "description": "Command a Rousing Performance!\n\nEnergy surges as new powers awaken and perilous legends are revealed! First partners Meowscarada ex, Skeledirge ex, and Quaquaval ex have evolved to take the stage with mesmerizing magic, song, and dance. Meanwhile, Forretress, Slowking, and Dedenne shine as Tera Pokémon ex, and Chien-Pao ex, Ting-Lu ex, and others bring daunting strengths requiring courage to command. Even Pikachu joins the Pokémon ex party in the Pokémon TCG: Scarlet & Violet—Paldea Evolved expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Paldea Evolved Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Paldea Evolved booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Pikachu with a Pokémon Center logo\n    1 full-art foil promo card featuring Pikachu\n    65 card sleeves featuring Sprigatito, Fuecoco, and Quaxly\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Paldea Evolved expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P8978_185-85367_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "186-85375",
+            "name": "Scarlet & Violet-Obsidian Flames Sleeved Booster Pack (10 Cards)",
+            "description": "Raging Flames Forged in Darkness!\n\nRed-hot embers illuminate the pitch-black night and sparks flare into an inferno as Charizard ex surges forth with newfound powers of darkness! The glittering Terastal phenomenon imbues some Pokémon ex like Tyranitar, Eiscue, and Vespiquen with different types than usual, while Dragonite ex and Greedent ex show mastery of their own inner strengths. Not to be outdone, Revavroom ex, Melmetal ex, and more Pokémon promise to change the course of battle in the Scarlet & Violet—Obsidian Flames expansion!\n\nIncludes 1 Pokémon TCG: Scarlet & Violet—Obsidian Flames booster pack\n        Booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 4.49,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P8979_186-85375_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "699-85379",
+            "name": "Scarlet & Violet-Obsidian Flames 3 Booster Packs & Greavard Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the new Scarlet & Violet—Obsidian Flames expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\n    3 Scarlet & Violet—Obsidian Flames booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Greavard\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 4,
+            "image_url": "",
+            "image": "P8979_699-85379_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "699-85380",
+            "name": "Scarlet & Violet-Obsidian Flames 3 Booster Packs & Eevee Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the new Scarlet & Violet—Obsidian Flames expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\n    3 Scarlet & Violet—Obsidian Flames booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Eevee\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8979_699-85380_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "186-85387",
+            "name": "Scarlet & Violet-Obsidian Flames Booster Bundle (6 Packs)",
+            "description": "Raging Flames Forged in Darkness!\n\nRed-hot embers illuminate the pitch-black night and sparks flare into an inferno as Charizard ex surges forth with newfound powers of darkness! The glittering Terastal phenomenon imbues some Pokémon ex like Tyranitar, Eiscue, and Vespiquen with different types than usual, while Dragonite ex and Greedent ex show mastery of their own inner strengths. Not to be outdone, Revavroom ex, Melmetal ex, and more Pokémon promise to change the course of battle in the Scarlet & Violet—Obsidian Flames expansion!\n\nIncludes six booster packs from the Pokémon TCG: Scarlet & Violet—Obsidian Flames expansion. Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "P8979_186-85387_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "699-86374",
+            "name": "Scarlet & Violet-Obsidian Flames Booster Display Box (36 Packs)",
+            "description": "Raging Flames Forged in Darkness!\n\nRed-hot embers illuminate the pitch-black night and sparks flare into an inferno as Charizard ex surges forth with newfound powers of darkness! The glittering Terastal phenomenon imbues some Pokémon ex like Tyranitar, Eiscue, and Vespiquen with different types than usual, while Dragonite ex and Greedent ex show mastery of their own inner strengths. Not to be outdone, Revavroom ex, Melmetal ex, and more Pokémon promise to change the course of battle in the Scarlet & Violet—Obsidian Flames expansion!\n\nIncludes 36 booster packs from the Pokémon TCG: Scarlet & Violet—Obsidian Flames expansion. Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 159.99,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "P8979_699-86374_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 4,
+            "sku": "186-85392",
+            "name": "Scarlet & Violet-Obsidian Flames Pokémon Center Elite Trainer Box",
+            "description": "Raging Flames Forged in Darkness!\n\nRed-hot embers illuminate the pitch-black night and sparks flare into an inferno as Charizard ex surges forth with newfound powers of darkness! The glittering Terastal phenomenon imbues some Pokémon ex like Tyranitar, Eiscue, and Vespiquen with different types than usual, while Dragonite ex and Greedent ex show mastery of their own inner strengths. Not to be outdone, Revavroom ex, Melmetal ex, and more Pokémon promise to change the course of battle in the Scarlet & Violet—Obsidian Flames expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Obsidian Flames Pokémon Center Elite Trainer Box includes:\n\n11 Pokémon TCG: Scarlet & Violet—Obsidian Flames booster packs. Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n1 full-art foil promo card featuring Charmander with a Pokémon Center logo\n1 full-art foil promo card featuring Charmander\n65 card sleeves featuring Charmander\n45 Pokémon TCG Energy cards\nA player’s guide to the Scarlet & Violet—Obsidian Flames expansion\n6 damage-counter dice\n1 competition-legal coin-flip die\n2 plastic condition markers\nA box to hold everything, with 4 dividers to keep it organized\nA code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P8979_186-85392_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "699-85322",
+            "name": "Scarlet & Violet-151 Booster Bundle (6 Packs)",
+            "description": "Gotta Catch ’Em All!\n\nTeam up with Bulbasaur, Charmander, and Squirtle, and witness a brand-new dawn in Kanto! With this new day comes a new chance to track down old friends, make new pals, and capture every last one of the original 151. Discover the extraordinary Venusaur ex, Charizard ex, and Blastoise ex in special cards with captivating illustrations, and explore the cities and countryside of a reinvigorated land—you might even find the elusive Mew ex in your travels. New adventures will unfold and new horizons will be revealed in the Scarlet & Violet—151 expansion!\n\nIncludes six booster packs from Pokémon TCG: Scarlet & Violet—151. Each booster pack contains 10 cards and 1 Basic Energy.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8976_699-85322_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "290-85316",
+            "name": "Scarlet & Violet-151 Poster Collection",
+            "description": "Your Very Own Pokémon Legend Unfolds!\n\nAn epic journey through the Kanto region wouldn’t be complete without a first partner Pokémon! Add Bulbasaur, Charmander, and Squirtle to your team as playable foil promo cards, then work on completing your Kanto Pokédex by opening more booster packs from the special Scarlet & Violet—151 expansion. On top of it all, you’ll find a colorful poster that’s ready to hang wherever you like!\n\nThe Pokémon TCG: Scarlet & Violet—151 Poster Collection includes:\n\n    3 foil promo cards featuring Bulbasaur, Charmander, and Squirtle\n    1 poster with a Scarlet & Violet—151 theme\n    3 Pokémon TCG: Scarlet & Violet—151 booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8974_290-85316_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "290-85313",
+            "name": "Scarlet & Violet-151 Collection (Zapdos ex)",
+            "description": "Zap Your Opponent & Make a Quick Retreat—with Zapdos ex!\n\nStrike with electrifying power and then retreat as fast as lightning with Zapdos ex! This Legendary Pokémon of the Kanto region is here as a ready-to-play promo card and an oversize card for your collection, along with a foil card featuring Electabuzz, and more Pokémon inside booster packs from the special Scarlet & Violet—151 expansion.\n\nThe Pokémon TCG: Scarlet & Violet—151 Collection—Zapdos ex includes:\n\n    1 foil promo card featuring Zapdos ex\n    1 foil card featuring Electabuzz\n    1 oversize foil card featuring Zapdos ex\n    4 Pokémon TCG: Scarlet & Violet—151 booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 21.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9433_290-85313_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "290-85466",
+            "name": "Scarlet & Violet-151 Pokémon Center Elite Trainer Box",
+            "description": "Gotta Catch ’Em All!\n\nTeam up with Bulbasaur, Charmander, and Squirtle, and witness a brand-new dawn in Kanto! With this new day comes a new chance to track down old friends, make new partners, and capture every last one of the original 151. Discover the extraordinary Venusaur ex, Charizard ex, and Blastoise ex in special cards with captivating illustrations, and explore the cities and countryside of a reinvigorated land—you might even find the elusive Mew ex in your travels. New adventures will unfold and new horizons will be revealed in the Scarlet & Violet—151 expansion!\n\nThe Pokémon TCG: Scarlet & Violet—151 Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—151 booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy.\n    1 full-art foil promo card featuring Snorlax with a Pokémon Center logo\n    1 full-art foil promo card featuring Snorlax\n    65 card sleeves\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—151 expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P8972_290-85466_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "699-85473",
+            "name": "Scarlet & Violet-151 Mini Tin (Gengar & Poliwag)",
+            "description": "Pokémon Favorites in the Palm of Your Hand!\n\nExpand your collection with this Pokémon TCG: Scarlet & Violet—151 Mini Tin, perfectly sized for taking your favorite cards on the go! This fantastic tin is easy to open and features Gengar and Poliwag in one of 10 fun Pokémon illustrations—and all 10 form a single image when you line them up!\n\nIn this Pokémon TCG: Scarlet & Violet—151 Mini Tin, you’ll find:\n\n    2 Pokémon TCG: Scarlet & Violet—151 booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy.\n    1 cool coin featuring an Energy symbol\n    A Pokémon art card showing the art from this Mini Tin—you can collect and combine all 10!",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 9.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8969_699-85473_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 2,
+            "expansion": 5,
+            "sku": "699-85307",
+            "name": "Scarlet & Violet-151 Mini Tin (Scyther & Weezing)",
+            "description": "Pokémon Favorites in the Palm of Your Hand!\n\nExpand your collection with this Pokémon TCG: Scarlet & Violet—151 Mini Tin, perfectly sized for taking your favorite cards on the go! This fantastic tin is easy to open and features Scyther and Weezing in one of 10 fun Pokémon illustrations—and all 10 form a single image when you line them up!\n\nIn this Pokémon TCG: Scarlet & Violet—151 Mini Tin, you’ll find:\n\n    2 Pokémon TCG: Scarlet & Violet—151 booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy.\n    1 cool coin featuring an Energy symbol\n    A Pokémon art card showing the art from this Mini Tin—you can collect and combine all 10!",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 9.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8969_699-85307_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "187-85399-BULK",
+            "name": "Scarlet & Violet-Paradox Rift Booster Pack (10 Cards)",
+            "description": "Uncover the Anomalies of Area Zero!\n\nDive into the clouds and explore a land that appears to be unbound by time! With ferocious attacks, Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside artificial Future Pokémon like Iron Valiant ex and Iron Hands ex. Meanwhile, Garchomp ex, Mewtwo ex, and others Terastallize to gain new types, as Armarouge ex, Gholdengo ex, and more Pokémon ex join the fray. Adventure awaits as timelines collide in the Pokémon TCG: Scarlet & Violet—Paradox Rift expansion!\n\n    Includes 1 Pokémon TCG: Scarlet & Violet—Paradox Rift booster pack\n        Booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 4.49,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8981_187-85399-BULK_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "699-85404",
+            "name": "Scarlet & Violet-Paradox Rift 3 Booster Packs & Cetitan Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the new Scarlet & Violet—Paradox Rift expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\n    3 Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Cetitan\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8981_699-85404_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "699-85405",
+            "name": "Scarlet & Violet-Paradox Rift 3 Booster Packs & Arctibax Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the new Scarlet & Violet—Paradox Rift expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\n    3 Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Arctibax\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8981_699-85405_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "187-85412",
+            "name": "Scarlet & Violet-Paradox Rift Sleeved Booster Bundle (6 Packs)",
+            "description": "Uncover the Anomalies of Area Zero!\n\nDive into the clouds and explore a land that appears to be unbound by time! With ferocious attacks, Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside artificial Future Pokémon like Iron Valiant ex and Iron Hands ex. Meanwhile, Garchomp ex, Mewtwo ex, and others Terastallize to gain new types, as Armarouge ex, Gholdengo ex, and more Pokémon ex join the fray. Adventure awaits as timelines collide in the Pokémon TCG: Scarlet & Violet—Paradox Rift expansion!\n\n    Includes 6 Pokémon TCG: Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8981_187-85412_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "699-85399",
+            "name": "Scarlet & Violet-Paradox Rift Booster Display Box (36 Packs)",
+            "description": "Uncover the Anomalies of Area Zero!\n\nDive into the clouds and explore a land that appears to be unbound by time! With ferocious attacks, Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside artificial Future Pokémon like Iron Valiant ex and Iron Hands ex. Meanwhile, Garchomp ex, Mewtwo ex, and others Terastallize to gain new types, as Armarouge ex, Gholdengo ex, and more Pokémon ex join the fray. Adventure awaits as timelines collide in the Pokémon TCG: Scarlet & Violet—Paradox Rift expansion!\n\n    Includes 36 Pokémon TCG: Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 159.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8981_699-85399_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "187-85417",
+            "name": "Scarlet & Violet-Paradox Rift Pokémon Center Elite Trainer Box (Roaring Moon)",
+            "description": "Uncover the Anomalies of Area Zero!\n\nDive into the clouds and explore a land that appears to be unbound by time! With ferocious attacks, Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside artificial Future Pokémon like Iron Valiant ex and Iron Hands ex. Meanwhile, Garchomp ex, Mewtwo ex, and others Terastallize to gain new types, as Armarouge ex, Gholdengo ex, and more Pokémon ex join the fray. Adventure awaits as timelines collide in the Pokémon TCG: Scarlet & Violet—Paradox Rift expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Paradox Rift Elite Pokémon Center Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring an Ancient Pokémon\n    1 full-art foil promo card featuring an Ancient Pokémon with a Pokémon Center logo\n    65 card sleeves featuring Roaring Moon\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Paradox Rift expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8981_187-85417_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 6,
+            "sku": "187-85415",
+            "name": "Scarlet & Violet-Paradox Rift Pokémon Center Elite Trainer Box (Iron Valiant)",
+            "description": "Uncover the Anomalies of Area Zero!\n\nDive into the clouds and explore a land that appears to be unbound by time! With ferocious attacks, Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside artificial Future Pokémon like Iron Valiant ex and Iron Hands ex. Meanwhile, Garchomp ex, Mewtwo ex, and others Terastallize to gain new types, as Armarouge ex, Gholdengo ex, and more Pokémon ex join the fray. Adventure awaits as timelines collide in the Pokémon TCG: Scarlet & Violet—Paradox Rift expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Paradox Rift Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Paradox Rift booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring a Future Pokémon\n    1 full-art foil promo card featuring a Future Pokémon with a Pokémon Center logo\n    65 card sleeves featuring Iron Valiant\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Paradox Rift expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P8981_187-85415_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85616",
+            "name": "Scarlet & Violet-Paldean Fates Tech Sticker Collection (Shiny Maschiff)",
+            "description": "A Shiny Pokémon to Stick by Your Side!\n\nSpruce up your tablet, laptop, or other tech device with a loyal and friendly Shiny Pokémon pal from the Paldea region! Inside this box, you’ll find a cool tech sticker and promo card featuring one of three Shiny Pokémon, plus booster packs from the special Scarlet & Violet—Paldean Fates expansion.\n\nThis Pokémon TCG: Scarlet & Violet—Paldean Fates Tech Sticker Collection includes:\n\n    1 foil promo card featuring Shiny Maschiff\n    1 tech sticker featuring Shiny Maschiff\n    3 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 15.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9535_699-85616_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85614",
+            "name": "Scarlet & Violet-Paldean Fates Tech Sticker Collection (Shiny Greavard)",
+            "description": "A Shiny Pokémon to Stick by Your Side!\n\nSpruce up your tablet, laptop, or other tech device with a loyal and friendly Shiny Pokémon pal from the Paldea region! Inside this box, you’ll find a cool tech sticker and promo card featuring one of three Shiny Pokémon, plus booster packs from the special Scarlet & Violet—Paldean Fates expansion.\n\nThis Pokémon TCG: Scarlet & Violet—Paldean Fates Tech Sticker Collection includes:\n\n    1 foil promo card featuring Shiny Greavard\n    1 tech sticker featuring Shiny Greavard\n    3 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 15.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9535_699-85614_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85739",
+            "name": "Scarlet & Violet-Paldean Fates Booster Bundle",
+            "description": "Shine Bright with Pokémon from Paldea!\n\nThe spotlight glistens on Shiny Pokémon making their fated return to the Pokémon TCG! Shiny Pikachu blazes the path forward as Tinkaton, Ceruledge, Dondozo, and more than 100 other Shiny Pokémon follow. Meanwhile, Great Tusk and Iron Treads appear as Ancient and Future Pokémon ex, and Charizard, Forretress, and Espathra show off their own unique skills as Shiny Tera Pokémon ex. Shed some light and discover sparkling wonders in the Scarlet & Violet—Paldean Fates expansion!\n\nExpand your collection with this Booster Bundle containing six booster packs from Pokémon TCG: Scarlet & Violet—Paldean Fates!\n\n    Includes six booster packs from the Pokémon TCG: Scarlet & Violet—Paldean Fates expansion\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 4.3,
+            "image_url": "",
+            "image": "P9536_699-85739_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85636",
+            "name": "Scarlet & Violet-Paldean Fates Skeledirge ex Premium Collection",
+            "description": "Take a Bite Out of Opponents with Skeledirge ex!\n\nCapturing a Shiny Pokémon has always been a rare feat, but you can add three of these Pokémon with special coloring to your arsenal with this collection! With its fiery voice, Shiny Skeledirge ex possesses both the power to heal and the power to destroy via its two red-hot attacks. Shiny Fuecoco and Shiny Crocalor join in on the chorus as playable promo cards, and you can show off the full Evolution chain in a magnetic 3-card protector. You’ll also find an oversize card featuring Shiny Skeledirge ex, plus a stack of booster packs from the Scarlet & Violet—Paldean Fates expansion to further grow your collection!\n\nThe Pokémon TCG: Scarlet & Violet—Paldean Fates Skeledirge ex Premium Collection includes:\n\n    3 etched foil promo card featuring Shiny Skeledirge ex, Shiny Crocalor, and Shiny Fuecoco\n    1 oversize foil card featuring Shiny Skeledirge ex\n    8 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 magnetic 3-card protector with base\n    A code card​ for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 49.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9540_699-85636_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85635",
+            "name": "Scarlet & Violet-Paldean Fates Meowscarada ex Premium Collection",
+            "description": "Light Up Battles with Meowscarada ex!\n\nCapturing a Shiny Pokémon has always been a rare feat, but you can add three of these Pokémon with special coloring to your arsenal with this collection! A master of misdirection, Shiny Meowscarada ex can scratch out Benched and damaged Pokémon with its powerful Ability and attack. Shiny Sprigatito and Shiny Floragato join in on the ferocity as playable promo cards, and you can show off the full Evolution chain in a magnetic 3-card protector. You’ll also find an oversize card featuring Shiny Meowscarada ex, plus a stack of booster packs from the Scarlet & Violet—Paldean Fates expansion to further grow your collection!\n\nThe Pokémon TCG: Scarlet & Violet—Paldean Fates Meowscarada ex Premium Collection includes:\n\n    3 etched foil promo cards featuring Shiny Meowscarada ex, Shiny Floragato, and Shiny Sprigatito\n    1 oversize foil card featuring Shiny Meowscarada ex\n    8 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 magnetic 3-card protector with base\n    A code card​ for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 49.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9540_699-85635_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "290-85619",
+            "name": "Scarlet & Violet-Paldean Fates Pokémon Center Elite Trainer Box",
+            "description": "Shine Bright with Pokémon from Paldea!\n\nThe spotlight glistens on Shiny Pokémon making their fated return to the Pokémon TCG! Shiny Pikachu blazes the path forward as Tinkaton, Ceruledge, Dondozo, and more than 100 other Shiny Pokémon follow. Meanwhile, Great Tusk and Iron Treads appear as Ancient and Future Pokémon ex, and Charizard, Forretress, and Espathra show off their own unique skills as Shiny Tera Pokémon ex. Shed some light and discover sparkling wonders in the Scarlet & Violet—Paldean Fates expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Paldean Fates Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Shiny Mimikyu with a Pokémon Center logo\n    1 full-art foil promo card featuring Shiny Mimikyu\n    65 card sleeves featuring Shiny Mimikyu\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Paldean Fates expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9537_290-85619_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85625",
+            "name": "Scarlet & Violet-Paldean Fates Tin (Shiny Great Tusk ex)",
+            "description": "Shiny Pokémon ex in the Spotlight!\n\nBehold the breathtaking power of Shiny Pokémon ex who transcend the boundaries of time and type! With this tin, choose the quaking force of Great Tusk ex as an Ancient Pokémon, then discover even more awesome cards in Scarlet & Violet—Paldean Fates booster packs!\n\nThis Pokémon TCG: Scarlet & Violet—Paldean Fates Tin includes:\n\n    1 foil promo card featuring Great Tusk ex\n    5 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 28.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9538_699-85625_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "card_set": 2,
+            "expansion": 7,
+            "sku": "699-85626",
+            "name": "Scarlet & Violet-Paldean Fates Tin (Shiny Iron Treads ex)",
+            "description": "Shiny Pokémon ex in the Spotlight!\n\nBehold the breathtaking power of Shiny Pokémon ex who transcend the boundaries of time and type! With this tin, choose the iron-clad determination of Iron Treads ex as a Future Pokémon, then discover even more awesome cards in Scarlet & Violet—Paldean Fates booster packs!\n\nThis Pokémon TCG: Scarlet & Violet—Paldean Fates Tin includes:\n\n    1 foil promo card featuring Shiny Iron Treads ex\n    5 Pokémon TCG: Scarlet & Violet—Paldean Fates booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 28.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9538_699-85626_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "188-85981-BULK",
+            "name": "Scarlet & Violet-Temporal Forces Booster Pack (10 Cards)",
+            "description": "Ancient & Future Powers Endure!\n\nThe ranks of Ancient and Future Pokémon continue to grow! Walking Wake ex breaks free of the past alongside Raging Bolt ex, while Iron Leaves ex delivers high-tech justice with Iron Crown ex. Outside Area Zero, Wugtrio and Farigiraf shift types as Tera Pokémon ex, and Pokémon Trainers everywhere prepare for the return of ACE SPEC cards with uniquely powerful effects. A rupture in time brings wild beasts and cyber visions to battle in the Pokémon TCG: Scarlet & Violet—Temporal Forces expansion!\n\n    Includes 1 Pokémon TCG: Scarlet & Violet—Temporal Forces booster pack\n        Booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 4.49,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P9504_188-85981-BULK_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "699-85647",
+            "name": "Scarlet & Violet-Temporal Forces 3 Booster Packs & Cyclizar Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the Scarlet & Violet—Temporal Forces expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\nThis set includes:\n\n    3 Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Cyclizar\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9504_699-85647_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "699-85648",
+            "name": "Scarlet & Violet-Temporal Forces 3 Booster Packs & Cleffa Promo Card",
+            "description": "Give Your Collection a Boost!\n\nGet in on the latest Pokémon TCG action with three awesome booster packs from the Scarlet & Violet—Temporal Forces expansion, a special foil promo card, and a code card for Pokémon TCG Live!\n\nThis set includes:\n\n    3 Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    A foil promo card featuring Cleffa\n    A code card for Pokémon TCG Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 13.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9504_699-85648_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "188-85655",
+            "name": "Scarlet & Violet-Temporal Forces Booster Bundle (6 Packs)",
+            "description": "Ancient & Future Powers Endure!\n\nThe ranks of Ancient and Future Pokémon continue to grow! Walking Wake ex breaks free of the past alongside Raging Bolt ex, while Iron Leaves ex delivers high-tech justice with Iron Crown ex. Outside Area Zero, Wugtrio and Farigiraf shift types as Tera Pokémon ex, and Pokémon Trainers everywhere prepare for the return of ACE SPEC cards with uniquely powerful effects. A rupture in time brings wild beasts and cyber visions to battle in the Pokémon TCG: Scarlet & Violet—Temporal Forces expansion!\n\n    Includes 6 Pokémon TCG: Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 26.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9504_188-85655_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "699-86981",
+            "name": "Scarlet & Violet-Temporal Forces Booster Display Box (36 Packs)",
+            "description": "Ancient & Future Powers Endure!\n\nThe ranks of Ancient and Future Pokémon continue to grow! Walking Wake ex breaks free of the past alongside Raging Bolt ex, while Iron Leaves ex delivers high-tech justice with Iron Crown ex. Outside Area Zero, Wugtrio and Farigiraf shift types as Tera Pokémon ex, and Pokémon Trainers everywhere prepare for the return of ACE SPEC cards with uniquely powerful effects. A rupture in time brings wild beasts and cyber visions to battle in the Pokémon TCG: Scarlet & Violet—Temporal Forces expansion!\n\n    Includes 36 Pokémon TCG: Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 159.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P9504_699-86981_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "188-85658",
+            "name": "Scarlet & Violet-Temporal Forces Pokémon Center Elite Trainer Box (Iron Leaves)",
+            "description": "Ancient & Future Powers Endure!\n\nThe ranks of Ancient and Future Pokémon continue to grow! Walking Wake ex breaks free of the past alongside Raging Bolt ex, while Iron Leaves ex delivers high-tech justice with Iron Crown ex. Outside Area Zero, Wugtrio and Farigiraf shift types as Tera Pokémon ex, and Pokémon Trainers everywhere prepare for the return of ACE SPEC cards with uniquely powerful effects. A rupture in time brings wild beasts and cyber visions to battle in the Pokémon TCG: Scarlet & Violet—Temporal Forces expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Temporal Forces Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Iron Thorns with a Pokémon Center logo\n    1 full-art foil promo card featuring Iron Thorns\n    65 card sleeves featuring Iron Leaves\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Temporal Forces expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P9504_188-85658_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "card_set": 2,
+            "expansion": 8,
+            "sku": "188-85717",
+            "name": "Scarlet & Violet-Temporal Forces Pokémon Center Elite Trainer Box (Walking Wake)",
+            "description": "Ancient & Future Powers Endure!\n\nThe ranks of Ancient and Future Pokémon continue to grow! Walking Wake ex breaks free of the past alongside Raging Bolt ex, while Iron Leaves ex delivers high-tech justice with Iron Crown ex. Outside Area Zero, Wugtrio and Farigiraf shift types as Tera Pokémon ex, and Pokémon Trainers everywhere prepare for the return of ACE SPEC cards with uniquely powerful effects. A rupture in time brings wild beasts and cyber visions to battle in the Pokémon TCG: Scarlet & Violet—Temporal Forces expansion!\n\nThe Pokémon TCG: Scarlet & Violet—Temporal Forces Pokémon Center Elite Trainer Box includes:\n\n    11 Pokémon TCG: Scarlet & Violet—Temporal Forces booster packs\n        Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.\n    1 full-art foil promo card featuring Flutter Mane with a Pokémon Center logo\n    1 full-art foil promo card featuring Flutter Mane\n    65 card sleeves featuring Walking Wake\n    45 Pokémon TCG Energy cards\n    A player’s guide to the Scarlet & Violet—Temporal Forces expansion\n    6 damage-counter dice\n    1 competition-legal coin-flip die\n    2 plastic condition markers\n    A box to hold everything, with 4 dividers to keep it organized\n    A code card for Pokémon Trading Card Game Live",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 59.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P9504_188-85717_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "category": 7,
+            "sku": "710-03608",
+            "name": "Poké Ball Pattern D-Ring Binder - 1 In",
+            "description": "Every Trainer is familiar with Poké Balls, but savvy ones know the importance of using the right one in the right situation! From Great Balls and Ultra Balls to Master Balls and more, this D-ring binder shows off a bunch of them. It's an easy way to store and organize your papers, schoolwork, or office documents.\n\n    A Poké Ball for every situation!\n    Large D-rings make adding or removing pages easy\n    Matches the Poké Ball Pattern card sleeves, deck box, and playmat (sold separately)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "P4650_710-03608_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "category": 7,
+            "sku": "710-03610",
+            "name": "Eevee Capes D-Ring Binder - 1 In",
+            "description": "Who could possibly be cuter than Eevee? Why, Eevee dressed up in capes of its Evolutions! This charming Eevee Capes binder is an easy way to store and organize your papers, schoolwork, or office documents.\n\n    Looks like Eevee can't wait to evolve!\n    Large D-rings make adding or removing pages easy\n    Matches the Eevee Capes card sleeves, deck box, and playmat (sold separately)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "P4650_710-03610_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "category": 7,
+            "sku": "710-03609",
+            "name": "Mimikyu Day by Day D-Ring Binder - 1 In",
+            "description": "Mimikyu is always looking for new adventures and new friends! This Mimikyu Day by Day binder is an easy way to store and organize your papers, schoolwork, or office documents.\n\n    A day in the life of Mimikyu includes keeping papers organized!\n    Large D-rings make adding or removing pages easy\n    Matches the Mimikyu Day by Day card sleeves, deck box, and playmat (sold separately)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P4650_710-03609_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "category": 7,
+            "sku": "710-03920",
+            "name": "Catch That Pokémon! D-Ring Binder - 1 In",
+            "description": "Ready, aim, catch! Relive the thrill of your Pokémon adventure any time with this sleek D-ring binder featuring Caterpie, Weedle, Pidgey, Rattata, Spearow, and Zubat—all originally discovered in Kanto and now often found all over the world. It's an easy way to keep notes or documents organized in cool Pokémon style!\n\n    Catch that paperwork! (OK, we know that doesn't sound as exciting as catching Pokémon—but you gotta do what you gotta do!)\n    Large D-rings make adding or removing pages easy; holds papers or anything with a 3-hole punch\n    Pikachu and Poké Balls decorate the 1-inch spine\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "P4915_710-03920_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "category": 8,
+            "sku": "710-04397",
+            "name": "Pikachu Chalk Card Sleeves (65 Sleeves)",
+            "description": "Catch Pikachu in an artistic, contemplative look with these gorgeous card sleeves! Better still, this set of sleeves includes enough for a full deck plus some extras, just in case. Show them off at your next convention, tournament, or battle!\n\n    Includes 65 card sleeves that are great for casual games or tournaments\n    Matches the Pikachu Chalk Playmat (sold separately)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 7.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P5787_710-04397_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "category": 8,
+            "sku": "705-29376",
+            "name": "Rayquaza Legendary Lights Card Sleeves (65 Sleeves)",
+            "description": "Rayquaza lives high in the sky, typically unable to be seen from the ground. However, these card sleeves featuring the Sky High Pokémon capture the moment for you as Rayquaza flies through a beautiful aurora. Better still, this set of sleeves is enough for a full deck plus some extras, just in case. Show them off at your next convention, tournament, or battle!\n\n    Includes 65 card sleeves that are great for casual games or tournaments\n    Matte finish on both sides\n    Part of the Rayquaza Legendary Lights collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 7.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P8067_705-29376_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "category": 8,
+            "sku": "705-03577",
+            "name": "Poké Ball Pattern Card Sleeves (65 Sleeves)",
+            "description": "You can't go wrong with the classics! These Poké Ball-themed sleeves are a great way to protect your cards during play. Personalize your deck and share a timeless Pokémon look at your next tournament!\n\n    Sleeves protect your cards during play\n    Dynamic Poké Ball pattern\n    Matches the Poké Ball Pattern playmat, deck box, and binder (sold separately)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 7.99,
+            "rating": 3,
+            "image_url": "",
+            "image": "P4649_705-03577_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "category": 8,
+            "sku": "705E10225",
+            "name": "Pokémon Pixels Card Sleeves (65 Sleeves)",
+            "description": "Journey back to Kanto with this playmat featuring Pikachu and other Pokémon sprites! A collection of Pokémon that were originally encountered in the Kanto region decorates this set that includes enough sleeves for a full deck and for a few extra cards, too!\n\n    Includes 65 card sleeves that are great for casual games or tournaments\n    Matte finish on both sides\n    Part of the Pokémon TCG Core Accessories collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 7.99,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P9718_705E10225_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "category": 9,
+            "sku": "81222",
+            "name": "Ultra PRO 3x4\" Clear Regular Toploader 25ct",
+            "description": "Super clear, regular 3\" x 4\" Toploader for standard size cards (2-1/2\" x 3-1/2\"). Rigid plastic encloses card and keeps it clean while preventing damage. 25 Toploaders per pack.\n\n    Sized to hold 2-1/2\" x 3-1/2\" (63.5mm x 88.9mm) standard size cards\n    Holds cards up to 35pt thickness\n    Keeps cards clean\n    Ultra clear and durable construction\n    Sized to hold Ultra PRO Premium Cards Sleeves (#81385) and Card Sleeves (#81126)",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 3.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "ultra-pro-3x4-clear-regular-toploader-25ct.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "703E10015",
+            "name": "Blastoise Drenching Waters Figure by First 4 Figures",
+            "description": "Make a Splash with Blastoise!\n\nRising from the sea, a surge of water surrounds Blastoise in a crashing wave! Pokémon Center has paired with First 4 Figures to create this limited edition figure featuring premium-quality sculpted details and a dazzling LED feature that lights up the water with a cool, beautiful glow. The figure's large size and dynamic posing are sure to stand out and become a centerpiece of any Pokémon or figure collection.\n\n    Each figure is hand-marked with an edition number ranging from 0001/1050 to 1050/1050\n    Measures about 11 inches tall\n    Beautiful light-up effects can be powered by USB and activated with the push of a button\n    Detailed sculpted waters rising from a sturdy base\n    Colorful paint and dynamic pose stand out in a collection\n    Designed by Pokémon Center, made by First 4 Figures",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 299.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9169_703E10015_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "703E10113",
+            "name": "Pokémon Delicious Adventure: Kanto Pewter Crunchies Snack Figure",
+            "description": "Love a Good Snack? Ditto!\n\nMunch-munch-munch! Ditto can’t get enough of the Kanto region’s famous Pewter Crunchies! The Transform Pokémon chomps its way to a messy kitchen as an adorable figure perfect for adding a dash of whimsy to your collection.\n\n    Approximately 2 inches tall and 2 ¾  inches wide\n    There’s plenty more, Ditto!\n    Part of the Pokémon Delicious Adventure collection\n    A Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9618_703E10113_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "703-05991",
+            "name": "An Afternoon with Eevee & Friends: Umbreon Figure by Funko",
+            "description": "Umbreon in the Shadowy Spotlight!\n\nWho’s afraid to explore what lies in the shadows? Not Umbreon! Take a walk on the dark side with the Afternoon with Eevee & Friends Figure by Funko and Pokémon Center while you can—they won’t last long!\n\n    Eevee's Dark-type Evolution peers around a rocky outcrop\n    Each month, join Eevee and its Evolutions as they explore the world!\n    Part of the An Afternoon with Eevee & Friends collection by Pokémon Center and Funko",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 9.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P6132_703-05991_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "703-08756",
+            "name": "Pikachu Moods: Hungry Figure",
+            "description": "The Pikachu Moods: Hungry Figure shows the world's best-known Pokémon ready to dive into a tall stack of delicious pancakes! Topped with syrup, they are a treat this Pikachu really loves! You can let Pikachu express how you feel with this series of eight figures releasing throughout 2021.\n\n    Perfect for an office space or kitchen shelf\n    Some assembly required; please attach the tail piece to the figure (see photo for details)\n    Part of the Pikachu Moods figure collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 14.99,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "P7285_703-08756_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "category": 10,
+            "sku": "703-05408",
+            "name": "Pokémon Gallery Figure DX: Gyarados (Aqua Tail)",
+            "description": "Put Your Pokémon on Display!\n\nSplashing onto the scene as a big Pokémon Gallery Figure DX, Gyarados channels its inner storm by swinging its tail like an overwhelming wave! You can get up close to the action by collecting the whole Pokémon Gallery Figures series!\n\n    DX figures are larger than standard Gallery Figures\n    Translucent attack effects catch the light for a beautiful display\n    A beloved Water- and Flying-type Pokémon originally discovered in the Kanto region\n    Part of the Pokémon Gallery Figures collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 28.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P5417_703-05408_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "category": 11,
+            "sku": "710-08924",
+            "name": "Pokémon Block Art Party Tear-Away Pins (8-Pack)",
+            "description": "The Pokémon Block Art Party tear-away pins are a great way to share the fun with friends! Each mini pin features a pixel-art version of a Pokémon originally discovered in the Kanto region. With tear-away perforations and eight different pins, they make great gift bag additions for any party—not just a Pokémon Block Art Party!\n\n    Includes one sheet with eight detachable mini pins\n    Pairs well with other items from the Pokémon Block Art Party collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 29.99,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "P7398_710-08924_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "category": 11,
+            "sku": "710-96513",
+            "name": "Pokémon Giant Pins: Ditto Oversize Pin",
+            "description": "Ditto Goes Big!\n\nA Pokémon with a big personality deserves a pin large enough to show it off! Ditto is here as an enamel-and-metal jumbo pin that brings eye-catching style to your favorite messenger bag or your pin collection at home.\n\n    Includes Ditto oversize pin (other pictured items not included)\n    Pin measures about 5 inches across\n    Three rubbery backers help keep pin in place\n    Part of the Pokémon Giant Pins collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 24.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8550_710-96513_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "category": 11,
+            "sku": "710E11044",
+            "name": "Butterfree Pokémon Pin",
+            "description": "There's a Pokémon Pin for Everyone!\n\nIt's easy to show off your favorite Pokémon wherever you go with an eye-catching Pokémon Pin! Featuring Butterfree, the Butterfly Pokémon, this collectible accessory is made of shining metal and colorful enamel, and it comes with two rubbery backers for securing to your lapel, lanyard, or bag.\n\n    Pin measures about 1 ¾ inches across\n    Bug- and Flying-type Pokémon originally discovered in Kanto\n    Fun to collect and display\n    Part of the Pokémon Pins collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 9.99,
+            "rating": 4.7,
+            "image_url": "",
+            "image": "P9892_710E11044_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "category": 11,
+            "sku": "710E11057",
+            "name": "Charizard Pokémon Pin",
+            "description": "There's a Pokémon Pin for Everyone!\n\nIt's easy to show off your favorite Pokémon wherever you go with an eye-catching Pokémon Pin! Featuring Charizard, the Flame Pokémon, this collectible accessory is made of shining metal and colorful enamel, and it comes with two rubbery backers for securing to your lapel, lanyard, or bag.\n\n    Pin measures about 1 ¾ inches across\n    Fully evolved Fire- and Flying-type first partner Pokémon from Kanto\n    Fun to collect and display\n    Part of the Pokémon Pins collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 9.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P9892_710E11057_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "category": 11,
+            "sku": "710-96527",
+            "name": "Pokémon Giant Pins: Pikachu Oversize Pin",
+            "description": "Pikachu Goes Big!\n\nA Pokémon with a big personality deserves a pin large enough to show it off! Pikachu is here as an enamel-and-metal jumbo pin that brings eye-catching style to your favorite messenger bag or your pin collection at home.\n\n    Includes Pikachu oversize pin (other pictured items not included)\n    Pin measures about 5 inches across\n    Three rubbery backers help keep pin in place\n    Part of the Pokémon Giant Pins collection\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 24.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P8550_710-96527_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "category": 12,
+            "sku": "701-03482",
+            "name": "Pikachu Poké Plush - 26 ¾ In.",
+            "description": "We expect to ship this product in mid-September 2024. We will notify you of any changes to this date. We will not charge your card for this item until it ships. You may see a pre-authorization check on your card, but it is not a charge for this item. You may cancel your preorder by following the steps detailed here.\nThis jumbo-sized Pikachu is big enough to battle, but soft enough to hug! You can show off your Pokémon pride with one of our largest Poké Plush ever. Embroidered details and soft fabric help bring Pikachu to life in a huge way!\n\n    Measures about 26 ¾ inches tall and 24 ½ inches wide\n    A big plush for big fun!\n    One of our biggest Pikachu plush ever!\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 199.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P4537_701-03482_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "category": 12,
+            "sku": "701-06209",
+            "name": "Mewtwo Sitting Cuties Plush - 5 ½ In.",
+            "description": "The Mewtwo Sitting Cuties Plush is weighted with microbeads, so it sits up when you put it on a flat surface. This palm-sized plush is a fun, charming way to show off a favorite Psychic-type Legendary Pokémon originally discovered in Kanto!\n\n    Measures about 5 ½ inches tall and 5 ¼ inches wide\n    Sits up easily on a desk, shelf, or other flat surface\n    Where will you set Mewtwo?\n    Part of the Sitting Cuties collection—known as Pokémon fit in Japan\n    Includes Mewtwo Sitting Cuties Plush (other pictured items not included)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 5,
+            "image_url": "",
+            "image": "P6366_701-06209_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "category": 12,
+            "sku": "701-03128",
+            "name": "Eevee Sitting Cuties Plush - 6 ½ In.",
+            "description": "The Eevee Sitting Cuties Plush is weighted with microbeads, so it sits up when you put it on a flat surface. This palm-sized plush is a fun, charming way to show off a favorite Normal-type Pokémon originally discovered in Kanto!\n\n    Measures about 6 ¼ inches tall and 6 ½ inches wide\n    Sits up easily on a desk, shelf, or other flat surface\n    Where will you set Eevee?\n    Part of the Sitting Cuties collection—known as Pokémon fit in Japan\n    Includes Eevee Sitting Cuties Plush (other pictured items not included)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P4828_701-03128_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "category": 12,
+            "sku": "701-03592",
+            "name": "Snorlax Sitting Cuties Plush - 5 In.",
+            "description": "The Snorlax Sitting Cuties Plush is weighted with microbeads, so it sits up when you put it on a flat surface. This palm-sized plush is a fun, charming way to show off a favorite Normal-type Pokémon originally discovered in Kanto!\n\n    Measures about 5 inches tall and 3 ½ inches wide\n    Sits up easily on a desk, shelf, or other flat surface\n    Where will you set Snorlax?\n    Part of the Sitting Cuties collection—known as Pokémon fit in Japan\n    Includes Snorlax Sitting Cuties Plush (other pictured items not included)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.9,
+            "image_url": "",
+            "image": "P4831_701-03592_01.webp",
+            "on_sale": 0
+        }
+    },
+    {
+        "pk": 76,
+        "model": "products.product",
+        "fields": {
+            "category": 12,
+            "sku": "701-05333",
+            "name": "Charizard Sitting Cuties Plush - 7 In.",
+            "description": "The Charizard Sitting Cuties Plush is weighted with microbeads, so it sits up when you put it on a flat surface. This palm-sized plush is a fun, charming way to show off a favorite Fire- and Flying-type Pokémon originally discovered in Kanto!\n\n    Measures about 5 ¾ inches tall and 7 inches wide\n    Sits up easily on a desk, shelf, or other flat surface\n    Where will you set Charizard?\n    Part of the Sitting Cuties collection—known as Pokémon fit in Japan\n    Includes Charizard Sitting Cuties Plush (other pictured items not included)\n    Pokémon Center Original",
+            "date_added": "2024-03-24T00:00:00Z",
+            "price": 16.99,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "P5926_701-05333_01.webp",
+            "on_sale": 0
+        }
+    }
+]
