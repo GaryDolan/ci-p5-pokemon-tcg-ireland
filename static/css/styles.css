@@ -32,6 +32,11 @@
 .bg-blue {
     background-color: var(--blue);
 }
+
+.bg-white {
+    background-color: white;
+}
+
 /* Text formatting */
 .bold {
     font-weight: bold;
