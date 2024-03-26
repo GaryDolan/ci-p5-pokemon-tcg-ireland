@@ -20,12 +20,17 @@
                 Pokemon Cards
             </a>
             <ul class=" dropdown-menu border-0" aria-label="pokemon-cards-dropdown">
-                <li> <a href="" class="dropdown-item">Booster Packs</a> </li>
-                <li> <a href="" class="dropdown-item">Booster Bundle</a> </li>
-                <li> <a href="" class="dropdown-item">Booster Boxes</a> </li>
-                <li> <a href="" class="dropdown-item">Boxed Sets</a> </li>
-                <li> <a href="" class="dropdown-item">Elite Trainer Boxes</a> </li>
-                <li> <a href="" class="dropdown-item">Tins</a> </li>
+                <li> <a href="{% url 'products'%}?category=booster_packs" class="dropdown-item">Booster Packs</a> </li>
+                <li> <a href="{% url 'products'%}?category=booster_bundles" class="dropdown-item">Booster Bundle</a>
+                </li>
+                <li> <a href="{% url 'products'%}?category=booster_boxes" class="dropdown-item">Booster Boxes</a> </li>
+                <li> <a href="{% url 'products'%}?category=boxed_sets" class="dropdown-item">Boxed Sets</a> </li>
+                <li> <a href="{% url 'products'%}?category=elite_trainer_boxes" class="dropdown-item">Elite Trainer
+                        Boxes</a>
+                </li>
+                <li> <a href="{% url 'products'%}?category=tins" class="dropdown-item">Tins</a> </li>
+                <li> <a href="{% url 'products'%}?category=booster_packs,booster_bundles,booster_boxes,boxed_sets,elite_trainer_boxes,tins"
+                        class="dropdown-item">All Cards</a> </li>
             </ul>
         </li>
         <li class="nav-item dropdown">
@@ -34,9 +39,11 @@
                 Accessories
             </a>
             <ul class=" dropdown-menu border-0" aria-label="accessories-dropdown">
-                <li> <a href="" class="dropdown-item">Binders</a> </li>
-                <li> <a href="" class="dropdown-item">Sleeves</a> </li>
-                <li> <a href="" class="dropdown-item">Toploaders</a> </li>
+                <li> <a href="{% url 'products'%}?category=binders" class="dropdown-item">Binders</a> </li>
+                <li> <a href="{% url 'products'%}?category=sleeves" class="dropdown-item">Sleeves</a> </li>
+                <li> <a href="{% url 'products'%}?category=toploaders" class="dropdown-item">Toploaders</a> </li>
+                <li> <a href="{% url 'products'%}?category=binders,sleeves,toploaders" class="dropdown-item">All
+                        Accessories</a> </li>
             </ul>
         </li>
         <li class="nav-item dropdown">
@@ -45,13 +52,16 @@
                 Toys &amp; Collectables
             </a>
             <ul class=" dropdown-menu border-0" aria-label="collectables-dropdown">
-                <li> <a href="" class="dropdown-item">Figures</a> </li>
-                <li> <a href="" class="dropdown-item">Pins</a> </li>
-                <li> <a href="" class="dropdown-item">Plushes</a> </li>
+                <li> <a href="{% url 'products'%}?category=figures" class="dropdown-item">Figures</a> </li>
+                <li> <a href="{% url 'products'%}?category=pins" class="dropdown-item">Pins</a> </li>
+                <li> <a href="{% url 'products'%}?category=plushes" class="dropdown-item">Plushes</a> </li>
+                <li> <a href="{% url 'products'%}?category=figures,pins,plushes" class="dropdown-item">All Toys &amp;
+                        Collectables
+                    </a> </li>
             </ul>
         </li>
         <li class="nav-item dropdown bold">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="{% url 'products'%}?on_sale=1">
                 Sale
             </a>
         </li>
