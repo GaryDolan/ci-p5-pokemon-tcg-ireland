@@ -22,7 +22,7 @@
                 <p class="mt-3 fs-4"><strong>{{ product.name }}</strong></p>
                 <p class="text-blue fs-5"><strong>€{{ product.price}}</strong></p>
 
-                <p class="mt-4">{{ product.description }}</p>
+                <p class="mt-4">{{ product.description | safe }}</p>
 
                 <div class="product-rating mb-3">
                     {% if product.rating %}
