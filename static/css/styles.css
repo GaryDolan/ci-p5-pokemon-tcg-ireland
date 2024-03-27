@@ -103,6 +103,10 @@ a {
     filter: brightness(1.1);
 }
 
+.feedback:hover {
+    filter: brightness(1.2);
+}
+
 /*************************** BASE *************************/
 
 /* Header */
@@ -198,6 +202,7 @@ header {
 .product-rating {
     text-align: right;
 }
+
 /*********************** MEDIA QUERIES *********************/
 /* 575px sm */
 @media screen and (max-width: 35.938em) {

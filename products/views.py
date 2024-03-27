@@ -11,13 +11,12 @@ def all_products(request):
 
     # Will still be returned in context even if no value set below so needs a default value
     query = None
-    categories = None
     on_sale = None
     sort = None
     direction = None
 
     if request.GET:
-        # Sorting
+        # SORTING
         if 'sort' in request.GET:
             # Assign the value of the sort key to both
             sort_value = request.GET['sort']
@@ -29,7 +28,7 @@ def all_products(request):
                 products = products.annotate(lower_name=Lower('name'))
                 # we can then sort by lower name rather than name
                 sort_value = 'lower_name'
-                
+
             elif sort_value == 'category':
                 # Double underscore allows access to related model fields
                 products = products.annotate(lower_category_name=Lower('category__name'))
@@ -42,20 +41,30 @@ def all_products(request):
 
             products = products.order_by(sort_value)
 
-        # Filter by category
+        # FILTERING
+        # By category
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
-            # Capture catagories objects in category list so we can access their fields in the template
-            categories = Category.objects.filter(name__in=categories)
+        
+        # By card set
+        if 'card_set' in request.GET:
+            card_set_name = request.GET['card_set']
+            products = Product.objects.filter(card_set__name=card_set_name)
+        
+        # By expansion
+        if 'expansion' in request.GET:
+            expansion_name = request.GET['expansion']
+            products = Product.objects.filter(expansion__name=expansion_name)
 
-        # Filter by items on sale
+
+        # By items on sale
         if 'on_sale' in request.GET:
             products = Product.objects.filter(on_sale=True)
             # check if 1 in template and if so display SALE in place of category name
             on_sale = 1
 
-        # Search in name or description
+        # SEARCH (in name or description)
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -69,7 +78,6 @@ def all_products(request):
     context = {
         'products':products,
         'search_term': query,
-        'current_categories': categories,
         'on_sale': on_sale,
         'current_sorting': current_sorting,
     }

@@ -24,6 +24,41 @@
 
                 <p class="mt-4">{{ product.description | safe }}</p>
 
+                <!-- add links for category, card set and expansion -->
+                {% if product.category %}
+                <p class="mb-1 product_tag">
+                    <a href="{% url 'products' %}?category={{product.category.name}}" class="feedback">
+                        <i class="fa-solid fa-tag me-2 text-blue"></i>
+                        <span class="text-gray">
+                            {{ product.category.display_name }}
+                        </span>
+                    </a>
+                </p>
+                {% endif %}
+
+                {% if product.card_set %}
+                <p class="mb-1">
+                    <a href=" {% url 'products' %}?card_set={{product.card_set.name}}" class="feedback">
+                        <i class="fa-solid fa-layer-group me-2 text-blue"></i>
+                        <span class="text-gray">
+                            {{product.card_set.display_name }}
+                        </span>
+                    </a>
+                </p>
+
+                {% endif %}
+
+                {% if product.expansion %}
+                <p>
+                    <a href=" {% url 'products' %}?expansion={{product.expansion.name}}" class="feedback">
+                        <i class="fa-solid fa-dragon me-2 text-blue">
+                        </i><span class="text-gray">
+                            {{product.expansion.display_name}}
+                        </span>
+                    </a>
+                </p>
+                {% endif %}
+
                 <div class="product-rating mb-3">
                     {% if product.rating %}
                     <small class="mb-3"><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
