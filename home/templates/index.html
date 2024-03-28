@@ -4,6 +4,7 @@
 {% block extra_title %}Home{% endblock %}
 
 {% block content %}
+<!-- Hero section -->
 <div class="container-fluid hero-section">
     <div class="row justify-content-center">
         <div class="col-12 hero-content text-center">
@@ -13,5 +14,30 @@
             </div>
         </div>
     </div>
+</div>
+<!-- New products -->
+<div class="container mt-5 bg-white rounded-4 px-4 py-4 border border-blue feature-products">
+    <section>
+        <h2 class="text-blue bold text-center">Latest Products</h2>
+        <p class="d-none d-md-block text-center"><small class="text-muted">Check out our latest offerings</small></p>
+        <div class="row mt-3 d-flex justify-content-center">
+            {% for product in new_products %}
+            {% include 'includes/product_card.html' %}
+            {% endfor %}
+        </div>
+    </section>
+</div>
+
+<!-- Popular products -->
+<div class="container mt-5 bg-white rounded-4 px-4 py-4 border border-blue mb-3 feature-products">
+    <section>
+        <h2 class="text-blue bold text-center">Popular Products</h2>
+        <p class="d-none d-md-block text-center"><small class="text-muted">Check out our most highly rated products</small></p>
+        <div class="row mt-3 d-flex justify-content-center">
+            {% for product in popular_products %}
+            {% include 'includes/product_card.html' %}
+            {% endfor %}
+        </div>
+    </section>
 </div>
 {% endblock %}

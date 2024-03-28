@@ -3,9 +3,10 @@
     --heading-font: "Raleway", serif;
     --heading-font-alt: "Carter One", serif;
     --text-font: "Roboto", serif;
-    --off-white: #f5f5f5;
+    
 
     /* Colours */
+    --off-white: #FAFAFA;
     --blue: #075997;
     --yellow: #fec901;
 }
@@ -108,7 +109,7 @@ a {
 }
 
 .selectable-feedback {
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .selectable-feedback:hover {
@@ -117,7 +118,7 @@ a {
 }
 
 .feedback:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.1);
 }
 
 /*************************** BASE *************************/
@@ -240,5 +241,9 @@ header {
     /* HOME */
     .hero-content h1 {
         font-size: 1.9rem;
+    }
+
+    .feature-products {
+        width: 95%;
     }
 }
