@@ -84,6 +84,10 @@ a {
     color: black;
 }
 
+.border-blue {
+    border: 0.15rem solid var(--blue);
+}
+
 .border-black {
     border: 0.15rem solid black;
 }
@@ -201,6 +205,20 @@ header {
 /************************* PRODUCTS ***********************/
 .product-rating {
     text-align: right;
+}
+
+.btt-button {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--blue);
+}
+
+.btt-link {
+    cursor: pointer;
+    color: var(--dark-green)!important;
 }
 
 /*********************** MEDIA QUERIES *********************/
