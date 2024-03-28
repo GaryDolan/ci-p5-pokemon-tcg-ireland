@@ -38,16 +38,18 @@
     background-color: white;
 }
 
+.bg-off-white {
+    background-color: var(--off-white);
+}
+
+
+
 /* Text formatting */
 .bold {
     font-weight: bold;
 }
 
 /************************** GLOBAL ************************/
-/* body */
-body {
-    background-color: var(--off-white);
-}
 
 /* Headings */
 h1,
@@ -91,6 +93,10 @@ a {
 
 .border-black {
     border: 0.15rem solid black;
+}
+
+.border-white {
+    border: 0.15rem solid white;
 }
 
 /* Buttons */
@@ -194,7 +200,7 @@ header {
 /*************************** HOME *************************/
 /* Hero Section */
 .hero-section {
-    background: url("/media/hero-image.png") no-repeat center center;
+    background: url("/media/hero-image-large.png") no-repeat center center;
     background-size: cover;
     height: 100%;
     filter: brightness(1.1);
@@ -232,6 +238,31 @@ header {
 }
 
 /*********************** MEDIA QUERIES *********************/
+
+/* 1400px xl */
+@media screen and (max-width: 87.5em) {
+
+    /* HOME */
+    .hero-section {
+        background: url("/media/hero-image-mid.png") no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        filter: brightness(1.1);
+    }
+}
+
+/* 1105px lg */
+@media screen and (max-width: 69.063em) {
+
+    /* HOME */
+    .hero-section {
+        background: url("/media/hero-image-small.png") no-repeat center center;
+        background-size: cover;
+        height: 100%;
+        filter: brightness(1.1);
+    }
+}
+
 /* 575px sm */
 @media screen and (max-width: 35.938em) {
     /* BASE */
