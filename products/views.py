@@ -53,17 +53,17 @@ def all_products(request):
         # By card set
         if 'card_set' in request.GET:
             card_set_name = request.GET['card_set']
-            products = Product.objects.filter(card_set__name=card_set_name)
+            products = products.filter(card_set__name=card_set_name)
         
         # By expansion
         if 'expansion' in request.GET:
             expansion_name = request.GET['expansion']
-            products = Product.objects.filter(expansion__name=expansion_name)
+            products = products.filter(expansion__name=expansion_name)
 
 
         # By items on sale
         if 'on_sale' in request.GET:
-            products = Product.objects.filter(on_sale=True)
+            products = products.filter(on_sale=True)
             # check if 1 in template and if so display SALE in place of category name
             on_sale = 1
 
