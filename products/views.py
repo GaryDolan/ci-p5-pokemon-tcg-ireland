@@ -11,6 +11,7 @@ def all_products(request):
 
     # Will still be returned in context even if no value set below so needs a default value
     query = None
+    categories = None
     on_sale = None
     sort = None
     direction = None
@@ -46,6 +47,8 @@ def all_products(request):
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
+            # Capture catagories objects in category list so we can access their fields in the template
+            categories = Category.objects.filter(name__in=categories)
         
         # By card set
         if 'card_set' in request.GET:
@@ -78,6 +81,7 @@ def all_products(request):
     context = {
         'products':products,
         'search_term': query,
+        'current_categories': categories,
         'on_sale': on_sale,
         'current_sorting': current_sorting,
     }
