@@ -12,7 +12,7 @@ def add_to_cart(request, item_id):
     redirect_url = request.POST.get('redirect_url') 
 
     # use request response cycle session to store cart contents
-    # if no cart create empty dict as cart
+    # if no cart create empty dict as cart, accessible site wide
     cart = request.session.get('cart', {})
 
     if item_id in list(cart.keys()):
@@ -21,5 +21,4 @@ def add_to_cart(request, item_id):
         cart[item_id] = quantity
 
     request.session['cart'] = cart
-    print(request.session['cart'])
     return redirect(redirect_url)

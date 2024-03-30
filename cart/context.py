@@ -1,4 +1,6 @@
 from django.conf import settings
+from django.shortcuts import get_object_or_404
+from products.models import Product
 
 # Context processor, adds data to every template
 # Cart details now available everywhere without returning it from view
@@ -7,6 +9,22 @@ def cart_contents(request):
     cart_items = []
     items_total = 0
     product_count = 0
+    # Added to session in view
+    cart = request.session.get('cart', {})
+
+    #iterate through the session bag and populate context variables
+
+    for item_id, quantity in cart.items():
+        product = get_object_or_404(Product, pk=item_id)
+        items_total += quantity * product.price
+        product_count += quantity
+        
+        cart_items.append({
+            'item_id': item_id,
+            'quantity': quantity,
+            'product': product,
+        })
+
 
     if items_total < settings.FREE_SHIPPING_THRESHOLD:
         shipping = settings.STANDARD_SHIPPING_COST

@@ -102,14 +102,22 @@
                     <li class="list-inline-item ms-3">
                         <a class="nav-link" href="{% url 'cart_view' %}">
                             <div class="text-center ms-2">
-                                <div><i class="fas fa-cart-shopping fa-lg"></i></div>
+                                <i class="fas fa-cart-shopping fa-lg position-relative">
+                                    {% if product_count > 0 %}
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size: 0.5rem">
+                                            {{ product_count }}
+                                        </span>
+                                    {% endif %}
+                                </i>
                                 <p class="my-0">
-                                    €0.00
+                                    {% if items_total %}
+                                        € {{items_total|floatformat:2}}
+                                    {% else %}
+                                        €0.00
+                                    {% endif %}
                                 </p>
-
                             </div>
                         </a>
-
                     </li>
                 </ul>
             </div>
