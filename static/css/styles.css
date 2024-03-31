@@ -253,7 +253,16 @@ header {
     color: var(--blue) !important;
 }
 
-/*********************** MEDIA QUERIES *********************/
+/************************** Basket ************************/
+.sku {
+    font-size: 0.75rem;
+}
+
+.custom-hr {
+    width: 95%;
+}
+
+/*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
 @media screen and (max-width: 87.5em) {

@@ -5,10 +5,94 @@
 
 {% block content %}
 
-{% if bag_items %}
-{% for item in basket_items %}
-print{{item.product.price}}
-{%endfor%}
+<h2 class="text-center mt-3"><strong>Your Basket</strong></h2>
+<hr class="w-75 mb-5 mx-auto">
+
+{% if basket_items %}
+
+<div class="container mt-3">
+    <div class="row mt-3">
+        <!-- Products -->
+        <div class="col-12 col-lg-7">
+            {% for item in basket_items %}
+            <div class="row mb-3 bg-off-white rounded-4 border me-2 shadow py-3">
+                <!-- product img -->
+                <div class="col-4">
+                    <a href="{% url 'product_detail' item.product.id %}">
+                        {% if item.product.image %}
+                        <img class="img-fluid" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                        {% else %}
+                        <img class="img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
+                            alt=" {{ product.name }}">
+                        {% endif %}
+                    </a>
+                </div>
+                <!-- Product details -->
+                <div class="col-8">
+                    <p class="mb-0"><strong>{{ item.product.name }}</strong></p>
+                    <p class="sku text-gray">SKU: {{ item.product.sku|upper }}</p>
+                    <hr class="text-blue mb-5 w-75">
+                    <p class="mb-3">Qty: {{ item.quantity }}</p>
+                    <p>€{{ item.product.price}}<span class="ms-5">€{{ item.product.price}}</span></p>
+                </div>
+                <!-- <hr class="text-blue my-2 custom-hr mx-auto"> -->
+            </div>
+
+            {%endfor%}
+        </div>
+        <!-- Purchase summary -->
+        <div class="col-12 col-lg-4">
+            <div class="summary-container bg-off-white rounded-4 border shadow px-3">
+                <div class="row mt-3">
+                    <div class="col-auto"><span>Subtotal:</span></div>
+                    <div class="col text-end"><span>€{{ items_total|floatformat:2 }}</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-auto"><span>Shipping:</span></div>
+
+                    {% if free_shipping_delta > 0 %}
+                    <div class="col text-end"><span>€{{ shipping|floatformat:2 }}</span></div>
+                    {% else %}
+                    <div class="col text-end"><span>FREE</span></div>
+                    {% endif %}
+
+                    <hr class="text-blue mt-2 custom-hr mx-auto">
+
+                </div>
+                <div class="row">
+                    <div class="col-auto fs-3"><span><strong>Total:</strong></span></div>
+                    <div class="col text-end fs-3"><span><strong>€{{basket_total|floatformat:2}}</strong></span></div>
+                    {% if free_shipping_delta > 0 %}
+
+                    <small class="my-1 text-danger text-center">
+                        For free shipping spend just <strong>${{ free_shipping_delta }}</strong> more!
+                        <small />
+                        {% endif %}
+                </div>
+                <!-- Buttons -->
+                <div class="row my-3">
+                    <div class="col-6 d-flex justify-content-center">
+                        <a href="{% url 'products' %}" class="btn btn-custom-blue w-100">
+                            <span class="icon">
+                                <i class="fas fa-arrow-left"></i>
+                            </span>
+                            <span>Products</span>
+                        </a>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center ps-0">
+                        <a href="" class="btn btn-custom-yellow w-100">
+                            <span>Checkout</span>
+                            <span class="icon">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% else %}
 <div class="container mt-5">
     <div class="row justify-content-center">

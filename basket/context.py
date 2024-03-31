@@ -33,7 +33,7 @@ def basket_contents(request):
         shipping = 0
         free_shipping_delta = 0
         
-    basket_total = items_total +shipping
+    basket_total = items_total + shipping
 
     context = {
         'basket_items': basket_items,
