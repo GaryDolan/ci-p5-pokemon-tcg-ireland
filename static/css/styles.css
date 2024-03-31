@@ -262,6 +262,13 @@ header {
     width: 95%;
 }
 
+.summary-container-inner {
+    background-color: var(--off-white);
+    border-radius: 0.7rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
 /*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
@@ -286,6 +293,24 @@ header {
     }
 }
 
+/* 992px lg*/
+@media screen and (max-width: 62em) {
+    /* BASKET */
+    .summary-container {
+        background-color: var(--off-white);
+        border-radius: 0.7rem;
+        border: 1px solid #dee2e6;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        margin-bottom: 1rem;
+    }
+    .summary-container-inner {
+        background-color: initial;
+        border-radius: initial;
+        border: initial;
+        box-shadow: none;
+    }
+}
+
 /* 767px md */
 @media screen and (max-width: 47.938em) {
 }
@@ -307,5 +332,11 @@ header {
     /* BASKET */
     .shop-btn {
         width: 75%;
+    }
+    .summary-container {
+        width: 98%;
+    }
+    .product-container {
+        width: 98%;
     }
 }
