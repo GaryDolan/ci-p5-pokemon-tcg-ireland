@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 
     # Apps
     'about_us',
-    'cart',
+    'basket',
     'checkout',
     'contact_us',
     'home',
@@ -90,7 +90,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'cart.context.cart_contents',
+                'basket.context.basket_contents',
             ],
         },
     },

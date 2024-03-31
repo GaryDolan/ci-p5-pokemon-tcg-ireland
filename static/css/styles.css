@@ -3,10 +3,9 @@
     --heading-font: "Raleway", serif;
     --heading-font-alt: "Carter One", serif;
     --text-font: "Roboto", serif;
-    
 
     /* Colours */
-    --off-white: #FAFAFA;
+    --off-white: #fafafa;
     --blue: #075997;
     --yellow: #fec901;
 }
@@ -41,8 +40,6 @@
 .bg-off-white {
     background-color: var(--off-white);
 }
-
-
 
 /* Text formatting */
 .bold {
@@ -100,7 +97,7 @@ a {
 }
 
 /* Buttons */
-.btn-custom {
+.btn-custom-blue {
     background-color: var(--blue);
     color: white;
     font-family: var(--text-font);
@@ -108,9 +105,24 @@ a {
     border: 0.15rem solid var(--blue);
 }
 
-.btn-custom:hover {
+.btn-custom-blue:hover {
     color: white;
     background-color: var(--blue);
+    filter: brightness(1.1);
+}
+
+/* Buttons */
+.btn-custom-yellow {
+    background-color: var(--yellow);
+    color: black;
+    font-family: var(--text-font);
+    font-weight: 600;
+    border: 0.15rem solid var(--yellow);
+}
+
+.btn-custom-yellow:hover {
+    color: black;
+    background-color: var(--yellow);
     filter: brightness(1.1);
 }
 
@@ -197,6 +209,10 @@ header {
     border-left-width: 0;
 }
 
+.cart-icon {
+    font-size: 1.25rem;
+}
+
 /*************************** HOME *************************/
 /* Hero Section */
 .hero-section {
@@ -234,14 +250,13 @@ header {
 
 .btt-link {
     cursor: pointer;
-    color: var(--dark-green)!important;
+    color: var(--blue) !important;
 }
 
 /*********************** MEDIA QUERIES *********************/
 
 /* 1400px xl */
 @media screen and (max-width: 87.5em) {
-
     /* HOME */
     .hero-section {
         background: url("/media/hero-image-mid.png") no-repeat center center;
@@ -253,7 +268,6 @@ header {
 
 /* 1105px lg */
 @media screen and (max-width: 69.063em) {
-
     /* HOME */
     .hero-section {
         background: url("/media/hero-image-small.png") no-repeat center center;
@@ -261,6 +275,10 @@ header {
         height: 100%;
         filter: brightness(1.1);
     }
+}
+
+/* 767px md */
+@media screen and (max-width: 47.938em) {
 }
 
 /* 575px sm */
@@ -276,5 +294,9 @@ header {
 
     .feature-products {
         width: 95%;
+    }
+    /* BASKET */
+    .shop-btn {
+        width: 75%;
     }
 }
