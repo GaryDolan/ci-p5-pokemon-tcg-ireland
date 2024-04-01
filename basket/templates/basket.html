@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
 
 {% block extra_title %}Basket{% endblock %}
 
@@ -83,7 +84,11 @@
                         </div>
                     </form>
                     <p class="mb-0 me-2">€{{ item.product.price}}
-                        <span class="ms-3"><strong>€{{item.product.price}}</strong></span>
+                        <span class="ms-3">
+                            <strong>
+                                €{{ item.product.price | calc_subtotal:item.quantity}}
+                            </strong>
+                        </span>
                     </p>
                 </div>
 
