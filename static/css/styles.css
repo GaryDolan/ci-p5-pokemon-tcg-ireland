@@ -139,6 +139,28 @@ a {
     filter: brightness(1.1);
 }
 
+/* Toasts */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 5px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+.basket-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /*************************** BASE *************************/
 
 /* Header */
@@ -269,12 +291,6 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-.qty_input {
-    input.qty_input[type="number"]::-webkit-inner-spin-button,
-    input.qty_input[type="number"]::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-    }
 
 /*********************** MEDIA QUERIES ********************/
 
@@ -327,6 +343,9 @@ header {
     /* BASE */
     .mobile-logo {
         display: none;
+    }
+    .message-container {
+        max-width: 18rem;
     }
     /* MOBILE NAV */
     .mobile-icon,

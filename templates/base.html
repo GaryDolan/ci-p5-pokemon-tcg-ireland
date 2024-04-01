@@ -151,7 +151,19 @@
     <!-- Notification messages -->
     {% if messages %}
     <div class="message-container">
-
+        {% for message in messages %}
+            {% with message.level as level %}
+                {% if level == 40 %}
+                    {% include 'includes/toasts/toast_error.html' %}
+                {% elif level == 30 %}
+                    {% include 'includes/toasts/toast_warning.html' %}
+                {% elif level == 25 %}
+                    {% include 'includes/toasts/toast_success.html' %}
+                {% else %}
+                    {% include 'includes/toasts/toast_info.html' %}
+                {% endif %}
+            {% endwith %}
+        {% endfor %}
     </div>
     {% endif %}
 
@@ -178,6 +190,13 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/69c4af19c8.js" crossorigin="anonymous"></script>
+
+    <!-- Show toasts  -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('.toast').toast('show');
+      });
+    </script>
     {% endblock %}
 
 

@@ -12,7 +12,7 @@ def basket_contents(request):
     # Added to session in view
     basket = request.session.get('basket', {})
 
-    #iterate through the session bag and populate context variables
+    #iterate through the session basket and populate context variables
 
     for item_id, quantity in basket.items():
         product = get_object_or_404(Product, pk=item_id)

@@ -1,0 +1,68 @@
+{% load static %}
+<div class="toast custom-toast rounded-0 border-top-0" data-bs-autohide="false">
+    <div class="w-100 toast-capper bg-success"></div>
+    <div class="toast-header bg-white d-flex justify-content-between">
+        <strong class="mr-auto">Success!</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">
+        </button>
+    </div>
+    <div class="toast-body bg-white">
+        <div class="row">
+            <div class="col">
+                {{ message }}
+                <hr class="mt-1 mb-3">
+            </div>
+        </div>
+        {% if basket_total %}
+        <p class="logo-font bg-white py-1">Your Basket ({{ product_count }})</p>
+        <div class="basket-notification-wrapper">
+            {% for item in basket_items %}
+            <div class="row">
+                <div class="col-3 my-1">
+                    {% if item.product.image %}
+                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                    {% else %}
+                    <img class="w-100" src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
+                    {% endif %}
+                </div>
+                <div class="col-9">
+                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                    <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row align-items-center mt-3 mb-1">
+            <div class="col-auto">
+                <strong>
+                    <p class="mb-0">
+                        Total{% if free_shipping_delta > 0 %} (Exc. shipping){% endif %}:
+                    </p>
+                </strong>
+            </div>
+            <div class="col text-end">
+                <span><strong>${{ items_total|floatformat:2 }}</strong></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                {% if free_shipping_delta > 0 %}
+                <p class="mb-1 p-2 bg-blue text-white shadow-sm text-center">
+                    Spend <strong>${{ free_shipping_delta }}</strong> more to get free shipping!
+                </p>
+                {% endif %}
+                <div class="d-flex justify-content-center">
+                    <a href="{% url 'view_basket' %}" class="btn btn-custom-yellow">
+                        <span class="text-uppercase">Checkout</span>
+                        <span class="icon">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
