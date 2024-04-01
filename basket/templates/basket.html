@@ -3,6 +3,23 @@
 
 {% block extra_title %}Basket{% endblock %}
 
+{% block extra_css %}
+<!-- Remove number input up/down arrows -->
+<style>
+    /* For modern browsers */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* For Firefox */
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+</style>
+{% endblock %}
+
 {% block content %}
 
 <h2 class="text-center mt-3"><strong>Your Basket</strong></h2>
@@ -29,6 +46,11 @@
                 </div>
                 <!-- Product details -->
                 <div class="col-8">
+                    <div class="text-end fs-5">
+                        <a href="{% url 'remove_from_basket' item.product.id %}">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
                     <p class="mb-0"><strong>{{ item.product.name }}</strong></p>
                     <p class="sku text-gray">SKU: {{ item.product.sku|upper }}</p>
                     <hr class="text-blue mb-5 w-75">

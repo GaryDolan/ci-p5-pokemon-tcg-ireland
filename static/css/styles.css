@@ -269,6 +269,13 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+.qty_input {
+    input.qty_input[type="number"]::-webkit-inner-spin-button,
+    input.qty_input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
 /*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
