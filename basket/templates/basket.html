@@ -28,35 +28,35 @@
 
 {% if basket_items %}
 
-<div class="container mt-3">
+<div class="container mt-3 basket-container">
     <div class="row mt-3">
         <!-- Products -->
         <div class="col-12 col-lg-7 mx-auto product-container">
             {% for item in basket_items %}
-            <div class="row mb-3 bg-off-white rounded-4 border shadow py-3 d-flex align-items-center">
+            <div class="row mb-3 bg-off-white rounded-4 border shadow d-flex align-items-center">
+                <div class="text-end fs-5">
+                    <a href="{% url 'remove_from_basket' item.product.id %}">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
                 <!-- product img -->
-                <div class="col-4">
+                <div class="col-12 col-sm-4 mb-4">
                     <a href="{% url 'product_detail' item.product.id %}">
                         {% if item.product.image %}
-                        <img class="img-fluid" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                        <img class="img-fluid rounded-4" src="{{ item.product.image.url }}" alt="{{ product.name }}">
                         {% else %}
-                        <img class="img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
+                        <img class="img-fluid rounded-4" src="{% static 'images/no-image-placeholder.webp' %}"
                             alt=" {{ product.name }}">
                         {% endif %}
                     </a>
                 </div>
                 <!-- Product details -->
-                <div class="col-8">
-                    <div class="text-end fs-5">
-                        <a href="{% url 'remove_from_basket' item.product.id %}">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    </div>
+                <div class="col-12 col-sm-8">
                     <p class="mb-0"><strong>{{ item.product.name }}</strong></p>
                     <p class="sku text-gray">SKU: {{ item.product.sku|upper }}</p>
                     <hr class="text-blue mb-5 w-75">
                     <!-- Adjust Quantity -->
-                    <!-- from boutique_ado walkthrough -->
+                    <!-- Edited from boutique_ado walkthrough -->
                     <form class="form update-form mb-5" method="POST" action="{% url 'adjust_basket' item.item_id %}">
                         {% csrf_token %}
                         <div class="form-group d-flex">
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </form>
-                    <p class="mb-0 me-2">€{{ item.product.price}}
+                    <p class="mb-0 me-2 mb-1">€{{ item.product.price}}
                         <span class="ms-3">
                             <strong>
                                 €{{ item.product.price | calc_subtotal:item.quantity}}

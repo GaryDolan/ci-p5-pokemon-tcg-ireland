@@ -291,7 +291,6 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-
 /*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
@@ -334,10 +333,6 @@ header {
     }
 }
 
-/* 767px md */
-@media screen and (max-width: 47.938em) {
-}
-
 /* 575px sm */
 @media screen and (max-width: 35.938em) {
     /* BASE */
@@ -356,10 +351,10 @@ header {
     .hero-content h1 {
         font-size: 1.9rem;
     }
-
     .feature-products {
         width: 95%;
     }
+
     /* BASKET */
     .shop-btn {
         width: 75%;
@@ -369,5 +364,16 @@ header {
     }
     .product-container {
         width: 98%;
+    }
+    .basket-container {
+        max-width: 70%;
+    }
+}
+
+/* 460px  */
+@media screen and (max-width: 28.753em) {
+    /* BASKET */
+    .basket-container {
+        max-width: 90%;
     }
 }
