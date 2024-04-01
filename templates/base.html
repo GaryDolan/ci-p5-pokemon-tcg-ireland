@@ -90,16 +90,16 @@
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
-                        <ul class="dropdown-menu border-0" aria-labelledby="my-acc-dropdown">
+                        <ul class="dropdown-menu rounded-4 px-2 py-2" aria-labelledby="my-acc-dropdown">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <li><a href="" class="dropdown-item">Manage Products</a></li>
+                            <li class="custom-dropdown"><a href="" class="dropdown-item">Manage Products</a></li>
                             {% endif %}
-                            <li><a href="" class="dropdown-item">My Profile</a></li>
-                            <li><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
+                            <li class="custom-dropdown"><a href="" class="dropdown-item">My Profile</a></li>
+                            <li class="custom-dropdown"><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
                             {% else %}
-                            <li><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
-                            <li><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+                            <li class="custom-dropdown"><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
+                            <li class="custom-dropdown"><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
                             {% endif %}
                         </ul>
                     </li>

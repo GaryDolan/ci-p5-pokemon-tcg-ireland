@@ -8,6 +8,7 @@
     --off-white: #fafafa;
     --blue: #075997;
     --yellow: #fec901;
+    --gray-light:#ebebeb;
 }
 
 /********************* Utility Classes *******************/
@@ -210,8 +211,18 @@ header {
     color: var(--yellow);
 }
 
-.dropdown-item:hover {
+.custom-dropdown {
+    border-bottom: 0.1rem solid var(--gray-light);
+}
+
+.custom-dropdown a {
+    border-radius: 0.5rem;
+    margin: 0.25rem 0 0.25rem 0 ;
+}
+
+.custom-dropdown a:hover {
     background-color: var(--yellow);
+    border-radius: 0.5rem;
 }
 
 /* Mobile top header */
