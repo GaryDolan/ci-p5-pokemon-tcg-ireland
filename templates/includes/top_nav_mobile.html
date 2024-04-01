@@ -13,8 +13,8 @@
         <a class="nav-link dropdown" href="#" id="my-acc-dropdown-mobile" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <div class="text-center">
-                <div><i class="fas fa-user fa-lg"></i></div>
-                <p class="my-0">My Acc</p>
+                <div><i class="fas fa-user mobile-icon"></i></div>
+                <p class="my-0 icon-text">My Acc</p>
             </div>
         </a>
         <ul class="dropdown-menu border-0" aria-labelledby="my-acc-dropdown-mobile">
@@ -34,7 +34,7 @@
     <li class="list-inline-item ms-3">
         <a class="nav-link" href="{% url 'view_basket' %}">
             <div class="text-center">
-                <i class="fas fa-cart-shopping cart-icon position-relative">
+                <i class="fas fa-cart-shopping cart-icon mobile-icon position-relative">
                     {% if product_count > 0 %}
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                         style="font-size: 0.5rem">
@@ -42,7 +42,7 @@
                     </span>
                     {% endif %}
                 </i>
-                <p class="my-0">
+                <p class="my-0 icon-text">
                     {% if items_total %}
                     € {{items_total|floatformat:2}}
                     {% else %}
@@ -57,8 +57,8 @@
         <a class="nav-link dropdown" href="#" id="search-icon" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <div class="text-center">
-                <div><i class="fas fa-magnifying-glass fa-lg"></i></div>
-                <p class="my-0">Search</p>
+                <div><i class="fas fa-magnifying-glass mobile-icon"></i></div>
+                <p class="my-0 icon-text">Search</p>
             </div>
         </a>
 

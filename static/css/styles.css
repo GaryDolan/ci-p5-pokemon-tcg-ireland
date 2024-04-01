@@ -321,6 +321,11 @@ header {
     .mobile-logo {
         display: none;
     }
+    /* MOBILE NAV */
+    .mobile-icon,
+    .icon-text {
+        font-size: 0.9rem;
+    }
     /* HOME */
     .hero-content h1 {
         font-size: 1.9rem;
