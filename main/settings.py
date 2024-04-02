@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
     # Other
     'django_summernote',
+    'crispy_forms',
 
     # Apps
     'about_us',
@@ -76,6 +77,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'main.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -92,6 +95,11 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'basket.context.basket_contents',
             ],
+            # make tags available in all templates
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
