@@ -9,6 +9,7 @@
     --blue: #075997;
     --yellow: #fec901;
     --gray-light:#ebebeb;
+    --red: #ed2415;
 }
 
 /********************* Utility Classes *******************/
@@ -27,6 +28,10 @@
 
 .text-gray {
     color: gray;
+}
+
+.text-red {
+    color: var(--red);
 }
 
 /* Background colours */
@@ -244,6 +249,63 @@ header {
 
 .cart-icon {
     font-size: 1.25rem;
+}
+
+/* footer */
+.footer-container {
+    background-color: var(--blue);
+    color: white;
+}
+
+.fb-icon {
+    background: #0866ff;
+}
+
+.insta-icon {
+    /* https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+}
+
+.tiktok-icon {
+    background: black;
+}
+
+.youtube-icon {
+    background: white;
+}
+
+.x-icon {
+    background: black;
+}
+
+.fb-icon:hover,
+.insta-icon:hover,
+.tiktok-icon:hover,
+.youtube-icon:hover,
+.x-icon:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.tiktok-icon:hover,
+.x-icon:hover {
+    background: black;
+}
+
+.fb-icon:hover {
+    background: #0866ff;
+}
+
+.insta-icon:hover {
+    color: white;
 }
 
 /*************************** HOME *************************/
