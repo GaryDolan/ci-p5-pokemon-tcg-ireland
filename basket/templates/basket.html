@@ -33,7 +33,7 @@
         <!-- Products -->
         <div class="col-12 col-lg-7 mx-auto product-container">
             {% for item in basket_items %}
-            <div class="row mb-3 bg-off-white rounded-4 border shadow d-flex align-items-center">
+            <div class="row mb-3 bg-white rounded-4 border shadow d-flex align-items-center">
                 <div class="text-end fs-5">
                     <a href="{% url 'remove_from_basket' item.product.id %}">
                         <i class="fas fa-times"></i>
@@ -98,7 +98,7 @@
         </div>
         <!-- Purchase summary -->
         <div class="col-12 col-lg-4 mx-auto summary-container">
-            <div class="px-3 summary-container-inner">
+            <div class="px-3 summary-container-inner bg-white">
                 <div class="row mt-3">
                     <div class="col-auto"><span>Subtotal:</span></div>
                     <div class="col text-end"><span>€{{ items_total|floatformat:2 }}</span></div>
@@ -136,7 +136,7 @@
                         </a>
                     </div>
                     <div class="col-6 d-flex justify-content-center ps-0">
-                        <a href="" class="btn btn-custom-yellow w-100">
+                        <a href="{% url 'checkout' %}" class="btn btn-custom-yellow w-100">
                             <span>Checkout</span>
                             <span class="icon">
                                 <i class="fas fa-lock"></i>
@@ -152,7 +152,7 @@
 {% else %}
 <div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="col-10 col-lg-8 text-center bg-off-white shadow border border-1 rounded-4 py-5">
+        <div class="col-10 col-lg-8 text-center bg-white shadow border border-1 rounded-4 py-5">
             <p class="fs-5 mb-4">Your basket is currently empty</p>
             <a href="{% url 'products' %}" class="btn btn-custom-yellow shop-btn shadow"> Continue Shopping
             </a>
