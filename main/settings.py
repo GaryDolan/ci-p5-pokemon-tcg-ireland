@@ -184,10 +184,15 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-FREE_SHIPPING_THRESHOLD = 100
-STANDARD_SHIPPING_COST = Decimal('7.99')
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# WEBSITE VARS
+FREE_SHIPPING_THRESHOLD = 100
+STANDARD_SHIPPING_COST = Decimal('7.99')
+
+# STRIPE
+STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY')
+

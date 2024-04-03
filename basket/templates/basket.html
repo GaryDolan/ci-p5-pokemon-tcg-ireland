@@ -120,7 +120,7 @@
                     <div class="col text-end fs-3"><span><strong>€{{basket_total|floatformat:2}}</strong></span></div>
                     {% if free_shipping_delta > 0 %}
 
-                    <small class="my-1 text-danger text-center">
+                    <small class="my-4 text-red text-center">
                         For free shipping spend just <strong>${{ free_shipping_delta }}</strong> more!
                         <small />
                         {% endif %}
@@ -129,7 +129,7 @@
                 <div class="row mt-3 mb-4">
                     <div class="col-6 d-flex justify-content-center">
                         <a href="{% url 'products' %}" class="btn btn-custom-blue w-100">
-                            <span class="icon">
+                            <span>
                                 <i class="fas fa-arrow-left"></i>
                             </span>
                             <span>Products</span>
@@ -138,7 +138,7 @@
                     <div class="col-6 d-flex justify-content-center ps-0">
                         <a href="{% url 'checkout' %}" class="btn btn-custom-yellow w-100">
                             <span>Checkout</span>
-                            <span class="icon">
+                            <span>
                                 <i class="fas fa-lock"></i>
                             </span>
                         </a>
