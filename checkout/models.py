@@ -34,9 +34,10 @@ class Order(models.Model):
         Update grand total each time a line item is added,
         accounting for shipping costs.
         """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
-        if self.order_total < settings.FREE_SHIPPING_THRESHOLD:
-            self.shiping_cost = self.order_total + settings.STANDARD_SHIPPING_COST
+        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        # Need to check if its 0 too so we dont add a shipping cost to an empty order
+        if self.order_total < settings.FREE_SHIPPING_THRESHOLD and self.order_total != 0:
+            self.shipping_cost = settings.STANDARD_SHIPPING_COST
         else:
             self.shipping_cost = 0
         self.grand_total = self.order_total + self.shipping_cost
