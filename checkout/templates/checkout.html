@@ -74,8 +74,8 @@
                     <p class="small text-danger my-0">
                         <span">
                             <i class="fas fa-exclamation-circle"></i>
-                        </span>
-                        <span>Your card will be charged <strong>€{{ basket_total|floatformat:2 }}</strong></span>
+                            </span>
+                            <span>Your card will be charged <strong>€{{ basket_total|floatformat:2 }}</strong></span>
                     </p>
                 </div>
             </form>
@@ -149,6 +149,12 @@
 
         </div>
     </div>
+</div>
+<!-- Overlay to hide screen upon form submit -->
+<div id="loading-overlay">
+    <h1 class="text-white loading-spinner">
+        <i class="fas fa-3x fa-spinner fa-spin"></i>
+    </h1>
 </div>
 {% endblock %}
 

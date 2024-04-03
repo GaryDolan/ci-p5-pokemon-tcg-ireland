@@ -2,7 +2,7 @@
 .StripeElement {
     box-sizing: border-box;
     height: 2.5rem;
-    padding: .75rem .75rem;
+    padding: 0.75rem 0.75rem;
     border-radius: 0.25rem;
     background-color: white;
     box-shadow: 0 1px 3px 0 #e6ebf1;
@@ -18,3 +18,26 @@
     background-color: #fefde5 !important;
 }
 
+/******************** CHECKOUT SUCCESS ******************/
+.overflow-wrap {
+    overflow-wrap: break-word;
+}
+
+#loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 89, 151, 0.85);
+    z-index: 9999;
+}
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
