@@ -1,4 +1,5 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 
@@ -8,7 +9,31 @@ from products.models import Product
 from basket.context import basket_contents
 
 import stripe
+import json
 
+# Post request made to this view before stripe confirm card payment method
+# Post request will contain client secret from the payment intent
+@require_POST
+def cache_checkout_data(request):
+    try:
+        # Split the client secret to get the payment intent id (pid)
+        pid = request.POST.get('client_secret').split('_secret')[0]
+        # Set up strip with key so we can modify the payment intent before submission to stripe
+        stripe.api_key = settings.STRIPE_SECRET_KEY
+        # Modify the metadata to include user, save info choice and basket
+        # This means when a webhook is returned from stripe we have access
+        # to all this data in the webhook, and can ensure if payment is successful we create the order instance.
+        stripe.PaymentIntent.modify(pid, metadata={
+            'basket': json.dumps(request.session.get('basket', {})),
+            'save_info': request.POST.get('save_info'),
+            'username': request.user,
+        })
+        return HttpResponse(status=200)
+    except Exception as e:
+        messages.error(request, 'Sorry, your payment cannot be \
+            processed right now. Please try again later.')
+        return HttpResponse(content=e, status=400)
+    
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
