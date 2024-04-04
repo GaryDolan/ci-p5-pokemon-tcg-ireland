@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+{% endblock %}
+
+{% block extra_title %}Checkout{% endblock %}
+
+{% block content %}
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col mt-3 mb-3">
+            <h2><strong>Profile</strong></h2>
+            <hr class="w-75 mb-1 mx-auto">
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
+            <div>
+                <a data-bs-toggle="collapse" href="#profile-info" role="button" aria-expanded="false"
+                    aria-controls="profile-info" id="collapse-toggle">
+                    <h2 class="mt-3"><i class="fa-solid fa-user fa-lg me-2"></i>Profile info</h2>
+                    <p>Update your profile information</p>
+                    <i class="fas fa-angle-down mb-1"></i>
+                </a>
+            </div>
+            <div class="collapse" id="profile-info">
+                <div>
+                    <p>Update your info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
+            <div>
+                <a data-bs-toggle="collapse" href="#account-password" role="button" aria-expanded="false"
+                    aria-controls="account-password" id="collapse-toggle">
+                    <h2 class="mt-3"><i class="fa-solid fa-lock fa-lg me-2"></i>Account Password</h2>
+                    <p>Change your account password</p>
+                    <i class="fas fa-angle-down mb-1"></i>
+                </a>
+            </div>
+            <div class="collapse" id="account-password">
+                <div>
+                    <p>Update your info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
+            <div>
+                <a data-bs-toggle="collapse" href="#order-history" role="button" aria-expanded="false"
+                    aria-controls="order-history" id="collapse-toggle">
+                    <h2 class="mt-3"><i class="fa-solid fa-folder-open fa-lg me-2"></i>Order history</h2>
+                    <p>View your order history</p>
+                    <i class="fas fa-angle-down mb-1"></i>
+                </a>
+            </div>
+            <div class="collapse" id="order-history">
+                <div>
+                    <p>Update your info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
+            <div>
+                <a data-bs-toggle="collapse" href="#wishlist" role="button" aria-expanded="false"
+                    aria-controls="wishlist" id="collapse-toggle">
+                    <h2 class="mt-3"><i class="fa-solid fa-heart fa-lg me-2"></i>Wishlist</h2>
+                    <p>View your wishlist</p>
+                    <i class="fas fa-angle-down mb-2"></i>
+                </a>
+            </div>
+            <div class="collapse" id="wishlist">
+                <div>
+                    <p>Update your info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+.profile-dropdown:hover {
+    border: 0.1rem solid gray;
+}
+
+.profile-dropdown:hover {
+    color: var(--blue);
+    border-color: var(--blue);
+}
