@@ -59,10 +59,10 @@ def checkout(request):
 
         # if form valid save the order and create line items
         if order_form.is_valid():
-            order = order_form.save()
+            order = order_form.save(commit=False)
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
-            order.original_bag = json.dumps(bag)
+            order.original_bag = json.dumps(basket)
             order.save()
             for item_id, item_data in basket.items():
                 try:
