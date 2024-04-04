@@ -364,6 +364,11 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+/************************* ALLAUTH ************************/
+.allauth-form-inner-content h2 strong {
+    text-decoration: underline;
+}
+
 /*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
