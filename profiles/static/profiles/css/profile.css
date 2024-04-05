@@ -6,3 +6,9 @@
 .profile-dropdown:hover {
     border-color: var(--blue);
 }
+
+/* Add scroll bar if there are a lot of orders  */
+.order-history {
+    max-height: 25rem; 
+    overflow-y: auto;
+}

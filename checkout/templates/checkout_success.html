@@ -172,7 +172,23 @@
                     <p>{{ order.grand_total }}</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 col-lg-7 text-right">
+                    {% if from_profile %}
+                    <a href="{% url 'profile' %}" class="btn btn-custom-yellow my-3">
+                        <span class="me-2">
+                            <i class="fas fa-angle-left"></i>
+                        </span>
+                        <span>Back to Profile</span>
+                    </a>
+                    {% else %}
+                    <!-- add user wishlist in here or if nothing in their wishlist tell them its empty and they should check out some product to add  -->
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
 {% endblock %}
