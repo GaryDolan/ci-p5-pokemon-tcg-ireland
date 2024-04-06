@@ -138,3 +138,26 @@
 </div>
 
 {% endblock %}
+
+<!-- JS to open collapse of form that just failed validation -->
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+    function openFailedCollapse(collapseId) {
+        // Get the element with id that we want to open
+        var collapseElement = document.getElementById(collapseId);
+        // https://getbootstrap.com/docs/5.2/components/collapse/#methods
+        // Activate the element as a collapse with toggle showing
+        var bsCollapse = new bootstrap.Collapse(collapseElement, { toggle: true });
+    }
+
+    // Check if any form has failed and open its collapse
+    {% if acc_form_failed %}
+        openFailedCollapse('account-info');
+    {% elif profile_form_failed %}
+        openFailedCollapse('profile-info');
+    {% elif password_form_failed %}
+        openFailedCollapse('account-password');
+    {% endif %}
+</script>
+{% endblock %}

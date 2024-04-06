@@ -63,10 +63,12 @@ def profile(request):
             'user_password_form': user_password_form,
             'orders': orders,
             'on_profile_page': True,
+            'acc_form_failed': acc_form_failed,
+            'profile_form_failed': profile_form_failed,
+            'password_form_failed': password_form_failed,
         }
 
-        return render(request, template, context)
-            
+        return render(request, template, context) 
                 
     else:
         # GET request so just display the page
@@ -74,7 +76,6 @@ def profile(request):
         user_account_form = UserAccountForm(instance=request.user)
         user_profile_form = UserProfileForm(instance=profile)
         user_password_form = PasswordChangeForm(request.user)
-
 
         # Get all user orders
         orders = profile.orders.all()
@@ -85,7 +86,10 @@ def profile(request):
             'user_profile_form': user_profile_form,
             'user_password_form': user_password_form,
             'orders': orders,
-            'on_profile_page': True
+            'on_profile_page': True,
+            'acc_form_failed': acc_form_failed,
+            'profile_form_failed': profile_form_failed,
+            'password_form_failed': password_form_failed,
         }
 
         return render(request, template, context)
