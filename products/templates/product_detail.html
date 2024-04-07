@@ -30,10 +30,8 @@
                         src="{{ product.image.url }}" alt="{{ product.name }}">
                 </a>
                 {% else %}
-                <a href="{{ product.image.url }}" data-lightbox="product-image">
                     <img class="card-img-top img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
                         alt=" {{ product.name }}">
-                </a>
                 {% endif %}
             </div>
         </div>
