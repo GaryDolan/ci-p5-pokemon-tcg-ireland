@@ -65,6 +65,11 @@ INSTALLED_APPS = [
     'shipping_details',
 ]
 
+SUMMERNOTE_CONFIG = {
+    "width": "100%",
+    "height": "500",
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
