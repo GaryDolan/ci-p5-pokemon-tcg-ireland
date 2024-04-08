@@ -56,13 +56,19 @@
                     </p>
                     {% endif %}
 
-                    <div class="product-rating">
+                    <div class="text-end">
                         {% if product.rating %}
                         <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
                                 {{ product.rating }} / 5 </span></small>
                         {% else %}
                         <small>No Rating</small>
                         {% endif %}
+                        {% if request.user.is_superuser %}
+                            <div class="text-center mt-2">
+                                <a class="btn btn-custom-yellow" href="{% url 'edit_product' product.id %}">Edit</a>
+                                <a class="btn btn-custom-red" href="{% url 'delete_product' product.id %}">Delete</a>
+                            </div>     
+                        {% endif%}
                     </div>
                 </div>
             </div>

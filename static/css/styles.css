@@ -117,7 +117,6 @@ a {
     filter: brightness(1.1);
 }
 
-/* Buttons */
 .btn-custom-yellow {
     background-color: var(--yellow);
     color: black;
@@ -129,6 +128,20 @@ a {
 .btn-custom-yellow:hover {
     color: black;
     background-color: var(--yellow);
+    filter: brightness(1.1);
+}
+
+.btn-custom-red {
+    background-color: var(--red);
+    color: black;
+    font-family: var(--text-font);
+    font-weight: 600;
+    border: 0.15rem solid var(--red);
+}
+
+.btn-custom-red:hover {
+    color: black;
+    background-color: var(--red);
     filter: brightness(1.1);
 }
 
@@ -330,10 +343,6 @@ header {
 }
 
 /************************* PRODUCTS ***********************/
-.product-rating {
-    text-align: right;
-}
-
 .btt-button {
     height: 2.5rem;
     width: 2.5rem;
