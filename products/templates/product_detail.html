@@ -110,12 +110,14 @@
                 {% if request.user.is_superuser %}
                     <div class="text-end mb-3">
                         <a class="btn btn-custom-yellow" href="{% url 'edit_product' product.id %}">Edit</a>
-                        <a class="btn btn-custom-red" href="{% url 'delete_product' product.id %}">Delete</a>
+                        <button type="button" class="btn btn-custom-red" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
                     </div>     
                 {% endif%}
             </div>
         </div>
     </div>
 </div>
+ <!-- Include the confirmation delete modal -->
+ {% include 'includes/confirm_delete_modal.html' %}
 
 {% endblock %}
