@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+import dj_database_url
+
 from pathlib import Path
 from decimal import Decimal
 
@@ -31,7 +33,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # Can be added to Heroku as a config var if debug on heroku is needed.
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '127.0.0.1:8000']
+# Needed for summernote deployment
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+ALLOWED_HOSTS = ['pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com',
+                 'localhost',
+                 '127.0.0.1',
+                 '127.0.0.1:8000']
 
 
 # Application definition
@@ -139,12 +147,16 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+# Database selection for local or remote
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
-}
 
 
 # Password validation
