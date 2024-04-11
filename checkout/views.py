@@ -20,8 +20,10 @@ def cache_checkout_data(request):
     try:
         # Split the client secret to get the payment intent id (pid)
         pid = request.POST.get('client_secret').split('_secret')[0]
+
         # Set up strip with key so we can modify the payment intent before submission to stripe
         stripe.api_key = settings.STRIPE_SECRET_KEY
+        
         # Modify the metadata to include user, save info choice and basket
         # This means when a webhook is returned from stripe we have access
         # to all this data in the webhook, and can ensure if payment is successful we create the order instance.

@@ -20,21 +20,21 @@ class StripeWH_Handler:
 
     def _send_confirmation_email(self, order):
         """ Send a order confirmation email to the customer"""
-        cust_email = order.email
+        customer_email = order.email
         subject = render_to_string(
-            'checkout/confirmation_emails/confirmation_email_subject.txt',
-            # allows .txt file to use order field values
+            'confirmation_emails/confirmation_email_subject.txt',
             {'order': order})
+            # allows .txt file to use order field values
         body = render_to_string(
-            'checkout/confirmation_emails/confirmation_email_body.txt',
+            'confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
         
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
-            [cust_email]
-        )  
+            [customer_email]
+        )
 
 
     def handle_event(self, event):
@@ -50,6 +50,7 @@ class StripeWH_Handler:
         Handle the payment_intent.succeeded webhook from Stripe
         """
         intent = event.data.object
+        print(intent)
         pid = intent.id
         basket = intent.metadata.basket
         save_info = intent.metadata.save_info
