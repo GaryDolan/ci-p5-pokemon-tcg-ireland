@@ -9,6 +9,7 @@ from profiles.models import UserProfile
 
 import json
 import time
+import stripe
 
 class StripeWH_Handler:
     """Takes action based on Stripe webhooks"""
@@ -17,7 +18,7 @@ class StripeWH_Handler:
         # assign request as an attribute of this class called request(access to request data)
         self.request = request
 
-    def send_confirmation_email(self, order):
+    def _send_confirmation_email(self, order):
         """ Send a order confirmation email to the customer"""
         cust_email = order.email
         subject = render_to_string(
@@ -43,7 +44,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Unhandled webhook received: {event["type"]}',
             status=200)
-    
+ 
     def handle_payment_intent_succeeded(self, event):
         """
         Handle the payment_intent.succeeded webhook from Stripe
@@ -68,7 +69,7 @@ class StripeWH_Handler:
                 shipping_details.address[field] = None
 
         # Update profile information if save_info was checked
-        # Set to none, so a profile can be added to the order below as none if webhook creates it 
+        # Set to none, so a profile can be added to the order below as none if webhook creates it
         profile = None
         username = intent.metadata.username
         if username != 'AnonymousUser':
@@ -108,7 +109,7 @@ class StripeWH_Handler:
                 time.sleep(1)
 
         if order_exists:
-            self.send_confirmation_email(order)
+            self._send_confirmation_email(order)
             return HttpResponse(
                 content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
                 status=200)
@@ -130,7 +131,7 @@ class StripeWH_Handler:
                     original_basket=basket,
                     stripe_pid=pid,
                 )
-                # Use json version of basket from payment intent to create order rather tha session
+                # Use json version of basket from payment intent to create order rather than session
                 for item_id, item_data in json.loads(basket).items():
                     product = Product.objects.get(id=item_id)
                     order_line_item = OrderLineItem(
@@ -148,7 +149,7 @@ class StripeWH_Handler:
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
                     status=500)
         # Order created by webhook so send email 
-        self.send_confirmation_email(order)
+        self._send_confirmation_email(order)
         return HttpResponse(
             content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)

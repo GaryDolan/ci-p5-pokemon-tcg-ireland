@@ -7,6 +7,7 @@ from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
 
+# Rejects get requests
 @require_POST
 @csrf_exempt
 def webhook(request):
@@ -33,7 +34,9 @@ def webhook(request):
     except Exception as e:
         return HttpResponse(content=e, status=400)
 
-    # Set up a webhook handler
+    # Code below here calls correct method from our srtipe wh handler in the webhook_handler.py
+
+    # Create an instance of the webhook handler class
     handler = StripeWH_Handler(request)
 
     # Map webhook events to relevant handler functions in webhook_handler.py
@@ -51,4 +54,6 @@ def webhook(request):
 
     # Call the event handler with the event
     response = event_handler(event)
+
+    # Return the response to stripe
     return response
