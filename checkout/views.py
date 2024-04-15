@@ -29,7 +29,7 @@ def cache_checkout_data(request):
         # to all this data in the webhook, and can ensure if payment is successful we create the order instance.
         stripe.PaymentIntent.modify(pid, metadata={
             'basket': json.dumps(request.session.get('basket', {})),
-            'save_info': request.POST.get('save_info'),
+            'save_info': request.POST.get('save-info'),
             'username': request.user,
         })
         return HttpResponse(status=200)
