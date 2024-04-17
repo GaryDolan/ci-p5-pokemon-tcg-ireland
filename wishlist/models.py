@@ -18,3 +18,12 @@ class Wishlist(models.Model):
         return f"{self.user_profile.user.username}'s wishlist"
 
 
+@receiver(post_save, sender=User)
+def create_user_wishlist(sender, instance, created, **kwargs):
+    """
+    Uses the post_save signal of the user model to create a wishlist
+    for the user when a user is created.
+    """
+    if created:
+        # Create a wishlist for the user
+        Wishlist.objects.create(user_profile=instance.userprofile)
