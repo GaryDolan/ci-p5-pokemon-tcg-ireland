@@ -38,7 +38,27 @@
         <div class="col-11 col-md-11 col-lg-7 col-xl-6 col-xxl-5 bg-white mb-4 shadow rounded-3 border border-1">
             <div class="details_container px-2">
                 <p class="mt-3 fs-4"><strong>{{ product.name }}</strong></p>
-                <p class="text-blue fs-5"><strong>€{{ product.price}}</strong></p>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text-blue fs-5"><strong>€{{ product.price}}</strong></p>
+                    </div>
+                    <div class="col-6 text-end">
+                        {% if request.user.is_authenticated %}
+                            <form class="d-inline wishlist-form" action="{% url 'wishlist_toggle' product.id %}" method="POST">
+                                {% csrf_token %}
+                                {% if product_in_wishlist %}
+                                    <button type="submit" class="border-0 bg-white">
+                                        <i class="fas fa-heart fs-3 text-red"></i>
+                                    </button>
+                                {% else %}
+                                    <button type="submit" class="border-0 bg-white">
+                                        <i class="far fa-heart fs-3"></i>
+                                    </button>
+                                {% endif %}
+                            </form>
+                        {% endif %}
+                    </div>
+                </div>
                 <p class="mt-4">{{ product.description | safe }}</p>
 
                 <!-- add links for category, card set and expansion -->
