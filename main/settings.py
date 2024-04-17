@@ -72,6 +72,7 @@ INSTALLED_APPS = [
     'products',
     'profiles',
     'shipping_details',
+    'wishlist',
 ]
 
 SUMMERNOTE_CONFIG = {

@@ -114,11 +114,11 @@
                                     {% endif %}
                                 </a>
                             </div>
-                            <div class="col 8 col-sm-7">
+                            <div class="col-8 col-sm-7">
                                 <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                 <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                             </div>
-                            <div class="col 2 col-sm-3 text-center">
+                            <div class="col-2 col-sm-3 text-center">
                                 <p class="my-0 small text-muted">
                                     €{{ item.product.price | calc_subtotal:item.quantity }}
                                 </p>
