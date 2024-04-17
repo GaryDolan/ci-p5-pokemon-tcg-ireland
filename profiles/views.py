@@ -7,6 +7,7 @@ from .models import UserProfile
 from .forms import UserProfileForm, UserAccountForm
 
 from checkout.models import Order
+from wishlist.models import Wishlist
 
 @login_required
 def profile(request):
@@ -80,6 +81,11 @@ def profile(request):
         # Get all user orders
         orders = profile.orders.all()
 
+        # Get user wishlist using related name
+        # Get all products in user profiles wishlist
+        user_wishlist = profile.user_wishlist
+        wishlist_products = user_wishlist.products.all()
+
         template = 'profile.html'
         context = {
             'user_account_form': user_account_form,
@@ -90,6 +96,7 @@ def profile(request):
             'acc_form_failed': acc_form_failed,
             'profile_form_failed': profile_form_failed,
             'password_form_failed': password_form_failed,
+            'wishlist_products': wishlist_products ,
         }
 
         return render(request, template, context)
