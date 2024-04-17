@@ -47,11 +47,11 @@
                             <form class="d-inline wishlist-form" action="{% url 'wishlist_toggle' product.id %}" method="POST">
                                 {% csrf_token %}
                                 {% if product_in_wishlist %}
-                                    <button type="submit" class="border-0 bg-white">
+                                    <button type="submit" class="border-0 bg-white" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Remove from wishlist">
                                         <i class="fas fa-heart fs-3 text-red"></i>
                                     </button>
                                 {% else %}
-                                    <button type="submit" class="border-0 bg-white">
+                                    <button type="submit" class="border-0 bg-white" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Add to wishlist">
                                         <i class="far fa-heart fs-3"></i>
                                     </button>
                                 {% endif %}
@@ -139,4 +139,15 @@
 </div>
  {% include 'includes/confirm_delete_modal.html' %}
 
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
 {% endblock %}

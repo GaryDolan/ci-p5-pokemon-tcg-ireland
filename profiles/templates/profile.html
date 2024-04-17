@@ -153,7 +153,7 @@
                                 <!-- remove from wishlist -->
                                 <form class="d-inline wishlist-form" action="{% url 'wishlist_remove' product.id %}" method="POST">
                                     {% csrf_token %}
-                                    <button type="submit" class="border-0 bg-white">
+                                    <button type="submit" class="border-0 bg-white" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Remove from wishlist">
                                         <i class="fas fa-heart fs-6 text-red"></i>
                                     </button> 
                                 </form>
@@ -189,5 +189,12 @@
     {% elif password_form_failed %}
         openFailedCollapse('account-password');
     {% endif %}
+</script>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
 </script>
 {% endblock %}
