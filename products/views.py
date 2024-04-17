@@ -3,8 +3,12 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+
+from wishlist.models import Wishlist
+
 from .models import Product, Category
 from .forms import ProductForm
+
 
 def all_products(request):
     """A function based view for displaying all products, including sorts and searches."""
@@ -94,9 +98,15 @@ def product_detail(request, product_id):
     """A function based view for displaying a products full details"""
 
     product = get_object_or_404(Product, pk=product_id)
+    product_in_wishlist = False
+
+    if request.user.is_authenticated:
+        user_profile = request.user.userprofile
+        product_in_wishlist = Wishlist.objects.filter(user_profile=user_profile, products=product).exists()
 
     context = {
-        'product':product,
+        'product': product,
+        'product_in_wishlist': product_in_wishlist, 
     }
 
     return render(request, 'product_detail.html', context)
