@@ -25,3 +25,13 @@ def wishlist_toggle(request, product_id):
 
     return redirect(reverse('product_detail', args=[product_id]))
 
+@login_required
+def wishlist_remove(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    user_profile = request.user.userprofile
+
+    wishlist_item = Wishlist.objects.get(user_profile=user_profile, products=product)
+    wishlist_item.products.remove(product)
+    messages.success(request, f'{product.name} has been removed from your wishlist')
+
+    return redirect(reverse('profile'))

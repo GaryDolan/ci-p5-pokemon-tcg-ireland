@@ -150,7 +150,13 @@
                                 <p class="my-0 small text-muted me-1">
                                     €{{ product.price }}
                                 </p>
-
+                                <!-- remove from wishlist -->
+                                <form class="d-inline wishlist-form" action="{% url 'wishlist_remove' product.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <button type="submit" class="border-0 bg-white">
+                                        <i class="fas fa-heart fs-6 text-red"></i>
+                                    </button> 
+                                </form>
                             </div>	
                         </div>
                     </div>
