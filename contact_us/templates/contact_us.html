@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}Contact Us{% endblock %}
+
+{% block content %}
+<!-- contact us -->
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-md-6 text-center mt-3 mb-3">
+            <h2><strong>Contact Us</strong></h2>
+            <hr class="w-75 mb-1 mx-auto">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-11 col-md-6 border rounded-4 bg-white shadow py-3 mb-3">
+            <form method="POST" action="{% url 'contact_us' %}">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="text-end mt-3">
+                    <button class="btn btn-custom-yellow" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
