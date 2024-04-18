@@ -1,5 +1,5 @@
 from django import forms
-from django_summernote.widgets import SummernoteWidget, SummernoteInplaceWidget
+from django_summernote.widgets import SummernoteWidget
 
 from .widgets import CustomClearableFileInput
 from .models import Product, Category, CardSet, Expansion
@@ -9,7 +9,6 @@ class ProductForm(forms.ModelForm):
     """ Form for updating products"""
 
     description = forms.CharField(widget=SummernoteWidget())
-    # description = forms.CharField(widget=SummernoteWidget(attrs={'style': 'width: 100%; !important;'}))
 
     class Meta:
         model = Product
