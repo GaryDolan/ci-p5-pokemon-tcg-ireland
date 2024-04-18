@@ -91,31 +91,38 @@
                 </a>
             </div>
             <div class="collapse" id="order-history">
-                <div class="order-history table-responsive">
-                    <table class="table table-sm table-borderless">
-                        <thead>
-                            <tr>
-                                <th>Order Number</th>
-                                <th>Date</th>
-                                <th>Order Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for order in orders %}
-                            <tr>
-                                <td>
-                                    <a class="text-blue" href="{% url 'order_history' order.order_number %}"
-                                        title="{{ order.order_number }}">
-                                        {{ order.order_number|truncatechars:6 }}
-                                    </a>
-                                </td>
-                                <td>{{ order.date}}</td>
-                                <td>€{{ order.grand_total }}</td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
+                {% if orders %}
+                    <div class="order-history table-responsive">
+                        <table class="table table-sm table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Order Number</th>
+                                    <th>Date</th>
+                                    <th>Order Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for order in orders %}
+                                <tr>
+                                    <td>
+                                        <a class="text-blue" href="{% url 'order_history' order.order_number %}"
+                                            title="{{ order.order_number }}">
+                                            {{ order.order_number|truncatechars:6 }}
+                                        </a>
+                                    </td>
+                                    <td>{{ order.date}}</td>
+                                    <td>€{{ order.grand_total }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <div class="text-center mb-3">
+                        <p>You have not placed any orders yet, check out some of our products.</p>
+                        <a href="{% url 'products' %}" class="btn btn-custom-yellow">Products</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -129,39 +136,47 @@
                 </a>
             </div>
             <div class="collapse" id="wishlist">
-                {% for product in wishlist_products %}
-                    <div class="row mt-1 ms-sm-3 align-items-center">
-                        <div class="col-6 col-sm-2 mb-1 offset-3 offset-sm-0">
-                            <a href="{% url 'product_detail' product.id %}">
-                                {% if product.image %}
-                                <img class="img-fluid rounded-4" src="{{ product.image.url }}"
-                                    alt="{{ product.name }}">
-                                {% else %}
-                                <img class="img-fluid rounded-4"
-                                    src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
-                                {% endif %}
-                            </a>
+                {% if wishlist_products %}
+                    {% for product in wishlist_products %}
+                        <div class="row mt-1 ms-sm-3 align-items-center">
+                            <div class="col-6 col-sm-2 mb-1 offset-3 offset-sm-0">
+                                <a href="{% url 'product_detail' product.id %}">
+                                    {% if product.image %}
+                                    <img class="img-fluid rounded-4" src="{{ product.image.url }}"
+                                        alt="{{ product.name }}">
+                                    {% else %}
+                                    <img class="img-fluid rounded-4"
+                                        src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
+                                    {% endif %}
+                                </a>
+                            </div>
+                            <div class="col-9 col-sm-6">
+                                <p class="my-0"><strong>{{ product.name }}</strong></p>
+                            </div>
+                            <div class="col-2 col-sm-3 text-center">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <p class="my-0 small text-muted me-1">
+                                        €{{ product.price }}
+                                    </p>
+                                    <!-- remove from wishlist -->
+                                    <form class="d-inline wishlist-form" action="{% url 'wishlist_remove' product.id %}" method="POST">
+                                        {% csrf_token %}
+                                        <button type="submit" class="border-0 bg-white" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Remove from wishlist">
+                                            <i class="fas fa-heart fs-6 text-red"></i>
+                                        </button> 
+                                    </form>
+                                </div>	
+                            </div>
                         </div>
-                        <div class="col-9 col-sm-6">
-                            <p class="my-0"><strong>{{ product.name }}</strong></p>
+                        <hr class="w-75 text-muted mx-auto">
+                    {% endfor %}
+                {% else %}
+                        <div class="text-center mb-3">
+                            <p>Your wishlist is empty, check out some of our products.</p>
+                            <a href="{% url 'products' %}" class="btn btn-custom-yellow">Products</a>
                         </div>
-                        <div class="col-2 col-sm-3 text-center">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <p class="my-0 small text-muted me-1">
-                                    €{{ product.price }}
-                                </p>
-                                <!-- remove from wishlist -->
-                                <form class="d-inline wishlist-form" action="{% url 'wishlist_remove' product.id %}" method="POST">
-                                    {% csrf_token %}
-                                    <button type="submit" class="border-0 bg-white" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Remove from wishlist">
-                                        <i class="fas fa-heart fs-6 text-red"></i>
-                                    </button> 
-                                </form>
-                            </div>	
-                        </div>
-                    </div>
-                    <hr class="w-75 text-muted mx-auto">
-                {% endfor %}
+                {% endif %}
+
             </div>
         </div>
     </div>
