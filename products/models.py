@@ -57,7 +57,48 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-    
+    def get_num_reviews(self):
+        review_count = 0
+        reviews = Review.objects.filter(product=self, approved=True)
+        review_count = reviews.count()
+        return review_count
+
+    def get_avg_rating(self):
+        reviews = Review.objects.filter(product=self, approved=True)
+        # Perform aggregation to calculate the average rating
+        rating_aggregation = reviews.aggregate(Avg('review_rating'))
+
+        # Get the average rating from the aggregation result
+        # Results of an agg are stored in fieldname__avg
+        average_rating = rating_aggregation['review_rating__avg']
+
+        # return an int if specified
+        if average_rating is not None:
+            return average_rating
+        else:
+            return 0
+
+    # Returns a list with a number of iterable elements
+    # equal to nearest whole num of average rating
+    # so 3.6 would round to and return [0,1,2,3]
+    def get_avg_num_of_start_list(self):
+        reviews = Review.objects.filter(product=self, approved=True)
+        # Perform aggregation to calculate the average rating
+        rating_aggregation = reviews.aggregate(Avg('review_rating'))
+
+        # Get the average rating from the aggregation result
+        # Results of an agg are stored in fieldname__avg
+        average_rating = rating_aggregation['review_rating__avg']
+
+        # return a list with number of entries = average rating val
+        stars = []
+        if average_rating is not None:
+            rounded_rating = round(average_rating)
+            for i in range (rounded_rating):
+                stars.append(i)
+        return stars
+
+
 class Review(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey('Product', on_delete=models.CASCADE)

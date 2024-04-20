@@ -59,7 +59,31 @@
                         {% endif %}
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="col">
+                        {% if reviews %}
+                            <a href="#reviews">
+                                <!-- Display the number of stars based on ave rating -->
+                                {% with num_of_stars=product.get_avg_num_of_start_list %}
+                                    {% for stars in num_of_stars  %}
+                                        <i class="fa-solid fa-star text-yellow"></i>
+                                    {% endfor %}
+                                {% endwith %} 
+                                <span class="ms-1">{{product.get_avg_rating}}/5</span>
+                                <span>({{product.get_num_reviews}} reviews)</span>
+                            </a>
+                        {% else %}
+                            <small>
+                                <i class="fa-solid fa-star text-gray-light"></i>
+                                <i class="fa-solid fa-star text-gray-light"></i>
+                                <i class="fa-solid fa-star text-gray-light"></i>
+                                <i class="fa-solid fa-star text-gray-light"></i>
+                                <i class="fa-solid fa-star text-gray-light"></i>
+                                No Reviews yet (0)
+                            </small>
+                        {% endif %}
+                    </div>
+                </div>
                 <p class="mt-4">{{ product.description | safe }}</p>
 
                 <!-- add links for category, card set and expansion -->
