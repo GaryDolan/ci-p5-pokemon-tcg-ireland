@@ -6,8 +6,8 @@ from django.db.models.functions import Lower
 
 from wishlist.models import Wishlist
 
-from .models import Product, Category
-from .forms import ProductForm
+from .models import Product, Category, Review
+from .forms import ProductForm, ReviewForm
 
 
 def all_products(request):
@@ -98,15 +98,23 @@ def product_detail(request, product_id):
     """A function based view for displaying a products full details"""
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.filter(product=product, approved=True)
     product_in_wishlist = False
+    reviewed_by_user = False
 
     if request.user.is_authenticated:
         user_profile = request.user.userprofile
         product_in_wishlist = Wishlist.objects.filter(user_profile=user_profile, products=product).exists()
+        reviewed_by_user = Review.objects.filter(user=request.user, product=product).exists()
+
+    form = ReviewForm()
 
     context = {
         'product': product,
+        'reviews': reviews,
         'product_in_wishlist': product_in_wishlist, 
+        'reviewed_by_user': reviewed_by_user,
+        'form': form,
     }
 
     return render(request, 'product_detail.html', context)
@@ -179,3 +187,32 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+@login_required
+def add_review(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+
+    if request.method == 'POST':
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            # Create a form based on post data but dont save yet
+            review = form.save(commit=False)
+            review.user = request.user
+            review.product = product
+            # Need to manually add rating (not part of form.py)
+            review.review_rating = request.POST.get('review_rating')
+            review.save()
+            messages.success(request, "Your review has been submitted for approval")
+            return redirect('product_detail', product_id=product.id)
+        else:
+            messages.warning(request, 'Failed to update product. Please ensure the form is valid.')
+    else:
+        form = ReviewForm()
+        url = 'product_detail.html'
+        context = {
+            'product':product,
+            'form': form,
+        }
+        return render(request, url, context)
+
+
