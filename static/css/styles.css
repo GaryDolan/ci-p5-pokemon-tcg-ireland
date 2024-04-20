@@ -30,6 +30,10 @@
     color: gray;
 }
 
+.text-gray-light {
+    color: var(--gray-light);
+}
+
 .text-red {
     color: var(--red);
 }
@@ -356,6 +360,30 @@ header {
     cursor: pointer;
     color: var(--blue) !important;
 }
+
+/* Rating */
+
+.rating .btn-group .btn i {
+    color: lightgray;
+}
+
+/* Reverse the order of the star display */
+/* Allows me to list the star inputs in reverse order and use ~  */
+/* ~ targets elements after but mine are in reverse order in the html and displayed in reverse here */
+.rating .btn-group {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+/* Turn the star icons and all previous stars to yellow on hover */
+/* Row reversed so targets previous even using ~ */
+.rating .btn-group .btn:hover i,
+.rating .btn-group input.btn-check:checked + label i,
+.rating .btn-group .btn:hover ~ label i,
+.rating .btn-group input.btn-check:checked ~ label i {
+    color: var(--yellow)
+}
+
 
 /************************** BASKET ************************/
 .sku {
