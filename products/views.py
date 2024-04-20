@@ -215,4 +215,12 @@ def add_review(request, product_id):
         }
         return render(request, url, context)
 
-
+@login_required
+def delete_review(request, review_id):
+    review = get_object_or_404(Review, id=review_id)
+    if request.user == review.user:
+        review.delete()
+        messages.success(request, "Your review has been deleted.")
+    else:
+        messages.error(request, "Only review owner can delete review")
+    return redirect('product_detail', product_id=review.product.id)
