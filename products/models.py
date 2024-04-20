@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models import Avg
+from django.contrib.auth.models import User
 
 # Tuple to control product sale status
 STATUS = ((0, "Not On sale"), (1, "On Sale"))
@@ -54,9 +56,16 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-    
-    def mark_on_sale(self, request, queryset):
-        queryset.update(on_sale=1)
 
-    def mark_not_on_sale(self, request, queryset):
-        queryset.update(on_sale=0)
+    
+class Review(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey('Product', on_delete=models.CASCADE)
+    review_rating = models.IntegerField()
+    review_text = models.TextField()
+    created_on = models.DateTimeField(auto_now=True)
+    approved = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"{self.user.username}'s review of {self.product.name}"
+    
