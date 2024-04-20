@@ -1,6 +1,8 @@
 from django.contrib import admin
-from .models import Product, Category, CardSet, Expansion
 from django_summernote.admin import SummernoteModelAdmin
+
+from .models import Product, Category, CardSet, Expansion, Review
+
 
 @admin.register(Product)
 class ProductAdmin(SummernoteModelAdmin):
@@ -33,3 +35,16 @@ class CardSetAdmin(admin.ModelAdmin):
 class ExpansionAdmin(admin.ModelAdmin):
     list_display = ['display_name', 'name']    
 
+@admin.register(Review)
+class ReviewAdmin(admin.ModelAdmin):
+    list_display = ['user', 'product', 'review_rating', 'review_text', 'created_on', 'approved'] 
+
+    actions = ['reject', 'approve']
+
+    def reject(self, request, queryset):
+        queryset.update(approved=False)
+        self.message_user(request, "Selected reviews have been approved.")
+
+    def approve(self, request, queryset):
+        queryset.update(approved=True)
+        self.message_user(request, "Selected reviews have been rejected.")
