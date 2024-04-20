@@ -2,7 +2,7 @@ from django import forms
 from django_summernote.widgets import SummernoteWidget
 
 from .widgets import CustomClearableFileInput
-from .models import Product, Category, CardSet, Expansion
+from .models import Product, Category, CardSet, Expansion, Review
 
 
 class ProductForm(forms.ModelForm):
@@ -29,3 +29,15 @@ class ProductForm(forms.ModelForm):
         self.fields['category'].choices = category_display_names
         self.fields['card_set'].choices = card_set_display_names
         self.fields['expansion'].choices = expansion_display_names
+
+
+class ReviewForm(forms.ModelForm):
+    class Meta:
+        model = Review
+        fields = ['review_text']
+        widgets = {
+            'review_text': forms.Textarea(attrs={'rows': 4}),
+        }
+        labels = {
+            'review_text': 'Please write your review below',
+        }
