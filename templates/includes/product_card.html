@@ -57,9 +57,9 @@
                     {% endif %}
 
                     <div class="text-end">
-                        {% if product.rating %}
+                        {% if product.get_avg_rating %}
                         <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
-                                {{ product.rating }} / 5 </span></small>
+                                {{ product.get_avg_rating }} / 5 </span></small>
                         {% else %}
                         <small>No Rating</small>
                         {% endif %}
