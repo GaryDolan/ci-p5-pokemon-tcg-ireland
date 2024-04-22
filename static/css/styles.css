@@ -400,6 +400,9 @@ header {
     border: 1px solid #dee2e6;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+.update-form {
+    margin-bottom: 3rem;
+}
 
 /************************* ALLAUTH ************************/
 .allauth-form-inner-content h2 strong {
@@ -512,6 +515,22 @@ header {
     .basket-container {
         max-width: 70%;
     }
+    .product-btn, .checkout-btn {
+        font-size: 0.75em;
+    }
+    .qty-form-basket {
+        justify-content: center;
+    }
+    .hr-basket {
+        display: none;
+    }
+    .p-nm-basket, .sku-basket, .price-basket {
+        text-align: center;
+    }
+    .update-form {
+        margin-bottom: 1em;
+    }
+    
 }
 
 /* 460px  */
