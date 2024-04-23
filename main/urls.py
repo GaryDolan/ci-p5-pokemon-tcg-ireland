@@ -30,6 +30,8 @@ urlpatterns = [
     path('wishlist/', include('wishlist.urls')),
     path('contact_us/', include('contact_us.urls')),
     path('privacy_policy/', include('privacy_policy.urls')),
+    path('about_us/', include('about_us.urls')),
+
 
 
 

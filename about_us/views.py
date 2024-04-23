@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def about_us(request):
+    """A function based view for displaying the About Us Page."""
+    return render(request, 'about_us.html')
