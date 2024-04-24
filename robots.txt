@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /admin/
+Disallow: /basket/
+Disallow: /checkout/
+Disallow: /profile/
+Sitemap: https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/sitemap.xml
