@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/basket/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=booster_packs</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=booster_bundles</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=booster_boxes</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=boxed_sets</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=elite_trainer_boxes</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=tins</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=booster_packs,booster_bundles,booster_boxes,boxed_sets,elite_trainer_boxes,tins</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=binders</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=sleeves</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=toploaders</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=binders,sleeves,toploaders</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=figures</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=pins</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=plushes</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?category=figures,pins,plushes</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?on_sale=1</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/5/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?card_set=sword_shield</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=crown_zenith</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/5/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/1/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/1/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/54/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/54/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/2/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/2/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/62/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/62/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/3/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/3/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/4/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/4/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/about_us/about_us/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/contact_us/contact/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/privacy_policy/privacy_policy/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/61/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/61/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/46/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?card_set=scarlet_violet</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=temproal_forces</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/46/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/19/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=obsidian_flames</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/19/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/31/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=paradox_rift</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/31/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/10/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=scarlet_violet</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/10/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/15/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=paldea_evolved</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/15/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/60/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/60/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/58/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/58/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/59/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/59/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/57/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/57/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/70/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/70/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/64/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/64/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/29/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=scarlet_violet_151</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/29/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/30/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/30/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/69/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/69/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/48/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/48/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/21/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/21/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/32/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/32/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/20/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/20/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/47/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/47/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/33/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/33/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/26/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/26/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/63/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/63/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/65/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/65/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/38/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/?expansion=paldean_fates</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/38/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/39/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/39/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/53/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/53/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/55/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/55/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/73/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/73/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/74/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/74/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/76/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/76/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/75/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/75/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/56/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/56/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/27/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/27/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/8/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/8/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/7/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/7/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/71/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/71/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/9/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/9/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/68/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/68/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/40/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/40/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/25/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/25/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/22/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/22/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/34/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/34/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/11/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/11/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/16/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/16/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/49/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/49/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/66/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/66/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/45/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/45/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/44/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/44/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/67/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/67/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/41/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/41/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/42/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/42/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/37/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/37/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/51/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/51/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/36/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/36/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/28/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/28/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/18/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/18/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/24/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/24/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/13/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/13/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/43/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/43/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/52/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/52/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/14/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/14/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/6/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/6/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/12/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/12/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/50/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/50/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/23/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/23/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/35/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/35/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/17/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/17/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/products/72/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=/products/delete/72/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F5%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F1%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F54%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F2%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F62%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F3%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F4%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/summernote/editor/id_message/</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F61%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F46%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F19%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F31%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F10%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F15%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F60%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F58%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F59%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F57%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F70%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F64%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F29%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F30%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F69%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F48%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F21%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F32%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F20%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F47%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F33%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F26%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F63%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F65%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F38%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F39%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F53%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F55%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F73%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F74%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F76%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F75%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F56%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F27%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F8%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F7%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F71%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F9%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F68%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F40%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F25%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F22%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F34%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F11%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F16%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F49%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F66%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F45%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F44%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F67%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F41%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F42%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F37%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F51%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F36%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F28%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F18%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F24%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F13%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F43%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F52%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F14%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F6%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F12%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F50%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F23%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F35%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F17%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/signup/?next=%2Fproducts%2Fdelete%2F72%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F5%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F1%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F54%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F2%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F62%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F3%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F4%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F61%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F46%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F19%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F31%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F10%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F15%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F60%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F58%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F59%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F57%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F70%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F64%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F29%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F30%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F69%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F48%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F21%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F32%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F20%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F47%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F33%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F26%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F63%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F65%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F38%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F39%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F53%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F55%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F73%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F74%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F76%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F75%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F56%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F27%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F8%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F7%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F71%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F9%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F68%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F40%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F25%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F22%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F34%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F11%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F16%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F49%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F66%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F45%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F44%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F67%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F41%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F42%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F37%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F51%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F36%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F28%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F18%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F24%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F13%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F43%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F52%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F14%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F6%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F12%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F50%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F23%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F35%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F17%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/accounts/login/?next=%2Fproducts%2Fdelete%2F72%2F</loc>
+  <lastmod>2024-04-24T18:37:03+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
