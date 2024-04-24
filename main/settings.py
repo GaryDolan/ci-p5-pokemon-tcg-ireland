@@ -71,7 +71,6 @@ INSTALLED_APPS = [
     'privacy_policy',
     'products',
     'profiles',
-    'shipping_details',
     'wishlist',
 ]
 

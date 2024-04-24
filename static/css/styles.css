@@ -328,7 +328,7 @@ header {
 /*************************** HOME *************************/
 /* Hero Section */
 .hero-section {
-    background: url("/media/hero-image-large.png") no-repeat center center;
+    background: url("/media/pokemon-tcg-ireland-hero-image-large.webp") no-repeat center center;
     background-size: cover;
     height: 100%;
     filter: brightness(1.1);
@@ -451,7 +451,7 @@ header {
 @media screen and (max-width: 87.5em) {
     /* HOME */
     .hero-section {
-        background: url("/media/hero-image-mid.png") no-repeat center center;
+        background: url("/media/pokemon-tcg-ireland-hero-image-mid.webp") no-repeat center center;
         background-size: cover;
         height: 100%;
         filter: brightness(1.1);
@@ -462,7 +462,7 @@ header {
 @media screen and (max-width: 69.063em) {
     /* HOME */
     .hero-section {
-        background: url("/media/hero-image-small.png") no-repeat center center;
+        background: url("/media/pokemon-tcg-ireland-hero-image-small.webp") no-repeat center center;
         background-size: cover;
         height: 100%;
         filter: brightness(1.1);

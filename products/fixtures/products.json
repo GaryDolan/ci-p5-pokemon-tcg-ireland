@@ -12,8 +12,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8789_699-85427_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-pin-collection-(cinderace).webp",
+            "image": "crown-zenith-pin-collection-(cinderace).webp",
             "on_sale": 0
         }
     },
@@ -30,8 +30,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8789_699-85426_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-pin-collection-(rillaboom).webp",
+            "image": "crown-zenith-pin-collection-(rillaboom).webp",
             "on_sale": 0
         }
     },
@@ -48,8 +48,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8789_699-85428_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-pin-collection-(inteleon).webp",
+            "image": "crown-zenith-pin-collection-(inteleon).webp",
             "on_sale": 0
         }
     },
@@ -66,8 +66,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8791_699-85424_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-premium-figure-collection-(shiny-zacian).webp",
+            "image": "crown-zenith-premium-figure-collection-(shiny-zacian).webp",
             "on_sale": 0
         }
     },
@@ -84,8 +84,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8791_699-85425_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-premium-figure-collection-(shiny-zamazenta).webp",
+            "image": "crown-zenith-premium-figure-collection-(shiny-zamazenta).webp",
             "on_sale": 0
         }
     },
@@ -102,8 +102,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 64.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P8835_290-85187_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-pok%C3%A9mon-center-elite-trainer-box-plus.webp",
+            "image": "crown-zenith-pokémon-center-elite-trainer-box-plus",
             "on_sale": 0
         }
     },
@@ -120,8 +120,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 24.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8790_699-85201_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-tin-(galarian-articuno).webp",
+            "image": "crown-zenith-tin-(galarian-articuno).webp",
             "on_sale": 0
         }
     },
@@ -138,8 +138,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 24.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8790_699-85202_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-tin-(galarian-zapdos).webp",
+            "image": "crown-zenith-tin-(galarian-zapdos).webp",
             "on_sale": 0
         }
     },
@@ -156,8 +156,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 24.99,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P8790_699-85203_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/crown-zenith-tin-(galarian-moltres).webp",
+            "image": "crown-zenith-tin-(galarian-moltres).webp",
             "on_sale": 0
         }
     },
@@ -174,8 +174,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 4.49,
             "rating": 4.3,
-            "image_url": "",
-            "image": "P8908_184-85325_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-sleeved-booster-pack-(10-cards).webp",
+            "image": "scarlet-&-violet-sleeved-booster-pack-(10-cards).webp",
             "on_sale": 0
         }
     },
@@ -192,8 +192,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8908_184-85337_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-booster-bundle-(6-packs).webp",
+            "image": "scarlet-&-violet-booster-bundle-(6-packs).webp",
             "on_sale": 0
         }
     },
@@ -210,8 +210,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 159.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P8908_699-86324_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-booster-display-box-(36-packs).webp",
+            "image": "scarlet-&-violet-booster-display-box-(36-packs).webp",
             "on_sale": 0
         }
     },
@@ -228,8 +228,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8908_184-85457_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-pok%C3%A9mon-center-elite-trainer-box-(miraidon).webp",
+            "image": "scarlet-&-violet-pokémon-center-elite-trainer-box-(miraidon).webp",
             "on_sale": 0
         }
     },
@@ -246,8 +246,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8908_184-85342_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-pok%C3%A9mon-center-elite-trainer-box-(koraidon).webp",
+            "image": "scarlet-&-violet-pokémon-center-elite-trainer-box-(koraidon).webp",
             "on_sale": 0
         }
     },
@@ -264,8 +264,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 4.49,
             "rating": 4.5,
-            "image_url": "",
-            "image": "P8978_185-85350_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldea-evolved-sleeved-booster-pack-(10-cards).webp",
+            "image": "scarlet-&-violet-paldea-evolved-sleeved-booster-pack-(10-cards).webp",
             "on_sale": 0
         }
     },
@@ -282,8 +282,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 4.3,
-            "image_url": "",
-            "image": "P8978_185-85362_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldea-evolved-booster-bundle-(6-packs).webp",
+            "image": "scarlet-&-violet-paldea-evolved-booster-bundle-(6-packs).webp",
             "on_sale": 0
         }
     },
@@ -300,8 +300,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 159.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8978_699-86349_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldea-evolved-booster-display-box-(36-packs).webp",
+            "image": "scarlet-&-violet-paldea-evolved-booster-display-box-(36-packs).webp",
             "on_sale": 0
         }
     },
@@ -318,8 +318,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P8978_185-85367_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldea-evolved-pok%C3%A9mon-center-elite-trainer-box.webp",
+            "image": "scarlet-&-violet-paldea-evolved-pokémon-center-elite-trainer-box.webp",
             "on_sale": 0
         }
     },
@@ -336,8 +336,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 4.49,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P8979_186-85375_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-sleeved-booster-pack-(10-cards).webp",
+            "image": "scarlet-&-violet-obsidian-flames-sleeved-booster-pack-(10-cards).webp",
             "on_sale": 0
         }
     },
@@ -354,8 +354,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 4,
-            "image_url": "",
-            "image": "P8979_699-85379_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-3-booster-packs-%26-greavard-promo-card.webp",
+            "image": "scarlet-&-violet-obsidian-flames-3-booster-packs-&-greavard-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -372,8 +372,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8979_699-85380_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-3-booster-packs-%26-eevee-promo-card.webp",
+            "image": "scarlet-&-violet-obsidian-flames-3-booster-packs-&-eevee-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -390,8 +390,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 4.6,
-            "image_url": "",
-            "image": "P8979_186-85387_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-booster-bundle-(6-packs).webp",
+            "image": "scarlet-&-violet-obsidian-flames-booster-bundle-(6-packs).webp",
             "on_sale": 0
         }
     },
@@ -408,8 +408,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 159.99,
             "rating": 4.6,
-            "image_url": "",
-            "image": "P8979_699-86374_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-booster-display-box-(36-packs).webp",
+            "image": "scarlet-&-violet-obsidian-flames-booster-display-box-(36-packs).webp",
             "on_sale": 0
         }
     },
@@ -426,8 +426,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P8979_186-85392_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-obsidian-flames-pok%C3%A9mon-center-elite-trainer-box.webp",
+            "image": "scarlet-&-violet-obsidian-flames-pokémon-center-elite-trainer-box.webp",
             "on_sale": 0
         }
     },
@@ -444,8 +444,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8976_699-85322_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-booster-bundle.webp",
+            "image": "scarlet-&-violet-151-booster-bundle.webp",
             "on_sale": 0
         }
     },
@@ -462,8 +462,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8974_290-85316_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-poster-collection.webp",
+            "image": "scarlet-&-violet-151-poster-collection.webp",
             "on_sale": 0
         }
     },
@@ -480,8 +480,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 21.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9433_290-85313_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-collection-(zapdos-ex).webp",
+            "image": "scarlet-&-violet-151-collection-(zapdos-ex).webp",
             "on_sale": 0
         }
     },
@@ -498,8 +498,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P8972_290-85466_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-pok%C3%A9mon-center-elite-trainer-box.webp",
+            "image": "scarlet-&-violet-151-pokémon-center-elite-trainer-box.webp",
             "on_sale": 0
         }
     },
@@ -516,8 +516,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 9.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8969_699-85473_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-mini-tin-(gengar-%26-poliwag).webp",
+            "image": "scarlet-&-violet-151-mini-tin-(gengar-&-poliwag).webp",
             "on_sale": 0
         }
     },
@@ -534,8 +534,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 9.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8969_699-85307_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-151-mini-tin-(scyther-%26-weezing).webp",
+            "image": "scarlet-&-violet-151-mini-tin-(scyther-&-weezing).webp",
             "on_sale": 0
         }
     },
@@ -552,8 +552,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 4.49,
             "rating": 5,
-            "image_url": "",
-            "image": "P8981_187-85399-BULK_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-booster-pack-(10-cards).webp",
+            "image": "scarlet-&-violet-paradox-rift-booster-pack-(10-cards).webp",
             "on_sale": 0
         }
     },
@@ -570,8 +570,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8981_699-85404_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-3-booster-packs-%26-cetitan-promo-card.webp",
+            "image": "scarlet-&-violet-paradox-rift-3-booster-packs-&-cetitan-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -588,8 +588,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8981_699-85405_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-3-booster-packs-%26-arctibax-promo-card.webp",
+            "image": "scarlet-&-violet-paradox-rift-3-booster-packs-&-arctibax-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -606,8 +606,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8981_187-85412_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-sleeved-booster-bundle-(6-packs).webp",
+            "image": "scarlet-&-violet-paradox-rift-sleeved-booster-bundle-(6-packs).webp",
             "on_sale": 0
         }
     },
@@ -624,8 +624,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 159.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8981_699-85399_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-booster-display-box-(36-packs).webp",
+            "image": "scarlet-&-violet-paradox-rift-booster-display-box-(36-packs).webp",
             "on_sale": 0
         }
     },
@@ -642,8 +642,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8981_187-85417_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-pok%C3%A9mon-center-etb-(roaring-moon).webp",
+            "image": "scarlet-&-violet-paradox-rift-pokémon-center-etb-(roaring-moon).webp",
             "on_sale": 0
         }
     },
@@ -660,8 +660,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P8981_187-85415_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paradox-rift-pok%C3%A9mon-center-etb-(iron-valiant).webp",
+            "image": "scarlet-&-violet-paradox-rift-pokémon-center-etb-(iron-valiant).webp",
             "on_sale": 0
         }
     },
@@ -678,8 +678,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 15.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9535_699-85616_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-tech-sticker-collection-(shiny-maschiff).webp",
+            "image": "scarlet-&-violet-paldean-fates-tech-sticker-collection-(shiny-maschiff).webp",
             "on_sale": 0
         }
     },
@@ -696,8 +696,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 15.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9535_699-85614_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-tech-sticker-collection-(shiny-greavard).webp",
+            "image": "scarlet-&-violet-paldean-fates-tech-sticker-collection-(shiny-greavard).webp",
             "on_sale": 0
         }
     },
@@ -714,8 +714,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 4.3,
-            "image_url": "",
-            "image": "P9536_699-85739_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-booster-bundle.webp",
+            "image": "scarlet-&-violet-paldean-fates-booster-bundle.webp",
             "on_sale": 0
         }
     },
@@ -732,8 +732,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 49.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9540_699-85636_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-skeledirge-ex-premium-collection.webp",
+            "image": "scarlet-&-violet-paldean-fates-skeledirge-ex-premium-collection.webp",
             "on_sale": 0
         }
     },
@@ -750,8 +750,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 49.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9540_699-85635_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-meowscarada-ex-premium-collection.webp",
+            "image": "scarlet-&-violet-paldean-fates-meowscarada-ex-premium-collection.webp",
             "on_sale": 0
         }
     },
@@ -768,8 +768,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9537_290-85619_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-pok%C3%A9mon-center-elite-trainer-box.webp",
+            "image": "scarlet-&-violet-paldean-fates-pokémon-center-elite-trainer-box.webp",
             "on_sale": 0
         }
     },
@@ -786,8 +786,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 28.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9538_699-85625_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-tin-(shiny-great-tusk-ex).webp",
+            "image": "scarlet-&-violet-paldean-fates-tin-(shiny-great-tusk-ex).webp",
             "on_sale": 0
         }
     },
@@ -804,8 +804,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 28.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9538_699-85626_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-paldean-fates-tin-(shiny-iron-treads-ex).webp",
+            "image": "scarlet-&-violet-paldean-fates-tin-(shiny-iron-treads-ex).webp",
             "on_sale": 0
         }
     },
@@ -822,8 +822,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 4.49,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P9504_188-85981-BULK_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-temporal-forces-booster-pack-(10-cards).webp",
+            "image": "scarlet-&-violet-temporal-forces-booster-pack-(10-cards).webp",
             "on_sale": 0
         }
     },
@@ -840,8 +840,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9504_699-85647_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-temporal-forces-3-booster-packs-%26-cyclizar-promo-card.webp",
+            "image": "scarlet-&-violet-temporal-forces-3-booster-packs-&-cyclizar-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -858,8 +858,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 13.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9504_699-85648_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-temporal-forces-3-booster-packs-%26-cleffa-promo-card.webp",
+            "image": "scarlet-&-violet-temporal-forces-3-booster-packs-&-cleffa-promo-card.webp",
             "on_sale": 0
         }
     },
@@ -876,8 +876,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 26.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9504_188-85655_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-temporal-forces-booster-bundle-(6-packs).webp",
+            "image": "scarlet-&-violet-temporal-forces-booster-bundle-(6-packs).webp",
             "on_sale": 0
         }
     },
@@ -894,8 +894,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 159.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P9504_699-86981_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/scarlet-%26-violet-temporal-forces-booster-display-box-(36-packs).webp",
+            "image": "scarlet-&-violet-temporal-forces-booster-display-box-(36-packs).webp",
             "on_sale": 0
         }
     },
@@ -912,8 +912,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P9504_188-85658_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/s%26v-temporal-forces-pok%C3%A9mon-center-etb-(iron-leaves).webp",
+            "image": "s&v-temporal-forces-pokémon-center-etb-(iron-leaves).webp",
             "on_sale": 0
         }
     },
@@ -930,8 +930,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 59.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P9504_188-85717_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/s%26v-temporal-forces-pok%C3%A9mon-center-etb-(walking-wake).webp",
+            "image": "s&v-temporal-forces-pokémon-center-etb-(walking-wake).webp",
             "on_sale": 0
         }
     },
@@ -946,8 +946,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.4,
-            "image_url": "",
-            "image": "P4650_710-03608_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9-ball-pattern-d-ring-binder-1-in.webp",
+            "image": "poké-ball-pattern-d-ring-binder-1-in.webp",
             "on_sale": 0
         }
     },
@@ -962,8 +962,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.6,
-            "image_url": "",
-            "image": "P4650_710-03610_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/eevee-capes-d-ring-binder-1-in.webp",
+            "image": "eevee-capes-d-ring-binder-1-in.webp",
             "on_sale": 0
         }
     },
@@ -978,8 +978,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P4650_710-03609_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/mimikyu-day-by-day-d-ring-binder-1-in.webp",
+            "image": "mimikyu-day-by-day-d-ring-binder-1-in.webp",
             "on_sale": 0
         }
     },
@@ -994,8 +994,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.6,
-            "image_url": "",
-            "image": "P4915_710-03920_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/catch-that-pok%C3%A9mon!-d-ring-binder-1-in.webp",
+            "image": "catch-that-pokémon!-d-ring-binder-1-in.webp",
             "on_sale": 0
         }
     },
@@ -1010,8 +1010,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 7.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P5787_710-04397_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pikachu-chalk-card-sleeves-(65-sleeves).webp",
+            "image": "pikachu-chalk-card-sleeves-(65-sleeves).webp",
             "on_sale": 0
         }
     },
@@ -1026,8 +1026,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 7.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P8067_705-29376_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/rayquaza-legendary-lights-card-sleeves-(65-sleeves).webp",
+            "image": "rayquaza-legendary-lights-card-sleeves-(65-sleeves).webp",
             "on_sale": 0
         }
     },
@@ -1042,8 +1042,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 7.99,
             "rating": 3,
-            "image_url": "",
-            "image": "P4649_705-03577_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9-ball-pattern-card-sleeves-(65-sleeves).webp",
+            "image": "poké-ball-pattern-card-sleeves-(65-sleeves).webp",
             "on_sale": 0
         }
     },
@@ -1058,8 +1058,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 7.99,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P9718_705E10225_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-pixels-card-sleeves-(65-sleeves).webp",
+            "image": "pokémon-pixels-card-sleeves-(65-sleeves).webp",
             "on_sale": 0
         }
     },
@@ -1074,7 +1074,7 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 3.99,
             "rating": 4.9,
-            "image_url": "",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/ultra-pro-3x4-clear-regular-toploader-25ct.webp",
             "image": "ultra-pro-3x4-clear-regular-toploader-25ct.webp",
             "on_sale": 0
         }
@@ -1090,8 +1090,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 299.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9169_703E10015_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/blastoise-drenching-waters-figure-by-first-4-figures.webp",
+            "image": "blastoise-drenching-waters-figure-by-first-4-figures.webp",
             "on_sale": 0
         }
     },
@@ -1106,8 +1106,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9618_703E10113_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-delicious-adventure-kanto-pewter-crunchies-snack-figure.webp",
+            "image": "pokémon-delicious-adventure-kanto-pewter-crunchies-snack-figure.webp",
             "on_sale": 0
         }
     },
@@ -1122,8 +1122,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 9.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P6132_703-05991_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/an-afternoon-with-eevee-%26-friends-umbreon-figure-by-funko.webp",
+            "image": "an-afternoon-with-eevee-&-friends-umbreon-figure-by-funko.webp",
             "on_sale": 0
         }
     },
@@ -1138,8 +1138,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 14.99,
             "rating": 4.6,
-            "image_url": "",
-            "image": "P7285_703-08756_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pikachu-moods-hungry-figure.webp",
+            "image": "pikachu-moods-hungry-figure.webp",
             "on_sale": 0
         }
     },
@@ -1154,8 +1154,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 28.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P5417_703-05408_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-gallery-figure-dx-gyarados-(aqua-tail).webp",
+            "image": "pokémon-gallery-figure-dx-gyarados-(aqua-tail).webp",
             "on_sale": 0
         }
     },
@@ -1170,8 +1170,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 29.99,
             "rating": 4.4,
-            "image_url": "",
-            "image": "P7398_710-08924_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-block-art-party-tear-away-pins-(8-pack).webp",
+            "image": "pokémon-block-art-party-tear-away-pins-(8-pack).webp",
             "on_sale": 0
         }
     },
@@ -1186,8 +1186,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 24.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8550_710-96513_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-giant-pins-ditto-oversize-pin.webp",
+            "image": "pokémon-giant-pins-ditto-oversize-pin.webp",
             "on_sale": 0
         }
     },
@@ -1202,8 +1202,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 9.99,
             "rating": 4.7,
-            "image_url": "",
-            "image": "P9892_710E11044_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/butterfree-pok%C3%A9mon-pin.webp",
+            "image": "butterfree-pokémon-pin.webp",
             "on_sale": 0
         }
     },
@@ -1218,8 +1218,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 9.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P9892_710E11057_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/charizard-pok%C3%A9mon-pin.webp",
+            "image": "charizard-pokémon-pin.webp",
             "on_sale": 0
         }
     },
@@ -1234,8 +1234,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 24.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P8550_710-96527_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pok%C3%A9mon-giant-pins-pikachu-oversize-pin.webp",
+            "image": "pokémon-giant-pins-pikachu-oversize-pin.webp",
             "on_sale": 0
         }
     },
@@ -1250,8 +1250,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 199.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P4537_701-03482_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/pikachu-pok%C3%A9-plush-26-%C2%BE-in.webp",
+            "image": "pikachu-poké-plush-26-¾-in.webp",
             "on_sale": 0
         }
     },
@@ -1266,8 +1266,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 5,
-            "image_url": "",
-            "image": "P6366_701-06209_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/mewtwo-sitting-cuties-plush-5-%C2%BD-in.webp",
+            "image": "mewtwo-sitting-cuties-plush-5-½-in.webp",
             "on_sale": 0
         }
     },
@@ -1282,8 +1282,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P4828_701-03128_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/eevee-sitting-cuties-plush-6-%C2%BD-in.webp",
+            "image": "eevee-sitting-cuties-plush-6-½-in.webp",
             "on_sale": 0
         }
     },
@@ -1298,8 +1298,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.9,
-            "image_url": "",
-            "image": "P4831_701-03592_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/snorlax-sitting-cuties-plush-5-in.webp",
+            "image": "snorlax-sitting-cuties-plush-5-in.webp",
             "on_sale": 0
         }
     },
@@ -1314,8 +1314,8 @@
             "date_added": "2024-03-24T00:00:00Z",
             "price": 16.99,
             "rating": 4.8,
-            "image_url": "",
-            "image": "P5926_701-05333_01.webp",
+            "image_url": "https://pokemon-tcg-ireland-bucket.s3.eu-west-1.amazonaws.com/media/charizard-sitting-cuties-plush-7-in.webp",
+            "image": "charizard-sitting-cuties-plush-7-in.webp",
             "on_sale": 0
         }
     }
