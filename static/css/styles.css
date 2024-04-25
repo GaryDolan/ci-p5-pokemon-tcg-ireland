@@ -445,6 +445,18 @@ header {
     width: 100%;
 }
 
+/************************** MAILCHIMP ***********************/
+#mc_embed_signup {
+    background: var(--blue);
+    false;
+    clear: left;
+    font: 14px Roboto, serif;
+    width: px;
+}
+
+.mc-field-group input::placeholder {
+    text-align: center;
+}
 /*********************** MEDIA QUERIES ********************/
 
 /* 1400px xl */
