@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.db.models import Avg, Q
+from django.db.models.functions import Coalesce
 
 from wishlist.models import Wishlist
 
@@ -40,6 +42,12 @@ def all_products(request):
                 # Double underscore allows access to related model fields
                 products = products.annotate(lower_category_name=Lower('category__name'))
                 sort_value = 'lower_category_name'
+            
+            elif sort_value == 'rating':
+                # Get the average review rating of all reviews attached to products
+                # use filter to only get approved and coalesce to change null to 0.0 as avg returns a float
+                products = products.annotate(avg_rating=Coalesce(Avg('review__review_rating', filter=Q(review__approved=True)), 0.0))
+                sort_value = 'avg_rating'
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
