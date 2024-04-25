@@ -1,6 +1,13 @@
 {% load static %}
 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-4 feedback">
     <div class="card h-100 shadow">
+        <!-- Sale badge -->
+        {% if product.on_sale %}
+            <div class="badge bg-red position-absolute fs-6" style="top: 1.5rem; right: 0.5rem">
+                On Sale
+            </div>
+        {% endif %}
+        <!-- Image -->
         {% if product.image %}
         <a href="{% url 'product_detail' product.id %}">
             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -23,7 +30,7 @@
                 <div class="col">
                     <p class="mb-3 fs-3 text-center text-blue">
                         <strong>
-                            {% if product.pre_sale_price %}
+                            {% if product.on_sale %}
                                 <del class="text-red fs-6">{{product.pre_sale_price}}</del>
                             {% endif %}
                             €{{ product.price }}

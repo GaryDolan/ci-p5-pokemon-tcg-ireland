@@ -139,7 +139,13 @@
                 {% if wishlist_products %}
                     {% for product in wishlist_products %}
                         <div class="row mt-1 ms-sm-3 align-items-center">
-                            <div class="col-6 col-sm-2 mb-1 offset-3 offset-sm-0">
+                            <div class="col-6 col-sm-2 mb-1 offset-3 offset-sm-0 position-relative">
+                                <!-- Sale badge -->
+                                {% if product.on_sale %}
+                                <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
+                                    On Sale
+                                </div>
+                                {% endif %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     {% if product.image %}
                                     <img class="img-fluid rounded-4" src="{{ product.image.url }}"
@@ -158,10 +164,7 @@
                             </div>
                             <div class="col-2 col-sm-3 text-center">
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <p class="my-0 small text-muted me-1">
-                                        {% if product.pre_sale_price %}
-                                            <del class="text-red">{{product.pre_sale_price}}</del>
-                                        {% endif %}
+                                    <p class="my-0 small {% if product.on_sale %}text-red{% else %}text-muted{% endif %} me-1">
                                         €{{ product.price }}
                                     </p>
                                     <!-- remove from wishlist -->

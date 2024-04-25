@@ -18,7 +18,13 @@
         <div class="basket-notification-wrapper">
             {% for item in basket_items %}
             <div class="row">
-                <div class="col-3 my-1">
+                <div class="col-3 my-2 position-relative">
+                    <!-- Sale badge -->
+                    {% if item.product.on_sale %}
+                    <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
+                        On Sale
+                    </div>
+                    {% endif %}
                     {% if item.product.image %}
                     <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
                     {% elif product.image_url %}

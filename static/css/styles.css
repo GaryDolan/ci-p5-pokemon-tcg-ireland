@@ -51,6 +51,10 @@
     background-color: var(--off-white);
 }
 
+.bg-red {
+    background-color: var(--red);
+}
+
 /* Text formatting */
 .bold {
     font-weight: bold;

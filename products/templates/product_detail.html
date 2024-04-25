@@ -22,7 +22,14 @@
         </div>
     </div>
     <div class="row justify-content-center mt-4">
-        <div class="col-11 col-sm-8 col-md-5 col-lg-4 col-xl-4 col-xxl-3  me-md-4 mb-4 d-flex align-items-top">
+        <div class="col-11 col-sm-8 col-md-5 col-lg-4 col-xl-4 col-xxl-3  me-md-4 mb-4 d-flex align-items-top position-relative">
+            <!-- Sale badge -->
+            {% if product.on_sale %}
+            <div class="badge bg-red position-absolute fs-6" style="top: 2.5rem; right: 2rem">
+                On Sale
+            </div>
+            {% endif %}
+            <!-- Image -->
             <div class="image-container">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" data-lightbox="product-image">
@@ -47,13 +54,14 @@
                     <div class="col-6">
                         <p class="text-blue fs-5">
                             <strong>
-                                {% if product.pre_sale_price %}
+                                {% if product.on_sale %}
                                     <del class="text-red fs-6">{{product.pre_sale_price}}</del>
                                 {% endif %}
                                 €{{ product.price }}
                             </strong>
                         </p>
                     </div>
+                    <!-- Wishlist icon -->
                     <div class="col-6 text-end">
                         {% if request.user.is_authenticated %}
                             <form class="d-inline wishlist-form" action="{% url 'wishlist_toggle' product.id %}" method="POST">
@@ -71,6 +79,7 @@
                         {% endif %}
                     </div>
                 </div>
+                <!-- Avg rating / reviews -->
                 <div class="row">
                     <div class="col">
                         {% if reviews %}
@@ -98,7 +107,7 @@
                 </div>
                 <p class="mt-4">{{ product.description | safe }}</p>
 
-                <!-- add links for category, card set and expansion -->
+                <!-- Add links for category, card set and expansion -->
                 {% if product.category %}
                 <p class="mb-1 product_tag">
                     <a href="{% url 'products' %}?category={{product.category.name}}" class="feedback">
@@ -132,7 +141,7 @@
                     </a>
                 </p>
                 {% endif %}
-
+                <!-- Quantity -->
                 <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
@@ -156,6 +165,7 @@
                         <i class="fas fa-arrow-left me-1"></i>Back to products
                     </a>
                 </div>
+                <!-- Admin edit and delete -->
                 {% if request.user.is_superuser %}
                     <div class="text-end mb-3">
                         <a class="btn btn-custom-yellow" href="{% url 'edit_product' product.id %}">Edit</a>
