@@ -21,8 +21,14 @@
         <div class="card-footer bg-white pt-0 border-0 text-left">
             <div class="row">
                 <div class="col">
-                    <p class="mb-3 fs-3 text-center text-blue"><strong>€{{ product.price }}</strong></p>
-
+                    <p class="mb-3 fs-3 text-center text-blue">
+                        <strong>
+                            {% if product.pre_sale_price %}
+                                <del class="text-red fs-6">{{product.pre_sale_price}}</del>
+                            {% endif %}
+                            €{{ product.price }}
+                        </strong>
+                    </p>
                     <!-- add links for category, card set and expansion -->
                     {% if product.category %}
                     <p class="mb-1 product_tag">

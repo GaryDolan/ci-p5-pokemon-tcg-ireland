@@ -85,7 +85,11 @@
                             </div>
                         </div>
                     </form>
-                    <p class="mb-0 me-2 mb-1 price-basket">€{{ item.product.price}}
+                    <p class="mb-0 me-2 mb-1 price-basket">
+                        {% if item.product.pre_sale_price %}
+                            <del class="text-red fs-6">{{item.product.pre_sale_price}}</del>
+                        {% endif %}
+                        €{{ item.product.price}}
                         <span class="ms-3">
                             <strong>
                                 €{{ item.product.price | calc_subtotal:item.quantity}}

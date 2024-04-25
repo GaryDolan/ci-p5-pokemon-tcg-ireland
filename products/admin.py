@@ -7,7 +7,7 @@ from .models import Product, Category, CardSet, Expansion, Review
 @admin.register(Product)
 class ProductAdmin(SummernoteModelAdmin):
 
-    list_display = ['name', 'price','category', 'card_set', 'expansion', 'date_added', 'rating', 'on_sale', 'image']
+    list_display = ['name', 'price', 'pre_sale_price', 'category', 'card_set', 'expansion', 'date_added', 'rating', 'on_sale', 'image']
     list_filter = ['category', 'card_set', 'expansion', 'on_sale']
     search_fields = ['name', 'description']
 

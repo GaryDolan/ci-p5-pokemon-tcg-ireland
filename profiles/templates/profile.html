@@ -159,6 +159,9 @@
                             <div class="col-2 col-sm-3 text-center">
                                 <div class="d-flex justify-content-center align-items-center">
                                     <p class="my-0 small text-muted me-1">
+                                        {% if product.pre_sale_price %}
+                                            <del class="text-red">{{product.pre_sale_price}}</del>
+                                        {% endif %}
                                         €{{ product.price }}
                                     </p>
                                     <!-- remove from wishlist -->
