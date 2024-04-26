@@ -42,3 +42,9 @@
     </section>
 </div>
 {% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <!-- Disable all buttons when one is used -->
+    <script src="{% static 'products/js/product_card_btns.js' %}"></script>  
+{% endblock %}
