@@ -30,7 +30,7 @@
                     <form method="POST" action="{% url 'profile' %}">
                         {% csrf_token %}
                         {{ user_account_form|crispy }}
-                        <button class="btn btn-custom-yellow my-3" type="submit" name="edit_acc_info">Save
+                        <button class="btn btn-warning my-3" type="submit" name="edit_acc_info">Save
                             Information</button>
                     </form>
                 </div>
@@ -51,7 +51,7 @@
                     <form method="POST" action="{% url 'profile' %}">
                         {% csrf_token %}
                         {{ user_profile_form|crispy }}
-                        <button class="btn btn-custom-yellow my-3" type="submit" name="edit_info">Save
+                        <button class="btn btn-warning my-3" type="submit" name="edit_info">Save
                             Information</button>
                     </form>
                 </div>
@@ -73,7 +73,7 @@
                     <form method="POST" action="{% url 'profile' %}">
                         {% csrf_token %}
                         {{ user_password_form|crispy }}
-                        <button class="btn btn-custom-yellow my-3" type="submit" name="edit_password">Save
+                        <button class="btn btn-warning my-3" type="submit" name="edit_password">Save
                             Information</button>
                     </form>
                 </div>
@@ -120,7 +120,7 @@
                 {% else %}
                     <div class="text-center mb-3">
                         <p>You have not placed any orders yet, check out some of our products.</p>
-                        <a href="{% url 'products' %}" class="btn btn-custom-yellow">Products</a>
+                        <a href="{% url 'products' %}" class="btn btn-warning">Products</a>
                     </div>
                 {% endif %}
             </div>
@@ -182,7 +182,7 @@
                 {% else %}
                         <div class="text-center mb-3">
                             <p>Your wishlist is empty, check out some of our products.</p>
-                            <a href="{% url 'products' %}" class="btn btn-custom-yellow">Products</a>
+                            <a href="{% url 'products' %}" class="btn btn-warning">Products</a>
                         </div>
                 {% endif %}
 

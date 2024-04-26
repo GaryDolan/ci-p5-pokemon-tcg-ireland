@@ -20,7 +20,7 @@
         <ul class="dropdown-menu rounded-4 px-2 py-2" aria-labelledby="my-acc-dropdown-mobile">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Manage Products</a></li>
+            <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Add Product</a></li>
             {% endif %}
             <li class="custom-dropdown"><a href="{% url 'profile' %}" class="dropdown-item">My Profile</a></li>
             <li class="custom-dropdown"><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>

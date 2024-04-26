@@ -70,7 +70,7 @@
                         <div class="form-group d-flex qty-form-basket">
                             <div class="input-group w-75">
                                 <div class="input-group-prepend">
-                                    <button class="decrement-qty btn btn-custom-blue rounded-0 border-0"
+                                    <button class="decrement-qty btn btn-primary rounded-0 border-0"
                                         data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                                         <span>
                                             <i class="fas fa-minus"></i>
@@ -81,7 +81,7 @@
                                     value="{{ item.quantity }}" min="1" max="99" data-item_id="{{ item.item_id }}"
                                     id="id_qty_{{ item.item_id }}">
                                 <div class="input-group-append">
-                                    <button class="increment-qty btn btn-custom-yellow rounded-0 border-0"
+                                    <button class="increment-qty btn btn-warning rounded-0 border-0"
                                         data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                         <span>
                                             <i class="fas fa-plus"></i>
@@ -140,7 +140,7 @@
                 <!-- Buttons -->
                 <div class="row mt-3 mb-4">
                     <div class="col-6 d-flex justify-content-center">
-                        <a href="{% url 'products' %}" class="btn btn-custom-blue w-100 product-btn">
+                        <a href="{% url 'products' %}" class="btn btn-primary w-100 product-btn">
                             <span>
                                 <i class="fas fa-arrow-left"></i>
                             </span>
@@ -148,7 +148,7 @@
                         </a>
                     </div>
                     <div class="col-6 d-flex justify-content-center ps-0">
-                        <a href="{% url 'checkout' %}" class="btn btn-custom-yellow w-100 checkout-btn">
+                        <a href="{% url 'checkout' %}" class="btn btn-warning w-100 checkout-btn">
                             <span>Checkout</span>
                             <span>
                                 <i class="fas fa-lock"></i>
@@ -166,7 +166,7 @@
     <div class="row justify-content-center">
         <div class="col-10 col-lg-8 text-center bg-white shadow border border-1 rounded-4 py-5 mb-3">
             <p class="fs-5 mb-4">Your basket is currently empty</p>
-            <a href="{% url 'products' %}" class="btn btn-custom-yellow shop-btn shadow"> Continue Shopping
+            <a href="{% url 'products' %}" class="btn btn-warning shop-btn shadow"> Continue Shopping
             </a>
         </div>
     </div>

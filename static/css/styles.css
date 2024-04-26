@@ -127,56 +127,60 @@ a {
 }
 
 /* Buttons */
-.btn-custom-blue {
-    background-color: var(--blue);
-    color: white;
+.btn-primary {
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
     font-family: var(--text-font);
     font-weight: 600;
     border: 0.15rem solid var(--blue);
 }
 
-.btn-custom-blue:hover {
-    color: white;
-    background-color: var(--blue);
-    filter: brightness(1.1);
+.btn-primary:hover {
+    /* increasing contrast stops text blur */
+    filter: brightness(0.9) contrast(1.4);
 }
 
-.btn-custom-yellow {
-    background-color: var(--yellow);
-    color: black;
+.btn-primary:active {
+    filter: brightness(1.0);
+}
+
+.btn-warning {
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
     font-family: var(--text-font);
     font-weight: 600;
     border: 0.15rem solid var(--yellow);
 }
 
-.btn-custom-yellow:hover {
-    color: black;
-    background-color: var(--yellow);
-    filter: brightness(1.1);
+.btn-warning:hover {
+    /* increasing contrast stops text blur */
+    filter: brightness(0.85) contrast(1.4);
 }
 
-.btn-custom-red {
-    background-color: var(--red);
-    color: black;
+.btn-warning:active {
+    filter: brightness(1.0);
+}
+
+.btn-danger {
+    background-color: var(--red) !important;
+    border-color: var(--red) !important;
     font-family: var(--text-font);
     font-weight: 600;
     border: 0.15rem solid var(--red);
 }
 
-.btn-custom-red:hover {
-    color: black;
-    background-color: var(--red);
-    filter: brightness(1.1);
+.btn-danger:hover {
+    /* increasing contrast stops text blur */
+    filter: brightness(0.85) contrast(1.4);
 }
 
-.selectable-feedback {
-    transition: transform 0.4s ease;
+.btn-danger:active {
+    filter: brightness(1.0);
 }
 
-.selectable-feedback:hover {
-    transform: scale(1.01);
-    filter: brightness(1.05);
-}
+
+
+
 
 .feedback:hover {
     filter: brightness(1.1);
@@ -555,7 +559,7 @@ header {
         max-width: 70%;
     }
     .product-btn, .checkout-btn {
-        font-size: 0.75em;
+        font-size: 1.0em;
     }
     .qty-form-basket {
         justify-content: center;

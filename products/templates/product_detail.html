@@ -155,7 +155,7 @@
                             </div>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
-                            <input type="submit" class="btn btn-custom-yellow w-75 mt-3 shadow" value="Add to basket">
+                            <input type="submit" class="btn btn-warning w-75 mt-3 shadow" value="Add to basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>
@@ -168,8 +168,8 @@
                 <!-- Admin edit and delete -->
                 {% if request.user.is_superuser %}
                     <div class="text-end mb-3">
-                        <a class="btn btn-custom-yellow" href="{% url 'edit_product' product.id %}">Edit</a>
-                        <button type="button" class="btn btn-custom-red" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
+                        <a class="btn btn-warning" href="{% url 'edit_product' product.id %}">Edit</a>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
                     </div>     
                 {% endif%}
             </div>
@@ -208,7 +208,7 @@
                                 <label class="btn border-0" for="star1"><i class="fa-solid fa-star"></i></label>
                             </div>
                             {{ form.review_text|as_crispy_field }}
-                            <button type="submit" class="btn btn-custom-yellow my-3">Submit Review</button>
+                            <button type="submit" class="btn btn-warning my-3">Submit Review</button>
                         </form>
                     </div>
                 {% else %}
@@ -235,7 +235,7 @@
                                 <small><strong>{{ review.user.username }}</strong> - {{ review.created_on }}</small>
                                 <strong class="ms-2">{{ review.review_rating }}/5</strong> <i class="fa-solid fa-star text-yellow"></i>
                                 {% if user.is_authenticated and review.user == user %}
-                                    <a href="{% url 'delete_review' review.id %}" class="btn btn-sm btn-custom-red ms-1">Delete</a>
+                                    <a href="{% url 'delete_review' review.id %}" class="btn btn-sm btn-danger ms-1">Delete</a>
                                 {% endif %}
                             </p>
                             <p class="ms-2">{{ review.review_text }}</p>

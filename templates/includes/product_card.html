@@ -1,27 +1,29 @@
 {% load static %}
-<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-4 feedback">
+<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-4">
     <div class="card h-100 shadow">
-        <!-- Sale badge -->
-        {% if product.on_sale %}
-            <div class="badge bg-red position-absolute fs-6" style="top: 1.5rem; right: 0.5rem">
-                On Sale
-            </div>
-        {% endif %}
-        <!-- Image -->
-        {% if product.image %}
-        <a href="{% url 'product_detail' product.id %}">
-            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-        </a>
-        {% elif product.image_url %}
-        <a href="{% url 'product_detail' product.id %}">
-            <img class="card-img-top img-fluid" src="{{ product.image_url }}" alt="{{ product.name }}">
-        </a>
-        {% else %}
-        <a href="{% url 'product_detail' product.id %}">
-            <img class="card-img-top img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
-                alt=" {{ product.name }}">
-        </a>
-        {% endif %}
+        <div class="feedback">
+            <!-- Sale badge -->
+            {% if product.on_sale %}
+                <div class="badge bg-red position-absolute fs-6" style="top: 1.5rem; right: 0.5rem">
+                    On Sale
+                </div>
+            {% endif %}
+            <!-- Image -->
+            {% if product.image %}
+            <a href="{% url 'product_detail' product.id %}">
+                <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+            </a>
+            {% elif product.image_url %}
+            <a href="{% url 'product_detail' product.id %}">
+                <img class="card-img-top img-fluid" src="{{ product.image_url }}" alt="{{ product.name }}">
+            </a>
+            {% else %}
+            <a href="{% url 'product_detail' product.id %}">
+                <img class="card-img-top img-fluid" src="{% static 'images/no-image-placeholder.webp' %}"
+                    alt=" {{ product.name }}">
+            </a>
+            {% endif %}
+        </div>
         <div class="card-body py-0">
             <p class="mb-2"><strong>{{ product.name }}</strong></p>
         </div>
@@ -86,7 +88,7 @@
                             {% csrf_token %}
                             <div class="form-row">
                                 <div class="col-12 d-flex justify-content-center">
-                                    <input type="submit" class="btn btn-custom-yellow w-75 my-3 shadow add-btn" value="Add to basket">
+                                    <input type="submit" class="btn btn-warning w-75 my-3 shadow add-btn" value="Add to basket">
                                 </div>
                                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                 <input class="form-control" type="hidden" name="quantity" value="1">
@@ -96,8 +98,8 @@
                         <!-- Admin edit delete btns -->
                         {% if request.user.is_superuser %}
                             <div class="text-center mt-2">
-                                <a class="btn btn-custom-blue" href="{% url 'edit_product' product.id %}">Edit</a>
-                                <button type="button" class="btn btn-custom-red" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
+                                <a class="btn btn-primary" href="{% url 'edit_product' product.id %}">Edit</a>
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
                             </div>     
                         {% endif%}
                     </div>
