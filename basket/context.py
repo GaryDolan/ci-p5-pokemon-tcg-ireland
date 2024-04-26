@@ -25,8 +25,8 @@ def basket_contents(request):
             'product': product,
         })
 
-
-    if items_total < settings.FREE_SHIPPING_THRESHOLD:
+    # Only add a shipping cost if items in basket
+    if items_total > 0 and items_total < settings.FREE_SHIPPING_THRESHOLD:
         shipping = settings.STANDARD_SHIPPING_COST
         free_shipping_delta = settings.FREE_SHIPPING_THRESHOLD - items_total
     else:
