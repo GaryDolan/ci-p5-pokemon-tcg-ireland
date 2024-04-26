@@ -178,10 +178,6 @@ a {
     filter: brightness(1.0);
 }
 
-
-
-
-
 .feedback:hover {
     filter: brightness(1.1);
 }
@@ -406,6 +402,10 @@ header {
 .rating .btn-group .btn:hover ~ label i,
 .rating .btn-group input.btn-check:checked ~ label i {
     color: var(--yellow)
+}
+
+.product-card-footer-top {
+    min-height: 9.688rem;
 }
 
 

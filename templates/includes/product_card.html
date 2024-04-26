@@ -28,7 +28,7 @@
             <p class="mb-2"><strong>{{ product.name }}</strong></p>
         </div>
         <div class="card-footer bg-white pt-0 border-0 text-left">
-            <div class="row">
+            <div class="row product-card-footer-top">
                 <div class="col">
                     <p class="mb-3 fs-3 text-center text-blue">
                         <strong>
@@ -74,6 +74,10 @@
                         </a>
                     </p>
                     {% endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
                     <!-- Rating -->
                     <div class="text-end">
                         {% if product.get_avg_rating %}
