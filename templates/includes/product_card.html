@@ -72,7 +72,7 @@
                         </a>
                     </p>
                     {% endif %}
-
+                    <!-- Rating -->
                     <div class="text-end">
                         {% if product.get_avg_rating %}
                         <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
@@ -80,9 +80,23 @@
                         {% else %}
                         <small>No Rating</small>
                         {% endif %}
+
+                        <!-- Add to basket button -->
+                        <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <input type="submit" class="btn btn-custom-yellow w-75 my-3 shadow" value="Add to basket">
+                                </div>
+                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                <input class="form-control" type="hidden" name="quantity" value="1">
+                            </div>
+                        </form>
+
+                        <!-- Admin edit delete btns -->
                         {% if request.user.is_superuser %}
                             <div class="text-center mt-2">
-                                <a class="btn btn-custom-yellow" href="{% url 'edit_product' product.id %}">Edit</a>
+                                <a class="btn btn-custom-blue" href="{% url 'edit_product' product.id %}">Edit</a>
                                 <button type="button" class="btn btn-custom-red" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
                             </div>     
                         {% endif%}
