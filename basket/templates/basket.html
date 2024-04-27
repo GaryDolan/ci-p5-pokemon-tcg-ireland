@@ -175,11 +175,11 @@
 {% endif %}
 {% endblock %}
 
-<!-- From boutique_ado walkthrough -->
+
 {% block postloadjs %}
 {{ block.super }}
+<!-- Handle the  -->
 <script type="text/javascript">
-
     // Disable +/- buttons outside 1-99 range
     function handleEnableDisable(itemId) {
         var currentValue = parseInt($(`#id_qty_${itemId}`).val());
@@ -189,6 +189,20 @@
         $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
     }
 
+    // Set value in range if manually set outside 
+    function updateQuantity(itemId, newValue) {
+        var inputField = $(`#id_qty_${itemId}`);
+        var currentValue = parseInt(inputField.val());
+        if (newValue >= 1 && newValue <= 99) {
+            inputField.val(newValue);
+        } else if (newValue < 1) {
+            inputField.val(1);
+        } else {
+            inputField.val(99);
+        }
+        handleEnableDisable(itemId);
+    } 
+
     // Ensure proper enabling/disabling of all inputs on page load
     var allQtyInputs = $('.qty_input');
     for (var i = 0; i < allQtyInputs.length; i++) {
@@ -196,11 +210,28 @@
         handleEnableDisable(itemId);
     }
 
-    // Check enable/disable every time the input is changed via default buttons
+    // Handle form submission on pressing enter
+    $('.qty_input').keypress(function (event) {
+        // Check if the pressed key is enter
+        if (event.which === 13) {
+            event.preventDefault(); // Prevent form submission
+            var itemId = $(this).data('item_id');
+            var newValue = parseInt($(this).val());
+            updateQuantity(itemId, newValue);
+
+            // Stop event propagation to prevent dec being triggered
+            event.stopPropagation();
+            $(this).closest('form').submit();
+        }
+    });
+
+    // Ensure entry (manual or btn) stays in range 1-99
+    // Check enable/disable every time the input qty is changed
     $('.qty_input').change(function () {
         var itemId = $(this).data('item_id');
-        handleEnableDisable(itemId);
-    });
+        var newValue = parseInt($(this).val());
+        updateQuantity(itemId, newValue);
+    }); 
 
     // Increment quantity
     $('.increment-qty').click(function (e) {
@@ -226,6 +257,7 @@
         // Submit the form
         $(this).closest('form').submit();
     });
+
 </script>
 <!-- bootstrap tooltip script -->
 <script>
