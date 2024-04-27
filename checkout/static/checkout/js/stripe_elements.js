@@ -66,7 +66,7 @@ form.addEventListener('submit', function(ev) {
 
     // Get value of save info from form  
     var saveInfo = $('#id-save-info').is(':checked');
-    console.log("saveInfo value:", saveInfo, "Type:", typeof saveInfo);
+
     // From using {% csrf_token %} in the form
     var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
     var postData = {

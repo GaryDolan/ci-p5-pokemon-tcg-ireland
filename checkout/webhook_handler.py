@@ -53,7 +53,6 @@ class StripeWH_Handler:
         pid = intent.id
         basket = intent.metadata.basket
         save_info = intent.metadata.save_info
-        save_info_lower = save_info.lower()
 
         # Get the Charge object
         stripe_charge = stripe.Charge.retrieve(
@@ -75,7 +74,7 @@ class StripeWH_Handler:
         username = intent.metadata.username
         if username != 'AnonymousUser':
             profile = UserProfile.objects.get(user__username=username)
-            if  save_info_lower == 'true':
+            if  save_info == 'true':
                 profile.default_phone_number = shipping_details.phone
                 profile.default_country = shipping_details.address.country
                 profile.default_postcode = shipping_details.address.postal_code

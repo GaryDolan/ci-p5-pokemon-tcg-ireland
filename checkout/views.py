@@ -21,18 +21,9 @@ def cache_checkout_data(request):
         # Split the client secret to get the payment intent id (pid)
         pid = request.POST.get('client_secret').split('_secret')[0]
 
-        # Checkbox returns a string 
-        save_info_str = request.POST.get('save_info')
+        # Checkbox returns a string when accesses in the JS (save_info)
+        save_info = request.POST.get('save_info')
         # Need to convert to bool as an if check on str is alway true
-        save_info_str_lower = save_info_str.lower()
-        if save_info_str_lower == 'true':
-            save_info_bool = True
-        else:
-            save_info_bool = False
-        
-        print("Value of save_info:", save_info_bool)
-        print("Type of save_info:", type(save_info_bool))
-
 
         # Set up strip with key so we can modify the payment intent before submission to stripe
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -42,7 +33,7 @@ def cache_checkout_data(request):
         # to all this data in the webhook, and can ensure if payment is successful we create the order instance.
         stripe.PaymentIntent.modify(pid, metadata={
             'basket': json.dumps(request.session.get('basket', {})),
-            'save_info': save_info_bool,
+            'save_info': save_info,
             'username': request.user,
         })
         return HttpResponse(status=200)
@@ -99,11 +90,9 @@ def checkout(request):
                     )
                     order.delete()
                     return redirect(reverse('view_basket'))
-            # Value of save_info from js as js interrupted form submit and 
-            # then submit the form itself.
+                
+            # Checkbox returns a bool when accesses from the template (save-info)
             request.session['save_info'] = 'save-info' in request.POST
-            print("Value of save_info:", request.session.get('save_info'))
-            print("Type of save_info:", type(request.session.get('save_info')))
 
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
@@ -166,8 +155,7 @@ def checkout_success(request, order_number):
     """
     # Did the user tick save details on form
     save_info = request.session.get('save_info')
-    print("Value of save_info:", request.session.get('save_info'))
-    print("Type of save_info:", type(request.session.get('save_info')))
+
     # get order details of order that just succeeded and called this view
     order = get_object_or_404(Order, order_number=order_number)
 
