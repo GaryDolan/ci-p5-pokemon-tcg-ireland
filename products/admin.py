@@ -43,8 +43,8 @@ class ReviewAdmin(admin.ModelAdmin):
 
     def reject(self, request, queryset):
         queryset.update(approved=False)
-        self.message_user(request, "Selected reviews have been approved.")
+        self.message_user(request, "Selected reviews have been rejected.")
 
     def approve(self, request, queryset):
         queryset.update(approved=True)
-        self.message_user(request, "Selected reviews have been rejected.")
+        self.message_user(request, "Selected reviews have been approved.")
