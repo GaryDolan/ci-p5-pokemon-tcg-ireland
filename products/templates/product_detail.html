@@ -192,19 +192,19 @@
                             {% csrf_token %}
                             <!-- rating -->
                             <div class="btn-group" role="group" aria-label="Rating stars radio buttons">
-                                <input type="radio" class="btn-check" id="star5" name="review_rating" value="5" autocomplete="off" required>
+                                <input type="radio" class="btn-check" id="star5" name="review_rating" value="5" required>
                                 <label class="btn border-0" for="star5"><i class="fa-solid fa-star"></i></label>
                             
-                                <input type="radio" class="btn-check" id="star4" name="review_rating" value="4" autocomplete="off">
+                                <input type="radio" class="btn-check" id="star4" name="review_rating" value="4" >
                                 <label class="btn border-0" for="star4"><i class="fa-solid fa-star"></i></label>
                             
-                                <input type="radio" class="btn-check" id="star3" name="review_rating" value="3" autocomplete="off">
+                                <input type="radio" class="btn-check" id="star3" name="review_rating" value="3">
                                 <label class="btn border-0" for="star3"><i class="fa-solid fa-star"></i></label>
 
-                                <input type="radio" class="btn-check" id="star2" name="review_rating" value="2" autocomplete="off">
+                                <input type="radio" class="btn-check" id="star2" name="review_rating" value="2">
                                 <label class="btn border-0" for="star2"><i class="fa-solid fa-star"></i></label>
 
-                                <input type="radio" class="btn-check" id="star1" name="review_rating" value="1" autocomplete="off">
+                                <input type="radio" class="btn-check" id="star1" name="review_rating" value="1">
                                 <label class="btn border-0" for="star1"><i class="fa-solid fa-star"></i></label>
                             </div>
                             {{ form.review_text|as_crispy_field }}
