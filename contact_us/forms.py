@@ -12,8 +12,8 @@ class ContactForm(forms.ModelForm):
         exclude = ['replied', 'resolved']
 
         widgets = {
-            'name': forms.TextInput(attrs={'required': True, 'pattern': '^[a-zA-Z\\s]+$'}),
+            'name': forms.TextInput(attrs={'required': True, 'pattern': '^[a-zA-Z\\s]+$'})
         }
         help_texts = {
-            'name': 'Only letters and spaces allowed.',
+            'name': 'Only letters and spaces allowed.'
         }
