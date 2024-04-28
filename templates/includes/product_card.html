@@ -103,7 +103,7 @@
                         {% if request.user.is_superuser %}
                             <div class="text-center mt-2">
                                 <a class="btn btn-primary" href="{% url 'edit_product' product.id %}">Edit</a>
-                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Delete</button>
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal-{{ product.id }}">Delete</button>
                             </div>     
                         {% endif%}
                     </div>
