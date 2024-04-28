@@ -105,7 +105,7 @@
                         {% endif %}
                     </div>
                 </div>
-                <p class="mt-4">{{ product.description | striptags }}</p>
+                <p class="mt-4">{{ product.description | safe }}</p>
 
                 <!-- Add links for category, card set and expansion -->
                 {% if product.category %}
