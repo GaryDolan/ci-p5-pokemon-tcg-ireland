@@ -134,7 +134,7 @@
 
                     <small class="my-4 text-red text-center">
                         For free shipping spend just <strong>€{{ free_shipping_delta }}</strong> more!
-                        <small />
+                    </small>
                         {% endif %}
                 </div>
                 <!-- Buttons -->
@@ -179,7 +179,7 @@
 {% block postloadjs %}
 {{ block.super }}
 <!-- Handle the  -->
-<script type="text/javascript">
+<script>
     // Disable +/- buttons outside 1-99 range
     function handleEnableDisable(itemId) {
         var currentValue = parseInt($(`#id_qty_${itemId}`).val());
