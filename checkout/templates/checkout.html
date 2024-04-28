@@ -12,7 +12,7 @@
 <div class="container">
     <div class="row">
         <div class="col text-center mt-3 mb-3">
-            <h2><strong>Checkout</strong></h2>
+            <h1 class="text-blue"><strong>Checkout</strong></h1>
             <hr class="w-75 mb-1 mx-auto">
         </div>
     </div>
@@ -83,10 +83,10 @@
                         </span>
                     </button>
                     <p class="small text-danger my-0">
-                        <span">
+                        <span>
                             <i class="fas fa-exclamation-circle"></i>
-                            </span>
-                            <span>Your card will be charged <strong>€{{ basket_total|floatformat:2 }}</strong></span>
+                        </span>
+                        <span>Your card will be charged <strong>€{{ basket_total|floatformat:2 }}</strong></span>
                     </p>
                 </div>
             </form>
@@ -172,16 +172,16 @@
 </div>
 <!-- Overlay to hide screen upon form submit -->
 <div id="loading-overlay">
-    <h1 class="text-white loading-spinner">
+    <div class="text-white loading-spinner">
         <i class="fas fa-3x fa-spinner fa-spin"></i>
-    </h1>
+    </div>
 </div>
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
 <!-- Change arrow on collapse -->
-<script type="text/javascript">
+<script>
     document.getElementById('collapse-toggle').addEventListener('click', function () {
         var icon = this.querySelector('i');
         if (icon.classList.contains('fa-angle-down')) {
