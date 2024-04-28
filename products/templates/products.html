@@ -62,7 +62,7 @@
             <!-- Display products -->
             <div class="row">
                 {% for product in products %}
-                {% include 'includes/product_card.html' %}
+                {% include 'includes/product_card.html' with prefix='products' %}
                 {% endfor %}
             </div>
         </div>
