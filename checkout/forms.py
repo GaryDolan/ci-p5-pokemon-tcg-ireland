@@ -13,3 +13,8 @@ class OrderForm(forms.ModelForm):
                   'street_address1', 'street_address2',
                   'town_or_city', 'postcode', 'country',
                   'county',)
+        
+        widgets = {
+            'full_name': forms.TextInput(attrs={'required': True, 'pattern': '^[a-zA-Z\\s]+$'}),
+            'phone_number': forms.TextInput(attrs={'required': True, 'pattern': '^(\d{10,})$'}),
+        }

@@ -25,11 +25,17 @@
                 <fieldset class="rounded px-3 mb-5">
                     <legend class="fieldset-label small k w-auto"><strong>Details</strong></legend>
                     {{ order_form.full_name | as_crispy_field }}
+                    <div class="text-center">
+                        <small class="text-muted">Only letters and spaces allowed.</small>
+                    </div>
                     {{ order_form.email | as_crispy_field }}
                 </fieldset>
                 <fieldset class="rounded px-3 mb-5">
                     <legend class="fieldset-label small w-auto"><strong>Shipping</strong></legend>
                     {{ order_form.phone_number | as_crispy_field }}
+                    <div class="text-center">
+                        <small class="text-muted">Enter a phone number with at least 10 digits.</small>
+                    </div>
                     {{ order_form.street_address1 | as_crispy_field }}
                     {{ order_form.street_address2 | as_crispy_field }}
                     {{ order_form.town_or_city | as_crispy_field }}
