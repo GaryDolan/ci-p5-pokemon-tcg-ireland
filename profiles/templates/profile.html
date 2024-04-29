@@ -20,7 +20,7 @@
         <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
             <div class="text-center">
                 <a data-bs-toggle="collapse" href="#account-info" role="button" aria-expanded="false"
-                    aria-controls="account-info" id="collapse-toggle">
+                    aria-controls="account-info">
                     <h2 class="mt-3"><i class="fa-solid fa-user fa-lg me-2"></i>Account info</h2>
                     <p>Update your account information</p>
                 </a>
@@ -41,8 +41,8 @@
         <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
             <div class="text-center">
                 <a data-bs-toggle="collapse" href="#profile-info" role="button" aria-expanded="false"
-                    aria-controls="profile-info" id="collapse-toggle">
-                    <h2 class="mt-3"><i class="fa-solid fa-truck-fast fa-lg me-2"></i></i>Shipping info</h2>
+                    aria-controls="profile-info">
+                    <h2 class="mt-3"><i class="fa-solid fa-truck-fast fa-lg me-2"></i>Shipping info</h2>
                     <p>Update your shipping information</p>
                 </a>
             </div>
@@ -63,7 +63,7 @@
         <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
             <div class="text-center">
                 <a data-bs-toggle="collapse" href="#account-password" role="button" aria-expanded="false"
-                    aria-controls="account-password" id="collapse-toggle">
+                    aria-controls="account-password">
                     <h2 class="mt-3"><i class="fa-solid fa-lock fa-lg me-2"></i>Password</h2>
                     <p>Change your account password</p>
                 </a>
@@ -85,7 +85,7 @@
         <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
             <div class="text-center">
                 <a data-bs-toggle="collapse" href="#order-history" role="button" aria-expanded="false"
-                    aria-controls="order-history" id="collapse-toggle">
+                    aria-controls="order-history">
                     <h2 class="mt-3"><i class="fa-solid fa-folder-open fa-lg me-2"></i>Order history</h2>
                     <p>View your order history</p>
                 </a>
@@ -130,7 +130,7 @@
         <div class="col-11 col-lg-7 rounded-4 shadow bg-white mb-3 profile-dropdown">
             <div class="text-center">
                 <a data-bs-toggle="collapse" href="#wishlist" role="button" aria-expanded="false"
-                    aria-controls="wishlist" id="collapse-toggle">
+                    aria-controls="wishlist">
                     <h2 class="mt-3"><i class="fa-solid fa-heart fa-lg me-2"></i>Wishlist</h2>
                     <p>View your wishlist</p>
                 </a>
@@ -196,7 +196,7 @@
 <!-- JS to open collapse of form that just failed validation -->
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
+<script>
     function openFailedCollapse(collapseId) {
         // Get the element with id that we want to open
         var collapseElement = document.getElementById(collapseId);
@@ -219,6 +219,5 @@
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-
 </script>
 {% endblock %}

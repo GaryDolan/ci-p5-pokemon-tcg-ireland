@@ -39,7 +39,7 @@ def profile(request):
                 messages.error(request, 'An error occurred updating your shipping info, please try again')
                 profile_form_failed = True
         elif 'edit_password' in request.POST:
-            # Password change form uses user not instanc as parameter
+            # Password change form uses user not instance as parameter
             user_password_form = PasswordChangeForm(request.user, request.POST)
             if user_password_form.is_valid():
                 user_password_form.save()
