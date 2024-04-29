@@ -246,10 +246,16 @@ def add_review(request, product_id):
             # Need to manually add rating (not part of form.py)
             review.review_rating = request.POST.get('review_rating')
             review.save()
-            messages.success(request, "Your review has been submitted for approval")
+            messages.success(
+                request,
+                "Your review has been submitted for approval"
+            )
             return redirect('product_detail', product_id=product.id)
         else:
-            messages.warning(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.warning(
+                request,
+                'Failed to update product. Please ensure the form is valid.'
+            )
     else:
         form = ReviewForm()
         url = 'product_detail.html'
