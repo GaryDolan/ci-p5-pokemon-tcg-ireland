@@ -44,7 +44,7 @@
                         <a href="{% url 'products' %}?category={{product.category.name}}"
                             class="feedback">
                             <i class="fa-solid fa-tag me-2 text-blue"></i>
-                            <span class="text-gray">
+                            <span>
                                 {{ product.category.display_name }}
                             </span>
                         </a>
@@ -56,7 +56,7 @@
                         <a href=" {% url 'products' %}?card_set={{product.card_set.name}}"
                             class="feedback">
                             <i class="fa-solid fa-layer-group me-2 text-blue"></i>
-                            <span class="text-gray">
+                            <span>
                                 {{product.card_set.display_name }}
                             </span>
                         </a>
@@ -68,7 +68,7 @@
                         <a href=" {% url 'products' %}?expansion={{product.expansion.name}}"
                             class="feedback">
                             <i class="fa-solid fa-dragon me-2 text-blue">
-                            </i><span class="text-gray">
+                            </i><span>
                                 {{product.expansion.display_name}}
                             </span>
                         </a>
@@ -81,7 +81,7 @@
                     <!-- Rating -->
                     <div class="text-end">
                         {% if product.get_avg_rating %}
-                        <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span class="text-gray">
+                        <small><i class="fas fa-star me-1 fs-6 text-yellow"></i><span>
                                 {{ product.get_avg_rating }} / 5 </span></small>
                         {% else %}
                         <small>No Rating</small>
@@ -92,7 +92,8 @@
                             {% csrf_token %}
                             <div class="form-row">
                                 <div class="col-12 d-flex justify-content-center">
-                                    <input type="submit" class="btn btn-warning w-75 my-3 shadow add-btn" value="Add to basket">
+                                    <label for="add-to-basket-{{ product.id }}" class="d-none">Add to basket</label>
+                                    <input type="submit" class="btn btn-warning w-75 my-3 shadow add-btn" value="Add to basket" id="add-to-basket-{{ product.id }}">
                                 </div>
                                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                 <input class="form-control" type="hidden" name="quantity" value="1">
