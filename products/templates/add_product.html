@@ -25,6 +25,7 @@
                         {{ field }}
                     {% endif %}
                 {% endfor %}
+                <label for="id_image" class="d-none">Select image</label>
                 <div class="text-end mt-3">
                     <a class="btn btn-primary" href="{% url 'products' %}">Cancel</a>
                     <button class="btn btn-warning" type="submit">Add Product</button>

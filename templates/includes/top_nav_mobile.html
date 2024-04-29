@@ -65,8 +65,9 @@
         <div class="dropdown-menu border-0 w-100 pe-3" aria-labelledby="search-icon">
             <form method="GET" action="{% url 'products' %}">
                 <div class="input-group w-100">
+                    <label for="mobile-search" class="d-none">Search</label>
                     <input class="form-control rounded-0 border-black search-input-mobile" type="text" name="q"
-                        placeholder="Search our products">
+                        placeholder="Search our products" id="mobile-search">
                     <div class="input-group-append">
                         <button
                             class="form-control btn-yellow border-black rounded-0 search-button search-button-mobile"
@@ -79,7 +80,5 @@
                 </div>
             </form>
         </div>
-
     </li>
-
 </ul>

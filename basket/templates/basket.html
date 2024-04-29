@@ -49,9 +49,9 @@
                     {% endif %}
                     <a href="{% url 'product_detail' item.product.id %}">
                         {% if item.product.image %}
-                        <img class="img-fluid rounded-4" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                        <img class="img-fluid rounded-4" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
                         {% elif item.product.image_url %}
-                        <img class="img-fluid rounded-4" src="{{ item.product.image_url }}" alt="{{ product.name }}">
+                        <img class="img-fluid rounded-4" src="{{ item.product.image_url }}" alt="{{ item.product.name }}">
                         {% else %}
                         <img class="img-fluid rounded-4" src="{% static 'images/no-image-placeholder.webp' %}"
                             alt=" {{ product.name }}">
@@ -61,7 +61,7 @@
                 <!-- Product details -->
                 <div class="col-12 col-sm-8">
                     <p class="mb-0 p-nm-basket"><strong>{{ item.product.name }}</strong></p>
-                    <p class="sku text-gray sku-basket">SKU: {{ item.product.sku|upper }}</p>
+                    <p class="sku sku-basket">SKU: {{ item.product.sku|upper }}</p>
                     <hr class="text-blue mb-5 w-75 hr-basket">
                     <!-- Adjust Quantity -->
                     <!-- Edited from boutique_ado walkthrough -->
@@ -71,18 +71,19 @@
                             <div class="input-group w-75">
                                 <div class="input-group-prepend">
                                     <button class="decrement-qty btn btn-primary rounded-0 border-0"
-                                        data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                        data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}" aria-label="decrement quantity">
                                         <span>
                                             <i class="fas fa-minus"></i>
                                         </span>
                                     </button>
                                 </div>
+                                <label for="id_qty_{{ item.item_id }}" class="d-none">Update quantity</label>
                                 <input class="form-control form-control-sm qty_input" type="number" name="quantity"
                                     value="{{ item.quantity }}" min="1" max="99" data-item_id="{{ item.item_id }}"
                                     id="id_qty_{{ item.item_id }}">
                                 <div class="input-group-append">
                                     <button class="increment-qty btn btn-warning rounded-0 border-0"
-                                        data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                        data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}" aria-label="increment quantity">
                                         <span>
                                             <i class="fas fa-plus"></i>
                                         </span>

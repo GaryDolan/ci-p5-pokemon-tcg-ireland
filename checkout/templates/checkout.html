@@ -121,10 +121,10 @@
                                 <a href="{% url 'product_detail' item.product.id %}">
                                     {% if item.product.image %}
                                     <img class="img-fluid rounded-4" src="{{ item.product.image.url }}"
-                                        alt="{{ product.name }}">
+                                        alt="{{ item.product.name }}">
                                     {% elif item.product.image_url %}
                                     <img class="img-fluid rounded-4" src="{{ item.product.image_url }}"
-                                        alt="{{ product.name }}">
+                                        alt="{{ item.product.name }}">
                                     {% else %}
                                     <img class="img-fluid rounded-4"
                                         src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
