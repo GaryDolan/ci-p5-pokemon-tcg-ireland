@@ -1,3 +1,6 @@
+"""
+Forms for handling products and reviews in the products app.
+"""
 from django import forms
 from django_summernote.widgets import SummernoteWidget
 
@@ -11,6 +14,9 @@ class ProductForm(forms.ModelForm):
     description = forms.CharField(widget=SummernoteWidget())
 
     class Meta:
+        """
+        Meta class to define form
+        """
         model = Product
         fields = '__all__'
 
@@ -25,14 +31,18 @@ class ProductForm(forms.ModelForm):
         category_display_names = [(c.id, c.get_display_name()) for c in categories]
         card_set_display_names= [(cs.id, cs.get_display_name()) for cs in card_sets]
         expansion_display_names = [(e.id, e.get_display_name()) for e in expansions]
-        
+
         self.fields['category'].choices = category_display_names
         self.fields['card_set'].choices = card_set_display_names
         self.fields['expansion'].choices = expansion_display_names
 
 
 class ReviewForm(forms.ModelForm):
+    """ Form for adding reviews to products"""
     class Meta:
+        """
+        Meta class to define form
+        """
         model = Review
         fields = ['review_text']
         widgets = {

@@ -1,3 +1,6 @@
+"""
+Forms for handling orders in the checkout app.
+"""
 from django import forms
 from .models import Order
 
@@ -8,13 +11,22 @@ class OrderForm(forms.ModelForm):
     """
 
     class Meta:
+        """
+        Meta class to define form
+        """
         model = Order
         fields = ('full_name', 'email', 'phone_number',
                   'street_address1', 'street_address2',
                   'town_or_city', 'postcode', 'country',
                   'county',)
-        
+
         widgets = {
-            'full_name': forms.TextInput(attrs={'required': True, 'pattern': '^[a-zA-Z\\s]+$'}),
-            'phone_number': forms.TextInput(attrs={'required': True, 'pattern': '^(\d{10,})$'}),
+            'full_name': forms.TextInput(attrs={
+                'required': True,
+                'pattern': '^[a-zA-Z\\s]+$'
+            }),
+            'phone_number': forms.TextInput(attrs={
+                'required': True,
+                'pattern': '^(\\d{10,})$'
+            }),
         }

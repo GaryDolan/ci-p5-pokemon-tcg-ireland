@@ -1,3 +1,6 @@
+"""
+Views for the privacy_policy app.
+"""
 from django.shortcuts import render
 
 

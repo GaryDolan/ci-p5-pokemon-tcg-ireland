@@ -1,22 +1,32 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+"""
+Views for the checkout app.
+"""
+import json
+import stripe
+
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
 
-from .forms import OrderForm
-from .models import Order, OrderLineItem
 from products.models import Product
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from basket.context import basket_contents
 
-import stripe
-import json
+from .forms import OrderForm
+from .models import Order, OrderLineItem
+
 
 # Post request made to this view before stripe confirm card payment method
 # Post request will contain client secret from the payment intent
 @require_POST
 def cache_checkout_data(request):
+    """
+    View to add metadata to stripe payment intent
+    """
     try:
         # Split the client secret to get the payment intent id (pid)
         pid = request.POST.get('client_secret').split('_secret')[0]
@@ -25,12 +35,13 @@ def cache_checkout_data(request):
         save_info = request.POST.get('save_info')
         # Need to convert to bool as an if check on str is alway true
 
-        # Set up strip with key so we can modify the payment intent before submission to stripe
+        # Set up strip with key so we can modify the payment intent
+        # before submission to stripe
         stripe.api_key = settings.STRIPE_SECRET_KEY
-        
+
         # Modify the metadata to include user, save info choice and basket
         # This means when a webhook is returned from stripe we have access
-        # to all this data in the webhook, and can ensure if payment is successful we create the order instance.
+        # to all this data & if payment ok we create the order instance.
         stripe.PaymentIntent.modify(pid, metadata={
             'basket': json.dumps(request.session.get('basket', {})),
             'save_info': save_info,
@@ -41,8 +52,12 @@ def cache_checkout_data(request):
         messages.error(request, 'Sorry, your payment cannot be \
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
-    
+
+
 def checkout(request):
+    """
+    View to handle checkout process
+    """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -50,7 +65,7 @@ def checkout(request):
     if request.method == 'POST':
         basket = request.session.get('basket', {})
 
-        # Put the posted form data into dict 
+        # Put the posted form data into dict
         form_data = {
             'full_name': request.POST['full_name'],
             'email': request.POST['email'],
@@ -75,6 +90,7 @@ def checkout(request):
             order.save()
             for item_id, item_data in basket.items():
                 try:
+                    # pylint: disable=no-member
                     product = Product.objects.get(id=item_id)
                     order_line_item = OrderLineItem(
                         order=order,
@@ -84,17 +100,23 @@ def checkout(request):
                     order_line_item.save()
 
                 except Product.DoesNotExist:
-                    messages.error(request, (
-                        "One of the products in your basket wasn't found in our database. "
-                        "Please call us for assistance!")
+                    messages.error(
+                        request,
+                        (
+                            "One of the products in your basket"
+                            "wasn't found in our database. "
+                            "Please call us for assistance!"
+                        )
                     )
                     order.delete()
                     return redirect(reverse('view_basket'))
-                
-            # Checkbox returns a bool when accesses from the template (save-info)
+
+            # Checkbox returns a bool when from the template (save-info)
             request.session['save_info'] = 'save-info' in request.POST
 
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse(
+                'checkout_success', args=[order.order_number]
+            ))
         else:
             messages.error(request, 'There was an error with your form. \
                             Please double check your information.')
@@ -111,16 +133,16 @@ def checkout(request):
         current_basket = basket_contents(request)
         total = current_basket['basket_total']
         # Stripe needs an int
-        stripe_total = round (total *100)
+        stripe_total = round(total * 100)
         # Set secret key on stripe
         stripe.api_key = stripe_secret_key
-        # Create payment intent 
+        # Create payment intent
         intent = stripe.PaymentIntent.create(
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
 
-         # If user has data saved populated the form with it
+        # If user has data saved populated the form with it
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
@@ -149,6 +171,7 @@ def checkout(request):
 
     return render(request, template, context)
 
+
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
@@ -176,8 +199,8 @@ def checkout_success(request, order_number):
                 'default_street_address2': order.street_address2,
                 'default_county': order.county,
             }
-            # Populates form with both data from profile (instance=profile) and 
-            # user entered data, allows users to view current and changed data (profile_data)
+            # Populates form with both data from profile (instance=profile) and
+            # entered data, users can view current & changed data(profile_data)
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
                 user_profile_form.save()

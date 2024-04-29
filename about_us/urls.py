@@ -1,3 +1,6 @@
+"""
+URL patterns for the about_us app
+"""
 from django.urls import path
 from . import views
 

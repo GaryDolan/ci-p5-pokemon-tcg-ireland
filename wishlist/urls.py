@@ -1,3 +1,6 @@
+"""
+URL patterns for the wishlist app
+"""
 from django.urls import path
 from . import views
 

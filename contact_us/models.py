@@ -1,6 +1,11 @@
+"""
+Models for contact_us app
+"""
 from django.db import models
 
+
 class Contact(models.Model):
+    """Model to represent a user contact submission"""
     name = models.CharField(max_length=255, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)
     subject = models.CharField(max_length=255, null=False, blank=False)
@@ -10,6 +15,9 @@ class Contact(models.Model):
     resolved = models.BooleanField(default=False)
 
     class Meta:
+        """
+        Meta class to define contact model ordering
+        """
         ordering = ['-contact_date']
 
     def __str__(self):

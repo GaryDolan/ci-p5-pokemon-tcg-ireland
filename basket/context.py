@@ -1,24 +1,28 @@
+"""Context processor for basket"""
 from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+
 # Context processor, adds data to every template
 # Basket details now available everywhere without returning it from view
 def basket_contents(request):
-
+    """
+    Adds basket contents as context
+    """
     basket_items = []
     items_total = 0
     product_count = 0
     # Added to session in view
     basket = request.session.get('basket', {})
 
-    #iterate through the session basket and populate context variables
+    # iterate through the session basket and populate context variables
 
     for item_id, quantity in basket.items():
         product = get_object_or_404(Product, pk=item_id)
         items_total += quantity * product.price
         product_count += quantity
-        
+
         basket_items.append({
             'item_id': item_id,
             'quantity': quantity,
@@ -32,7 +36,7 @@ def basket_contents(request):
     else:
         shipping = 0
         free_shipping_delta = 0
-        
+
     basket_total = items_total + shipping
 
     context = {

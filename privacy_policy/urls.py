@@ -1,3 +1,6 @@
+"""
+URL patterns for the privacy_policy app
+"""
 from django.urls import path
 from . import views
 

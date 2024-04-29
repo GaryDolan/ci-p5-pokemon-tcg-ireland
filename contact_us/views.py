@@ -1,3 +1,6 @@
+"""
+Views for the contact_us app.
+"""
 from django.contrib import messages
 from django.shortcuts import render, redirect, reverse
 
@@ -6,11 +9,18 @@ from .forms import ContactForm
 
 
 def create_contact(request):
+    """
+    Handles creation of contact
+    """
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Message received, We will aim to contact you in the next 2 working days')
+            messages.success(
+                request,
+                'Message received, We will aim to contact '
+                'you in the next 2 working days'
+            )
             return redirect(reverse('home'))
     else:
         # Declare dictionary to hold initial values
@@ -21,7 +31,7 @@ def create_contact(request):
             initial['name'] = (
                 f"{request.user.first_name} {request.user.last_name}")
             initial['email'] = request.user.email
-        
+
         form = ContactForm(initial=initial)
 
     template = 'contact_us.html'

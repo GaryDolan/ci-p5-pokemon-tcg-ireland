@@ -1,3 +1,6 @@
+"""
+URL patterns for the contact_us app
+"""
 from django.urls import path
 from . import views
 

@@ -1,13 +1,22 @@
+"""
+Admin configurations for the checkout app
+"""
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
 
 class OrderLineItemAdminInline(admin.TabularInline):
+    """
+    Customises the django admin interface for the OrderLineItem model
+    """
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
 
 class OrderAdmin(admin.ModelAdmin):
+    """
+    Customises the django admin interface for the Order model
+    """
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date',
@@ -27,5 +36,8 @@ class OrderAdmin(admin.ModelAdmin):
                     'grand_total',)
 
     ordering = ('-date',)
-# dont need to register the OrderLineItemAdmin class as its accessible via order admin model
+
+
+# dont need to register the OrderLineItemAdmin class
+# as its accessible via order admin model
 admin.site.register(Order, OrderAdmin)

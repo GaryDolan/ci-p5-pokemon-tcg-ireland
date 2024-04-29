@@ -1,3 +1,6 @@
+"""
+Views for the about_us app.
+"""
 from django.shortcuts import render
 
 

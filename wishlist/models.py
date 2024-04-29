@@ -1,3 +1,6 @@
+"""
+Models for wishlist app
+"""
 from django.db import models
 from django.db.models.signals import post_save
 from django.dispatch import receiver
@@ -7,11 +10,12 @@ from profiles.models import UserProfile
 from products.models import Product
 
 
-
-
 class Wishlist(models.Model):
+    """
+    Model to represent a wishlist of products
+    """
     user_profile = models.OneToOneField(UserProfile, on_delete=models.CASCADE,
-                                      related_name='user_wishlist')
+                                        related_name='user_wishlist')
     products = models.ManyToManyField(Product)
 
     def __str__(self):
