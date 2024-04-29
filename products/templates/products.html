@@ -79,12 +79,14 @@
     {{ block.super }}
     <!-- From boutique_ado walkthrough -->
     <script>
+         /* global $ */
 		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
+			window.scrollTo(0,0);
+		});
 	</script>
     <!-- From boutique_ado walkthrough -->
     <script>
+         /* global $ */
         $('#sort-selector').change(function() {
             var selector = $(this);
             var currentUrl = new URL(window.location);
@@ -104,7 +106,7 @@
 
                 window.location.replace(currentUrl);
             }
-        })
+        });
     </script>
     <!-- Disable all buttons when one is used -->
     <script src="{% static 'products/js/product_card_btns.js' %}"></script>  

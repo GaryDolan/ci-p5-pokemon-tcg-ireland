@@ -180,6 +180,7 @@
 {{ block.super }}
 <!-- Handle the  -->
 <script>
+    /* global $ */
     // Disable +/- buttons outside 1-99 range
     function handleEnableDisable(itemId) {
         var currentValue = parseInt($(`#id_qty_${itemId}`).val());
@@ -192,7 +193,6 @@
     // Set value in range if manually set outside 
     function updateQuantity(itemId, newValue) {
         var inputField = $(`#id_qty_${itemId}`);
-        var currentValue = parseInt(inputField.val());
         if (newValue >= 1 && newValue <= 99) {
             inputField.val(newValue);
         } else if (newValue < 1) {
@@ -205,13 +205,13 @@
     // Disable the buttons until page reloaded to stop btn spamming
     function disableButtons() {
         var decrementButtons = document.getElementsByClassName("decrement-qty");
-        for (var i = 0; i < decrementButtons.length; i++) {
+        for (let i = 0; i < decrementButtons.length; i++) {
             decrementButtons[i].disabled = true;
         }
 
         var incrementButtons = document.getElementsByClassName("increment-qty");
-        for (var i = 0; i < incrementButtons.length; i++) {
-            incrementButtons[i].disabled = true;
+        for (let j = 0; j < incrementButtons.length; j++) {
+            incrementButtons[j].disabled = true;
         }
     }
 

@@ -5,6 +5,7 @@
     CSS from here: 
     https://stripe.com/docs/stripe-js
 */
+/* global $, Stripe */
 // Get public id from checkout templates, removing quotation marks
 var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
@@ -130,5 +131,5 @@ form.addEventListener('submit', function(ev) {
     }).fail(function () {
         // just reload the page, the error will be in django messages
         location.reload();
-    })    
+    });    
 });

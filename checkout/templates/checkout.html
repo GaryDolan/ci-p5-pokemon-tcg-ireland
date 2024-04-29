@@ -184,6 +184,7 @@
 {{ block.super }}
 <!-- Change arrow on collapse -->
 <script>
+    /* global $ */
     document.getElementById('collapse-toggle').addEventListener('click', function () {
         var icon = this.querySelector('i');
         if (icon.classList.contains('fa-angle-down')) {
