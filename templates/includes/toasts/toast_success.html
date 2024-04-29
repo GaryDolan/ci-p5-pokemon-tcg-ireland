@@ -14,62 +14,62 @@
             </div>
         </div>
         {% if basket_total and not on_profile_page %}
-        <p class="logo-font bg-white py-1">Your Basket ({{ product_count }})</p>
-        <div class="basket-notification-wrapper">
-            {% for item in basket_items %}
-            <div class="row">
-                <div class="col-3 my-2 position-relative">
-                    <!-- Sale badge -->
-                    {% if item.product.on_sale %}
-                    <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
-                        On Sale
+            <p class="logo-font bg-white py-1">Your Basket ({{ product_count }})</p>
+            <div class="basket-notification-wrapper">
+                {% for item in basket_items %}
+                    <div class="row">
+                        <div class="col-3 my-2 position-relative">
+                            <!-- Sale badge -->
+                            {% if item.product.on_sale %}
+                                <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
+                                    On Sale
+                                </div>
+                            {% endif %}
+                            {% if item.product.image %}
+                                <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                            {% elif product.image_url %}
+                                <img class="w-100" src="{{ item.product.image_url }}" alt="{{ product.name }}">
+                            {% else %}
+                                <img class="w-100" src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
+                            {% endif %}
+                        </div>
+                        <div class="col-9">
+                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                        </div>
                     </div>
-                    {% endif %}
-                    {% if item.product.image %}
-                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
-                    {% elif product.image_url %}
-                    <img class="w-100" src="{{ item.product.image_url }}" alt="{{ product.name }}">
-                    {% else %}
-                    <img class="w-100" src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
-                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row align-items-center mt-3 mb-1">
+                <div class="col-auto">
+                    <p class="mb-0">
+                        <strong>
+                            Total{% if free_shipping_delta > 0 %} (Exc. shipping){% endif %}:
+                        </strong>
+                    </p>
                 </div>
-                <div class="col-9">
-                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                    <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                <div class="col text-end">
+                    <span><strong>€{{ items_total|floatformat:2 }}</strong></span>
                 </div>
             </div>
-            {% endfor %}
-        </div>
-        <div class="row align-items-center mt-3 mb-1">
-            <div class="col-auto">
-                <p class="mb-0">
-                    <strong>
-                        Total{% if free_shipping_delta > 0 %} (Exc. shipping){% endif %}:
-                    </strong>
-                </p>
-            </div>
-            <div class="col text-end">
-                <span><strong>€{{ items_total|floatformat:2 }}</strong></span>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col">
-                {% if free_shipping_delta > 0 %}
-                <p class="mb-1 p-2 bg-blue text-white shadow-sm text-center">
-                    Spend <strong>€{{ free_shipping_delta }}</strong> more to get free shipping!
-                </p>
-                {% endif %}
-                <div class="d-flex justify-content-center">
-                    <a href="{% url 'view_basket' %}" class="btn btn-warning">
-                        <span class="text-uppercase">Checkout</span>
-                        <span class="icon">
-                            <i class="fas fa-lock"></i>
-                        </span>
-                    </a>
+            <div class="row">
+                <div class="col">
+                    {% if free_shipping_delta > 0 %}
+                        <p class="mb-1 p-2 bg-blue text-white shadow-sm text-center">
+                            Spend <strong>€{{ free_shipping_delta }}</strong> more to get free shipping!
+                        </p>
+                    {% endif %}
+                    <div class="d-flex justify-content-center">
+                        <a href="{% url 'view_basket' %}" class="btn btn-warning">
+                            <span class="text-uppercase">Checkout</span>
+                            <span class="icon">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
         {% endif %}
     </div>
 </div>

@@ -22,7 +22,7 @@
         <p class="d-none d-md-block text-center"><small class="text-muted">Check out our latest offerings</small></p>
         <div class="row mt-3 d-flex justify-content-center">
             {% for product in new_products %}
-            {% include 'includes/product_card.html' with prefix='newProduct'%}
+                {% include 'includes/product_card.html' with prefix='newProduct'%}
             {% endfor %}
         </div>
     </section>
@@ -36,7 +36,7 @@
                 products</small></p>
         <div class="row mt-3 d-flex justify-content-center">
             {% for product in popular_products %}
-            {% include 'includes/product_card.html' with prefix='popularProduct' %}
+                {% include 'includes/product_card.html' with prefix='popularProduct' %}
             {% endfor %}
         </div>
     </section>
@@ -44,7 +44,7 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <!-- Disable all buttons when one is used -->
-    <script src="{% static 'products/js/product_card_btns.js' %}"></script>  
+{{ block.super }}
+<!-- Disable all buttons when one is used -->
+<script src="{% static 'products/js/product_card_btns.js' %}"></script>
 {% endblock %}

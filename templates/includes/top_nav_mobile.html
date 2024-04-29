@@ -19,14 +19,14 @@
         </a>
         <ul class="dropdown-menu rounded-4 px-2 py-2" aria-labelledby="my-acc-dropdown-mobile">
             {% if request.user.is_authenticated %}
-            {% if request.user.is_superuser %}
-            <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Add Product</a></li>
-            {% endif %}
-            <li class="custom-dropdown"><a href="{% url 'profile' %}" class="dropdown-item">My Profile</a></li>
-            <li class="custom-dropdown"><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
-            {% else %}
-            <li class="custom-dropdown"><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
-            <li class="custom-dropdown"><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+                {% if request.user.is_superuser %}
+                    <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Add Product</a></li>
+                {% endif %}
+                    <li class="custom-dropdown"><a href="{% url 'profile' %}" class="dropdown-item">My Profile</a></li>
+                    <li class="custom-dropdown"><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
+                {% else %}
+                    <li class="custom-dropdown"><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
+                    <li class="custom-dropdown"><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
             {% endif %}
         </ul>
     </li>
@@ -36,17 +36,17 @@
             <div class="text-center">
                 <i class="fas fa-cart-shopping cart-icon mobile-icon position-relative">
                     {% if product_count > 0 %}
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                        style="font-size: 0.5rem">
-                        {{ product_count }}
-                    </span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            style="font-size: 0.5rem">
+                            {{ product_count }}
+                        </span>
                     {% endif %}
                 </i>
                 <p class="my-0 icon-text">
                     {% if items_total %}
-                    € {{items_total|floatformat:2}}
+                        € {{items_total|floatformat:2}}
                     {% else %}
-                    €0.00
+                        €0.00
                     {% endif %}
                 </p>
             </div>

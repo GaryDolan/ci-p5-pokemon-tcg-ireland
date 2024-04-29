@@ -4,7 +4,6 @@
 {% block extra_title %}401 error{% endblock %}
 
 {% block content %}
-
 <div class="container">
     <div class="row justify-content-center text-center mt-5">
         <div class="col-10 col-lg-8 mt-2 bg-white rounded-4 shadow mb-3">
@@ -12,9 +11,7 @@
             <p>Access Denied! You must authenticate yourself to access this resource. Please provide valid credentials
                 or log in to continue. You can return to the homepage using the button below. </p>
             <a href="{% url 'home' %}" class="btn btn-warning my-4"> Home</a>
-
         </div>
     </div>
-
 </div>
 {% endblock %}

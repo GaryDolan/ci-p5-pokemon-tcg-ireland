@@ -43,20 +43,20 @@
                     {{ order_form.postcode | as_crispy_field }}
                     {{ order_form.country | as_crispy_field }}
 
-                    
+
                     {% if user.is_authenticated %}
-                    <div class="form-check form-check-inline float-right mr-0">
-                        <label class="form-check-label" for="id-save-info">Save this information to my
-                            profile</label>
-                        <input class="form-check-input" type="checkbox" id="id-save-info" name="save-info">
-                    </div>
+                        <div class="form-check form-check-inline float-right mr-0">
+                            <label class="form-check-label" for="id-save-info">Save this information to my
+                                profile</label>
+                            <input class="form-check-input" type="checkbox" id="id-save-info" name="save-info">
+                        </div>
                     {% else %}
                         <p class="text-center">
                             <a class="text-blue" href="{% url 'account_signup' %}">Create an account</a> or
                             <a class="text-blue" href="{% url 'account_login' %}">login</a> to save this information
                         </p>
                     {% endif %}
-                    
+
                 </fieldset>
                 <fieldset class="px-3">
                     <legend class="fieldset-label small w-auto"><strong>Payment</strong></legend>
@@ -68,7 +68,6 @@
 
                     <!-- Pass the client secret to the view so we can get the payment intent id -->
                     <input type="hidden" value="{{ client_secret }}" name="client_secret">
-
                 </fieldset>
 
                 <div class="submit-button text-end mt-5 mb-2">
@@ -92,7 +91,6 @@
                     </p>
                 </div>
             </form>
-
         </div>
         <!-- Order summary and details -->
         <div class="col-11 col-md-6">
@@ -114,20 +112,20 @@
                             <div class="col-12 col-sm-2 mb-1 position-relative">
                                 <!-- Sale badge -->
                                 {% if item.product.on_sale %}
-                                <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
-                                    On Sale
-                                </div>
+                                    <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
+                                        On Sale
+                                    </div>
                                 {% endif %}
                                 <a href="{% url 'product_detail' item.product.id %}">
                                     {% if item.product.image %}
-                                    <img class="img-fluid rounded-4" src="{{ item.product.image.url }}"
-                                        alt="{{ item.product.name }}">
+                                        <img class="img-fluid rounded-4" src="{{ item.product.image.url }}"
+                                            alt="{{ item.product.name }}">
                                     {% elif item.product.image_url %}
-                                    <img class="img-fluid rounded-4" src="{{ item.product.image_url }}"
-                                        alt="{{ item.product.name }}">
+                                        <img class="img-fluid rounded-4" src="{{ item.product.image_url }}"
+                                            alt="{{ item.product.name }}">
                                     {% else %}
-                                    <img class="img-fluid rounded-4"
-                                        src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
+                                        <img class="img-fluid rounded-4"
+                                            src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
                                     {% endif %}
                                 </a>
                             </div>
@@ -160,15 +158,14 @@
                     <p class="my-0">€{{ items_total | floatformat:2 }}</p>
                     <p class="my-0">
                         {% if shipping > 0 %}
-                        €{{ shipping | floatformat:2 }}
+                            €{{ shipping | floatformat:2 }}
                         {% else %}
-                        FREE
+                            FREE
                         {% endif%}
                     </p>
                     <p class="my-3"><strong>€{{ basket_total | floatformat:2 }}</strong></p>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

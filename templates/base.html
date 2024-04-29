@@ -4,12 +4,12 @@
 <html lang="en">
 
 <head>
-
     {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Welcome to Pokemon TCG Ireland, your one stop Pokemon shop (in Dublin) for all Pokemon TCG products">
+    <meta name="description"
+        content="Welcome to Pokemon TCG Ireland, your one stop Pokemon shop (in Dublin) for all Pokemon TCG products">
     <meta name="keywords"
         content="Pokemon, Pokemon TCG, Pokemon TCG Ireland, Pokemon cards, Pokemon trading card game, Pokemon cards Ireland, Pokemon cards Dublin, Pokemon card shop, Pokemon accessories, Pokemon figures, Pokemon plushes, Pokemon binders, Pokemon ETB, Pokemon booster box Ireland, Pokemon gifts, Pokemon gift ideas, Pokemon card shop Dublin, Pokemon card shop Ireland, Buy Pokemon cards Dublin, Buy Pokemon cards Ireland, Pokemon card seller, Pokemon cards near me, Pokemon card packs, Where to buy Pokemon cards Ireland, Best price Pokemon cards, Pokemon card holder, Pokemon cards for sale, Pokemon pin">
     {% endblock %}
@@ -50,7 +50,6 @@
     <title>Pokemon TCG Ireland - {% block extra_title %}{% endblock %}</title>
 </head>
 
-
 <body>
     <header class="container-fluid">
         <!-- Top Navigation -->
@@ -73,7 +72,8 @@
                             placeholder="Search our products" id="search-bar">
                         <div class="input-group-append">
                             <label for="search-btn" class="d-none">Search button:</label>
-                            <button class="form-control btn-yellow border-yellow rounded-0 search-button" type="submit" aria-label="Search" id="search-btn">
+                            <button class="form-control btn-yellow border-yellow rounded-0 search-button" type="submit"
+                                aria-label="Search" id="search-btn">
                                 <span class="icon">
                                     <i class="fas fa-magnifying-glass"></i>
                                 </span>
@@ -95,14 +95,19 @@
                         </a>
                         <ul class="dropdown-menu rounded-4 px-2 py-2" aria-labelledby="my-acc-dropdown">
                             {% if request.user.is_authenticated %}
-                            {% if request.user.is_superuser %}
-                            <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Add Products</a></li>
-                            {% endif %}
-                            <li class="custom-dropdown"><a href="{% url 'profile' %}" class="dropdown-item">My Profile</a></li>
-                            <li class="custom-dropdown"><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
-                            {% else %}
-                            <li class="custom-dropdown"><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
-                            <li class="custom-dropdown"><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+                                {% if request.user.is_superuser %}
+                                    <li class="custom-dropdown"><a href="{% url 'add_product' %}" class="dropdown-item">Add
+                                            Products</a></li>
+                                {% endif %}
+                                    <li class="custom-dropdown"><a href="{% url 'profile' %}" class="dropdown-item">My
+                                            Profile</a></li>
+                                    <li class="custom-dropdown"><a href="{% url 'account_logout' %}"
+                                            class="dropdown-item">Logout</a></li>
+                                {% else %}
+                                    <li class="custom-dropdown"><a href="{% url 'account_signup' %}"
+                                            class="dropdown-item">Register</a></li>
+                                    <li class="custom-dropdown"><a href="{% url 'account_login' %}"
+                                            class="dropdown-item">Login</a></li>
                             {% endif %}
                         </ul>
                     </li>
@@ -111,18 +116,18 @@
                             <div class="text-center ms-2">
                                 <i class="fas fa-cart-shopping cart-icon position-relative">
                                     {% if product_count > 0 %}
-                                    <span
-                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                                        style="font-size: 0.5rem">
-                                        {{ product_count }}
-                                    </span>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                            style="font-size: 0.5rem">
+                                            {{ product_count }}
+                                        </span>
                                     {% endif %}
                                 </i>
                                 <p class="my-0">
                                     {% if items_total %}
-                                    € {{items_total|floatformat:2}}
+                                        € {{items_total|floatformat:2}}
                                     {% else %}
-                                    €0.00
+                                        €0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -193,14 +198,14 @@
                     <ul class="list-unstyled list-inline mt-3">
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light fb-icon"
-                                href="https://www.facebook.com/profile.php?id=61558864499890" target="_blank" rel="noopener nofollow"
-                                aria-label="Check out our Facebook page (opens in a new tab)"><i
+                                href="https://www.facebook.com/profile.php?id=61558864499890" target="_blank"
+                                rel="noopener nofollow" aria-label="Check out our Facebook page (opens in a new tab)"><i
                                     class="fab fa-facebook-f text-white"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-outline-light insta-icon"
-                                href="https://www.instagram.com/" target="_blank"
-                                rel="noopener nofollow" aria-label="Check out our Instagram page (opens in a new tab)"><i
+                            <a class="btn btn-outline-light insta-icon" href="https://www.instagram.com/"
+                                target="_blank" rel="noopener nofollow"
+                                aria-label="Check out our Instagram page (opens in a new tab)"><i
                                     class="fab fa-instagram text-off-white"></i></a>
                         </li>
                         <li class="list-inline-item">
@@ -227,29 +232,34 @@
                         <div id="mc_embed_signup">
                             <form
                                 action="https://herokuapp.us18.list-manage.com/subscribe/post?u=e162ff834ad07ab095bb85581&amp;id=f908fecc84&amp;f_id=006bc2e1f0"
-                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                                target="_blank">
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                class="validate" target="_blank">
                                 <div id="mc_embed_signup_scroll">
-                                    <p class="text-center mt-0">Keep up to date with all our latest product releases and deals!</p>
+                                    <p class="text-center mt-0">Keep up to date with all our latest product releases and
+                                        deals!</p>
                                     <label for="mce-EMAIL" class="d-none">Email Address:</label>
                                     <div class="mc-field-group w-75 mx-auto">
-                                        <input type="email" name="EMAIL" class="required email"
-                                            id="mce-EMAIL" required="" value="" placeholder="Enter Email Address">
+                                        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL"
+                                            required="" value="" placeholder="Enter Email Address">
                                     </div>
                                     <div id="mce-responses" class="clear foot d-flex justify-content-center">
-                                        <div class="response text-white mx-0 mt-0 mb-2 px-0 py-0 text-center w-100" id="mce-error-response" style="display: none;"></div>
-                                        <div class="response text-white mx-0 mt-0 mb-2 px-0 py-0 text-center w-100" id="mce-success-response" style="display: none;"></div>
+                                        <div class="response text-white mx-0 mt-0 mb-2 px-0 py-0 text-center w-100"
+                                            id="mce-error-response" style="display: none;"></div>
+                                        <div class="response text-white mx-0 mt-0 mb-2 px-0 py-0 text-center w-100"
+                                            id="mce-success-response" style="display: none;"></div>
                                     </div>
                                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                                        /* real people should not fill this in and expect good things - do not remove this or risk form bot
+                                        /* real people should not fill this in and expect good things - do not remove
+                                        this or risk form bot
                                         signups */
                                         <label for="mailchimp-hidden" class="d-none">Hidden mailchimp input</label>
-                                        <input type="text" name="b_e162ff834ad07ab095bb85581_f908fecc84" tabindex="-1" value="" id="mailchimp-hidden">
+                                        <input type="text" name="b_e162ff834ad07ab095bb85581_f908fecc84" tabindex="-1"
+                                            value="" id="mailchimp-hidden">
                                     </div>
                                     <div class="optionalParent">
                                         <div class="clear foot d-flex justify-content-center w-100">
-                                            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning mx-0 my-0"
-                                                value="Subscribe">
+                                            <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                                                class="btn btn-warning mx-0 my-0" value="Subscribe">
                                         </div>
                                     </div>
                                 </div>
@@ -258,7 +268,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row"><p class=" mb-0 p-1 text-center">©PokémonTcgIreland 2024</p></div>
+            <div class="row">
+                <p class=" mb-0 p-1 text-center">©PokémonTcgIreland 2024</p>
+            </div>
         </div>
     </footer>
 
@@ -281,7 +293,7 @@
 
     {% block lightbox %}{% endblock %}
 
-   <!-- Stripe  -->
+    <!-- Stripe  -->
     <script src="https://js.stripe.com/v3/"></script>
 
     <!-- Show toasts  -->
@@ -316,7 +328,6 @@
         var $mcj = jQuery.noConflict(true);
     </script>
     {% endblock %}
-
 
 </body>
 

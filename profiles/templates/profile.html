@@ -142,20 +142,20 @@
                             <div class="col-6 col-sm-2 mb-1 offset-3 offset-sm-0 position-relative">
                                 <!-- Sale badge -->
                                 {% if product.on_sale %}
-                                <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
-                                    On Sale
-                                </div>
+                                    <div class="badge bg-red position-absolute small" style="top: -0.5rem; right: -0.5rem">
+                                        On Sale
+                                    </div>
                                 {% endif %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     {% if product.image %}
-                                    <img class="img-fluid rounded-4" src="{{ product.image.url }}"
-                                        alt="{{ product.name }}">
+                                        <img class="img-fluid rounded-4" src="{{ product.image.url }}"
+                                            alt="{{ product.name }}">
                                     {% elif product.image_url %}
-                                    <img class="img-fluid rounded-4" src="{{ product.image_url }}"
-                                        alt="{{ product.name }}">
+                                        <img class="img-fluid rounded-4" src="{{ product.image_url }}"
+                                            alt="{{ product.name }}">
                                     {% else %}
-                                    <img class="img-fluid rounded-4"
-                                        src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
+                                        <img class="img-fluid rounded-4"
+                                            src="{% static 'images/no-image-placeholder.webp' %}" alt=" {{ product.name }}">
                                     {% endif %}
                                 </a>
                             </div>
@@ -180,10 +180,10 @@
                         <hr class="w-75 text-muted mx-auto">
                     {% endfor %}
                 {% else %}
-                        <div class="text-center mb-3">
-                            <p>Your wishlist is empty, check out some of our products.</p>
-                            <a href="{% url 'products' %}" class="btn btn-warning">Products</a>
-                        </div>
+                    <div class="text-center mb-3">
+                        <p>Your wishlist is empty, check out some of our products.</p>
+                        <a href="{% url 'products' %}" class="btn btn-warning">Products</a>
+                    </div>
                 {% endif %}
 
             </div>

@@ -27,7 +27,6 @@
 <hr class="w-75 mb-5 mx-auto">
 
 {% if basket_items %}
-
 <div class="container mt-3 basket-container">
     <div class="row mt-3">
         <!-- Products -->
@@ -35,7 +34,8 @@
             {% for item in basket_items %}
             <div class="row mb-3 bg-white rounded-4 border shadow d-flex align-items-center">
                 <div class="text-end fs-5">
-                    <a href="{% url 'remove_from_basket' item.product.id %}" data-bs-toggle="tooltip" data-bs-placement="Bottom" title="Remove from basket">
+                    <a href="{% url 'remove_from_basket' item.product.id %}" data-bs-toggle="tooltip"
+                        data-bs-placement="Bottom" title="Remove from basket">
                         <i class="fas fa-times"></i>
                     </a>
                 </div>
@@ -43,18 +43,20 @@
                 <div class="col-12 col-sm-4 mb-4 position-relative">
                     <!-- Sale badge -->
                     {% if item.product.on_sale %}
-                    <div class="badge bg-red position-absolute fs-6" style="top: 1rem; right: 1rem">
-                        On Sale
-                    </div>
+                        <div class="badge bg-red position-absolute fs-6" style="top: 1rem; right: 1rem">
+                            On Sale
+                        </div>
                     {% endif %}
                     <a href="{% url 'product_detail' item.product.id %}">
                         {% if item.product.image %}
-                        <img class="img-fluid rounded-4" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                            <img class="img-fluid rounded-4" src="{{ item.product.image.url }}"
+                                alt="{{ item.product.name }}">
                         {% elif item.product.image_url %}
-                        <img class="img-fluid rounded-4" src="{{ item.product.image_url }}" alt="{{ item.product.name }}">
+                            <img class="img-fluid rounded-4" src="{{ item.product.image_url }}"
+                                alt="{{ item.product.name }}">
                         {% else %}
-                        <img class="img-fluid rounded-4" src="{% static 'images/no-image-placeholder.webp' %}"
-                            alt=" {{ product.name }}">
+                            <img class="img-fluid rounded-4" src="{% static 'images/no-image-placeholder.webp' %}"
+                                alt=" {{ product.name }}">
                         {% endif %}
                     </a>
                 </div>
@@ -71,7 +73,8 @@
                             <div class="input-group w-75">
                                 <div class="input-group-prepend">
                                     <button class="decrement-qty btn btn-primary rounded-0 border-0"
-                                        data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}" aria-label="decrement quantity">
+                                        data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}"
+                                        aria-label="decrement quantity">
                                         <span>
                                             <i class="fas fa-minus"></i>
                                         </span>
@@ -83,7 +86,8 @@
                                     id="id_qty_{{ item.item_id }}">
                                 <div class="input-group-append">
                                     <button class="increment-qty btn btn-warning rounded-0 border-0"
-                                        data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}" aria-label="increment quantity">
+                                        data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}"
+                                        aria-label="increment quantity">
                                         <span>
                                             <i class="fas fa-plus"></i>
                                         </span>
@@ -104,9 +108,7 @@
                         </span>
                     </p>
                 </div>
-
             </div>
-
             {%endfor%}
         </div>
         <!-- Purchase summary -->
@@ -118,25 +120,22 @@
                 </div>
                 <div class="row">
                     <div class="col-auto"><span>Shipping:</span></div>
-
                     {% if free_shipping_delta > 0 %}
-                    <div class="col text-end"><span>€{{ shipping|floatformat:2 }}</span></div>
+                        <div class="col text-end"><span>€{{ shipping|floatformat:2 }}</span></div>
                     {% else %}
-                    <div class="col text-end"><span>FREE</span></div>
+                        <div class="col text-end"><span>FREE</span></div>
                     {% endif %}
 
                     <hr class="text-blue mt-2 custom-hr mx-auto">
-
                 </div>
                 <div class="row">
                     <div class="col-auto fs-3"><span><strong>Total:</strong></span></div>
                     <div class="col text-end fs-3"><span><strong>€{{basket_total|floatformat:2}}</strong></span></div>
                     {% if free_shipping_delta > 0 %}
-
-                    <small class="my-4 text-red text-center">
-                        For free shipping spend just <strong>€{{ free_shipping_delta }}</strong> more!
-                    </small>
-                        {% endif %}
+                        <small class="my-4 text-red text-center">
+                            For free shipping spend just <strong>€{{ free_shipping_delta }}</strong> more!
+                        </small>
+                    {% endif %}
                 </div>
                 <!-- Buttons -->
                 <div class="row mt-3 mb-4">
@@ -202,7 +201,7 @@
             inputField.val(99);
         }
         handleEnableDisable(itemId);
-    } 
+    }
     // Disable the buttons until page reloaded to stop btn spamming
     function disableButtons() {
         var decrementButtons = document.getElementsByClassName("decrement-qty");
@@ -244,7 +243,7 @@
         var itemId = $(this).data('item_id');
         var newValue = parseInt($(this).val());
         updateQuantity(itemId, newValue);
-    }); 
+    });
 
     // Increment quantity
     $('.increment-qty').click(function (e) {
@@ -282,5 +281,4 @@
     })
 
 </script>
-
 {% endblock %}
