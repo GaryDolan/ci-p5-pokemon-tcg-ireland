@@ -89,7 +89,7 @@
                             {% csrf_token %}
                             <div class="form-row">
                                 <div class="col-12 d-flex justify-content-center">
-                                    <label for="{{ prefix }}-add-to-basket-{{ product.id }}" class="d-none">Add to
+                                    <label for="{{ prefix }}-add-to-basket-{{ product.id }}" class="sr-only">Add to
                                         basket</label>
                                     <input type="submit" class="btn btn-warning w-75 my-3 shadow add-btn"
                                         value="Add to basket" id="{{ prefix }}-add-to-basket-{{ product.id }}">

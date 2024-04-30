@@ -266,6 +266,7 @@ header {
 
 .custom-dropdown a:hover {
     background-color: var(--yellow);
+    color: black;
     border-radius: 0.5rem;
 }
 
