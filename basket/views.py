@@ -26,12 +26,24 @@ def add_to_basket(request, item_id):
     basket = request.session.get('basket', {})
 
     if item_id in list(basket.keys()):
-        basket[item_id] += quantity
-        messages.success(
-            request,
-            f'Updated {product.name} quantity to {basket[item_id]}'
-        )
+        if basket[item_id] + quantity >= 99:
+            original_qty = basket[item_id]
+            quantity_to_add = 99 - basket[item_id]
+            basket[item_id] += quantity_to_add
+            messages.success(
+                request,
+                f'{original_qty} {product.name} already in your basket we '
+                f'added {quantity_to_add} making your total the max of '
+                f'{basket[item_id]}.'
+            )
+        else:
+            basket[item_id] += quantity
+            messages.success(
+                request,
+                f'Updated {product.name} quantity to {basket[item_id]}'
+            )
     else:
+        # Add a key, val pair to the basket dict
         basket[item_id] = quantity
         messages.success(request, f'Added {product.name} to your basket')
 
