@@ -32,7 +32,7 @@ def add_to_basket(request, item_id):
             basket[item_id] += quantity_to_add
             messages.success(
                 request,
-                f'{original_qty} {product.name} already in your basket we '
+                f'{original_qty} {product.name} already in your basket, we '
                 f'added {quantity_to_add} making your total the max of '
                 f'{basket[item_id]}.'
             )
