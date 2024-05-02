@@ -8,8 +8,8 @@
     --off-white: #fafafa;
     --blue: #075997;
     --yellow: #fec901;
-    --gray-light:#ebebeb;
-    --red: #EB0000;
+    --gray-light: #ebebeb;
+    --red: #eb0000;
 }
 
 /********************* Utility Classes *******************/
@@ -141,7 +141,7 @@ a {
 }
 
 .btn-primary:active {
-    filter: brightness(1.0);
+    filter: brightness(1);
 }
 
 .btn-warning {
@@ -158,7 +158,7 @@ a {
 }
 
 .btn-warning:active {
-    filter: brightness(1.0);
+    filter: brightness(1);
 }
 
 .btn-danger {
@@ -175,7 +175,7 @@ a {
 }
 
 .btn-danger:active {
-    filter: brightness(1.0);
+    filter: brightness(1);
 }
 
 .feedback:hover {
@@ -261,7 +261,7 @@ header {
 
 .custom-dropdown a {
     border-radius: 0.5rem;
-    margin: 0.25rem 0 0.25rem 0 ;
+    margin: 0.25rem 0 0.25rem 0;
 }
 
 .custom-dropdown a:hover {
@@ -355,7 +355,8 @@ header {
 /*************************** HOME *************************/
 /* Hero Section */
 .hero-section {
-    background: url("/media/pokemon-tcg-ireland-hero-image-large.webp") no-repeat center center;
+    background: url("/media/pokemon-tcg-ireland-hero-image-large.webp")
+        no-repeat center center;
     background-size: cover;
     height: 100%;
     filter: brightness(1.1);
@@ -408,13 +409,12 @@ header {
 .rating .btn-group input.btn-check:checked + label i,
 .rating .btn-group .btn:hover ~ label i,
 .rating .btn-group input.btn-check:checked ~ label i {
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
 .product-card-footer-top {
     min-height: 9.688rem;
 }
-
 
 /************************** BASKET ************************/
 .sku {
@@ -463,7 +463,7 @@ header {
     border-color: #dc3545;
 }
 
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
@@ -492,7 +492,8 @@ header {
 @media screen and (max-width: 87.5em) {
     /* HOME */
     .hero-section {
-        background: url("/media/pokemon-tcg-ireland-hero-image-mid.webp") no-repeat center center;
+        background: url("/media/pokemon-tcg-ireland-hero-image-mid.webp")
+            no-repeat center center;
         background-size: cover;
         height: 100%;
         filter: brightness(1.1);
@@ -503,7 +504,8 @@ header {
 @media screen and (max-width: 69.063em) {
     /* HOME */
     .hero-section {
-        background: url("/media/pokemon-tcg-ireland-hero-image-small.webp") no-repeat center center;
+        background: url("/media/pokemon-tcg-ireland-hero-image-small.webp")
+            no-repeat center center;
         background-size: cover;
         height: 100%;
         filter: brightness(1.1);
@@ -563,8 +565,9 @@ header {
     .basket-container {
         max-width: 70%;
     }
-    .product-btn, .checkout-btn {
-        font-size: 1.0em;
+    .product-btn,
+    .checkout-btn {
+        font-size: 1em;
     }
     .qty-form-basket {
         justify-content: center;
@@ -572,13 +575,14 @@ header {
     .hr-basket {
         display: none;
     }
-    .p-nm-basket, .sku-basket, .price-basket {
+    .p-nm-basket,
+    .sku-basket,
+    .price-basket {
         text-align: center;
     }
     .update-form {
         margin-bottom: 1em;
     }
-    
 }
 
 /* 460px  */

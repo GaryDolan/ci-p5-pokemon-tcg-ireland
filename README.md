@@ -38,8 +38,8 @@ Pokemon TCG Ireland is a website designed for a local shop that deals in selling
     - [Products Page](#products-page)
     - [Product Details Page](#product-details-page)
     - [Basket Page](#basket-page)
-    - [Checkout Page](#basket-page)
-    - [Checkout Success / Order History Page](#checkout-page)
+    - [Checkout Page](#checkout-page)
+    - [Checkout Success / Order History Page](#checkout-success--order-history-page)
     - [Add / Edit Products Page](#add--edit-products-page)
     - [Delete products](#delete-product-functionality)
     - [Privacy Policy](#privacy-policy)
@@ -51,6 +51,7 @@ Pokemon TCG Ireland is a website designed for a local shop that deals in selling
     - [Newsletter](#newsletter)
     - [Password Reset](#password-reset)
     - [Email Verification](#email-verification)
+    - [Order Confirmation Email](#order-confirmation-email)
     - [Back to Top Button](#back-to-top-button)
     - [Basket Badge](#basket-badge)
     - [Items On Sale](#items-on-sale)
@@ -58,7 +59,6 @@ Pokemon TCG Ireland is a website designed for a local shop that deals in selling
     - [ToolTips](#tooltips)
     - [Button Disabling](#button-disabling)
     - [Max Product Entry Protection](#max-product-entry-protection)
-    - [Order Confirmation Email](#order-confirmation-email)
     - [Future Implementations](#future-implementations)
     - [Accessibility](#accessibility)
 5. [E-commerce Business Model](#e-commerce-business-model)
@@ -157,7 +157,7 @@ Pokemon TCG Ireland is a website that I (Gary Dolan) developed for my fifth proj
 
 ### Returning visitor goals
 
--   As a user I can click on the art clubs social links in the footer so that I can visit the art clubs various social networks and interact with them.[#15](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/15)
+-   As a user I can click on the websites social links in the footer so that I can visit the shops various social networks and interact with them.[#15](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/15)
 -   As a user I can login so that I can access my account, order history etc.[#21](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/21)
 -   As a user I can logout so that I can no longer access my account and associated functionality.[#22](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/22)
 -   As a user I can recover my password so that regain access to my personal account.[#25](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/25)
@@ -879,7 +879,7 @@ The checkout page has 3 main sections, the checkout form, the your items section
 
 This section is a form that the user must fill out to complete their transaction. The form requires details, shipping details, and payment details and also has two buttons, one to return to products and the other to complete the order. If the user is logged in any details stored for that user will pre populate the form to ensure the user is never asked to enter the same info twice. The payment system on this page uses strip and is set to test. To complete a test order the user can enter a test card number (4000003720000005) followed by any date in the future in the MM/YY(05/25) format and any CVC value(123). Full form validation is also present.
 
-The form also has one other feature, which is the save info checkbox. This checkbox (if ticked) will save the users information to their profile, So that they don't need to enter it again. If the used does not tick the box then the user info is not saved. This code is from the Boutique Ado walkthrough and was broken initially. It would save the users information regardless of if it was ticked, I solved this issue[here](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/89).
+The form also has one other feature, which is the save info checkbox. This checkbox (if ticked) will save the users information to their profile, So that they don't need to enter it again. If the used does not tick the box then the user info is not saved. This code is from the Boutique Ado walkthrough and was broken initially. It would save the users information regardless of if it was ticked, I solved this issue [here](https://github.com/GaryDolan/ci-p5-pokemon-tcg-ireland/issues/89).
 
 #### Your items
 
@@ -1056,7 +1056,7 @@ Messaging has been added to the website for all user interactions in the form of
 -   Creates an account.
 -   Logs into an account.
 -   Logs out of an account.
--   Adds /removes item to basket.
+-   Adds / removes item to basket.
 -   Updating item quantity of item in basket.
 -   Adds / removes item to wish list.
 -   Editing address.
@@ -1275,7 +1275,7 @@ I would have liked to add the following features to the website in the future, t
 -   Single sign in using social media.
 -   Adding a add to basket button to the wishlist product summaries
 -   Add a comment section to the admin model for contact status updated.
--   Contact us form will also email the club email not just add to backend.
+-   Contact us form will also email the shops email not just add to backend.
 -   Pagination on the products page
 -   User testimonials regarding there experience using the online store added to homepage as a carousel.
 -   Related products displayed under the product reviews on the product details page.
@@ -1428,7 +1428,7 @@ As my audience grows I plan to greatly increase my online presence and host even
 
 ## Version control
 
--   {Git commands]((https://git-scm.com/)) - Used via VS code terminal.
+-   [Git commands](https://git-scm.com/) - Used via VS code terminal.
 -   [GitHub](https://github.com/) - Repository created using [code institute student template](https://github.com/Code-Institute-Org/ci-full-template)
 -   [Github desktop](https://desktop.github.com/) - Used as a local visual aid between pushing to master. It offers a clean view of all code changes since last commit, commit history etc.
 
@@ -1436,7 +1436,7 @@ As my audience grows I plan to greatly increase my online presence and host even
 
 -   [Microsoft Visual Studio Code](https://code.visualstudio.com/) - IDE used when developing this website.
 -   [Notepad ++](https://notepad-plus-plus.org/)
--   [Balsamiq]https://balsamiq.com/wireframes/) desktop for creation of wireframes.
+-   [Balsamiq](https://balsamiq.com/wireframes/) desktop for creation of wireframes.
 
 ## Tools
 
@@ -1467,8 +1467,8 @@ As my audience grows I plan to greatly increase my online presence and host even
 -   [Heroku](https://heroku.com/) was used for project deployment.
 -   [AWS](https://aws.amazon.com/) - Usd to stor static/media files online.
 -   [Responsinator](http://www.responsinator.com/) - Used to test responsiveness of the website.
--   [Sitemap Generator](www.xml-sitemaps.com) - Used for creation of sitemap.xml.
--   [Privacy Policy Generator](https://www.privacypolicygenerator.info/) - User to create privacy policy.
+-   Sitemap Generator - www.xml-sitemaps.com - Used for creation of sitemap
+-   [Privacy Policy Generator](https://www.privacypolicygenerator.info) - User to create privacy policy.
 -   [Mailchimp](https://mailchimp.com/?currency=EUR) - Used to create the newsletter signup functionality.
 
 [Return to Table of Contents](#table-of-contents)
@@ -1608,7 +1608,7 @@ Stripe is used as the payment system for this website. To setup strip, follow th
 -   Open the developers section
 -   Obtain the PUBLIC and SECRET KEYs from the API tab
 -   Go to the webhook tab and select add endpoint
-    Create an endpoint using the address from your deployed website (https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/checkout/wh)
+    Create an endpoint using the address from your [deployed website](https://pokemon-tcg-ireland-ad52d37e70f9.herokuapp.com/checkout/wh)
 -   Select all events and add endpoint.
 
 ## Gmail API Setup
@@ -1716,14 +1716,14 @@ Below I have listed all the sources which I learned from or that helped me solve
 -   Learned about using mark_safe to add html to a django form field [here](https://stackoverflow.com/questions/10706296/how-do-i-input-html-into-the-help-text-of-a-django-form-field).
 -   Learned about specifying a Django version for Heroku deployment [here](https://devcenter.heroku.com/articles/python-runtimes).
 -   Learned how can I change the Bootstrap navbar icon color [here](https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color)
--   Learned how to hide arrows from input number[here](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp)
+-   Learned how to hide arrows from input number [here](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp)
 -   Learned how to fix form validation for the password change form [here](https://www.youtube.com/watch?v=G9XhByKtZQw)
 -   Learned how to change the size of summernote editor [here](https://github.com/summernote/django-summernote)
 -   Learned about displaying about inline model admin [here](https://stackoverflow.com/questions/43894232/displaying-both-sides-of-a-manytomany-relationship-in-django-admin)
 -   Learned about implementing start rating [here](https://medium.com/geekculture/django-implementing-star-rating-e1deff03bb1c)
 -   Learned how to set the required field on radio buttons [here](https://stackoverflow.com/questions/8287779/how-to-use-the-required-attribute-with-a-radio-input-field)
 -   Learned about aggregation [here](https://docs.djangoproject.com/en/5.0/topics/db/aggregation/)
--   Learned about the distinct with filter [here](https://docs.djangoproject.com/en/5.0/topics/db/aggregation/)
+-   Learned about the distinct with filter [here](https://stackoverflow.com/questions/50328388/using-distinct-with-filter-in-django)
 -   Learned about treating null as 0 in django [here](https://stackoverflow.com/questions/553038/treat-null-as-0-in-django-model)
 -   Learned about the expression contains mixed types error [here](https://stackoverflow.com/questions/38546108/django-aggregation-expression-contains-mixed-types-you-must-set-output-field)
 -   Learned about functions declared in loops issue [here](https://stackoverflow.com/questions/46027262/functions-declared-within-loops-referencing-an-outer-scoped-variable-may-lead-to)
