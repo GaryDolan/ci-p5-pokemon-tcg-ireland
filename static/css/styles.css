@@ -275,6 +275,10 @@ header {
     margin-right: 13rem !important;
 }
 
+.search-input-dropdown-mobile {
+    background-color: transparent;
+}
+
 .search-input-mobile {
     border-right-width: 0;
 }
