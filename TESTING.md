@@ -1238,18 +1238,20 @@ The tests for this app listed below were conducted to ensure it correct operatio
 
 <summary style="font-size: 20px; font-weight: bold;">Tests</summary>
 
-| Item tested                 | Test action | Expected Result                                                                                                                                         | Pass     |
-| --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Checkout                    | Display     | Form, your items and payment summary displayed                                                                                                          | &#10004; |
-| Form                        | Display     | Form displays correctly with all fields displayed and required fields labeled                                                                           | &#10004; |
-| Form                        | Display     | from is pre populated with all available user data if signed in                                                                                         | &#10004; |
-| Form (invalid data)         | Submit      | Triggers form validation, user is informed of issue                                                                                                     | &#10004; |
-| Form (invalid payment data) | Submit      | Page overlay and loading icon are displayed, page reloads with error/validation messages for user                                                       | &#10004; |
-| Form (valid data)           | Submit      | Page overlay and loading icon are display, checkout success is displayed, user received mail confirmation, order is niw available in order confirmation | &#10004; |
-| Your items                  | Display     | Collapsed by default                                                                                                                                    | &#10004; |
-| Your items                  | Click       | Expand to show product summary for each product in the basket (image, name, qty and subtotal).                                                          | &#10004; |
-| Your items on sale          | Click       | Expand to show product summary for each product in the basket (image, name, qty and subtotal). Image is overlayed with on sale badge, price in red      | &#10004; |
-| Product image               | Click       | Redirects user to product details page of specific product                                                                                              | &#10004; |
+| Item tested                 | Test action | Expected Result                                                                                                                                                                | Pass     |
+| --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| Checkout                    | Display     | Form, your items and payment summary displayed                                                                                                                                 | &#10004; |
+| Form                        | Display     | Form displays correctly with all fields displayed and required fields labeled                                                                                                  | &#10004; |
+| Form                        | Display     | from is pre populated with all available user data if signed in                                                                                                                | &#10004; |
+| Form (invalid data)         | Submit      | Triggers form validation, user is informed of issue                                                                                                                            | &#10004; |
+| Form (invalid payment data) | Submit      | Page overlay and loading icon are displayed, page reloads with error/validation messages for user                                                                              | &#10004; |
+| Form (valid data)           | Submit      | Page overlay and loading icon are display, checkout success is displayed, user received mail confirmation, order is now available in order confirmation                        | &#10004; |
+| Form (save info ticked)     | Submit      | Page overlay and loading icon are display, checkout success is displayed, user received mail confirmation, order is now available in order confirmation, user info saved       | &#10004; |
+| Form (save info unticked)   | Submit      | Page overlay and loading icon are display, checkout success is displayed, user received mail confirmation, order is now available in order confirmation, user info not updated | &#10004; |
+| Your items                  | Display     | Collapsed by default                                                                                                                                                           | &#10004; |
+| Your items                  | Click       | Expand to show product summary for each product in the basket (image, name, qty and subtotal).                                                                                 | &#10004; |
+| Your items on sale          | Click       | Expand to show product summary for each product in the basket (image, name, qty and subtotal). Image is overlayed with on sale badge, price in red                             | &#10004; |
+| Product image               | Click       | Redirects user to product details page of specific product                                                                                                                     | &#10004; |
 
 </details>
 
